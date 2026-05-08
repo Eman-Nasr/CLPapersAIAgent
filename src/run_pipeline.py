@@ -14,13 +14,12 @@ from chunk_text         import chunk_all
 from create_query_set   import create_query_set
 from build_tfidf_retrieval import build_and_retrieve
 
-def run_pipeline():
+
+def run_pipeline() -> None:
     OUT = get_next_output_dir()
     OUT.mkdir(parents=True, exist_ok=True)
 
-    print(f"\n{'='*60}")
     print(f"  PDF-Papers AI Agent  |  Output → {OUT}")
-    print(f"{'='*60}\n")
 
     run_log = {
         "output_dir": str(OUT),
@@ -29,10 +28,10 @@ def run_pipeline():
     }
     t_total = time.time()
 
-    def timed_step(name, fn, *args):
+    def timed_step(name, fn, *args, **kwargs):
         print(f"── Step: {name}")
         t       = time.time()
-        result  = fn(*args)
+        result  = fn(*args, **kwargs)
         elapsed = round(time.time() - t, 2)
         run_log["steps"][name] = {"elapsed_s": elapsed, "status": "ok"}
         print(f"   ✓ done in {elapsed}s\n")
@@ -42,8 +41,8 @@ def run_pipeline():
     metadata_list = timed_step("02_create_metadata",  create_metadata,     inventory, OUT)
     all_text      = timed_step("03_extract_text",     extract_all,         metadata_list, OUT)
     all_chunks    = timed_step("04_chunk_text",       chunk_all,           all_text, OUT)
-    queries       = timed_step("05_create_query_set", create_query_set,    OUT)
-    retrieval_out = timed_step("06_build_tfidf",      build_and_retrieve,  all_chunks, queries, OUT)
+    queries       = timed_step("05_create_query_set", create_query_set,    OUT, metadata_list)
+    retrieval_out = timed_step("06_build_tfidf",      build_and_retrieve,  all_chunks, queries, OUT, metadata_list)
 
     run_log["finished_at"]     = datetime.now().isoformat()
     run_log["total_elapsed_s"] = round(time.time() - t_total, 2)
@@ -52,18 +51,25 @@ def run_pipeline():
         "chunks":          len(all_chunks),
         "queries":         len(queries),
         "index_vocab":     retrieval_out["index_meta"]["vocab_size"],
-        "retrieval_top_k": retrieval_out["index_meta"]["top_k"]
+        "retrieval_top_k": retrieval_out["index_meta"]["top_k"],
+        "eval":            retrieval_out["eval"],
     }
 
     (OUT / "run_summary.json").write_text(json.dumps(run_log, indent=2))
 
+    eval = retrieval_out["eval"]
+    k    = retrieval_out["index_meta"]["top_k"]
     print(f"{'='*60}")
     print(f"  Pipeline complete in {run_log['total_elapsed_s']}s")
     print(f"  Papers : {run_log['summary']['papers']}")
     print(f"  Chunks : {run_log['summary']['chunks']}")
     print(f"  Vocab  : {run_log['summary']['index_vocab']}")
+    print(f"  Recall@{k}: {eval.get(f'Recall@{k}', 'N/A')}")
+    print(f"  NDCG@{k}  : {eval.get(f'NDCG@{k}', 'N/A')}")
+    print(f"  MRR     : {eval.get('MRR', 'N/A')}")
     print(f"  Output : {OUT}")
     print(f"{'='*60}\n")
+
 
 if __name__ == "__main__":
     run_pipeline()

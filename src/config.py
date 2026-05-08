@@ -26,4 +26,6 @@ CHUNK_OVERLAP_WORDS = 50
 TOP_K = 5
 
 # Metadata fields 
-METADATA_FIELDS = ["paper_id", "title", "authors", "year", "filename", "page_count"]
+METADATA_FIELDS = ["paper_id", "title", "authors", "year", "filename", "page_count", "filepath", "size_bytes", "md5"]
+
+LATENCY_PERCENTILE = 95
