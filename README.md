@@ -7,6 +7,8 @@ Check installed Python versions first, make sure u have 3.11 or 3.12 :
 * py -0p
 Mac
 * python3.11 --version
+or 
+* python3.12 --version
 
 create virtual Environment
 * py -3.11 -m venv .venv
@@ -24,5 +26,5 @@ your terminal should show:
 requirments installation 
 * pip install -r requirements.txt
 
-# runt he full pipeline and find the results in output folder as test/n
+# run the full pipeline and find the results in output folder as test/n
 * python -m src.run_pipeline
