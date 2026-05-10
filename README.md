@@ -26,5 +26,13 @@ your terminal should show:
 requirments installation 
 * pip install -r requirements.txt
 
-# run the full pipeline and find the results in output folder as test/n
+run the full pipeline and find the results in output folder as test/n
 * python -m src.run_pipeline
+
+# AutoMl part:
+
+run AutoML tuning on the latest pipeline output
+* python -m src.autoML_Optuna
+
+or specify trial count / output folder
+* python -m src.autoML_Optuna --output-dir outputs/test1 --n-trials 30
