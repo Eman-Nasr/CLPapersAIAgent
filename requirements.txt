@@ -4,3 +4,4 @@ numpy==1.26.4
 pandas
 tqdm
 joblib
+optuna==4.0.0
