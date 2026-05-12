@@ -26,7 +26,7 @@ def create_model():
 model = create_model()
 
 # Drift detector
-adwin = drift.ADWIN(delta=0.01)
+adwin = drift.ADWIN(delta=0.1)
 
 # Accuracy tracker
 accuracy_metric = metrics.Accuracy()
@@ -61,13 +61,18 @@ def load_latest_results():
 
 def create_streaming_samples(results):
 
-    samples = []
+    nlp_samples = []
+    other_samples = []
 
     for query in results:
+
+        query_text = query.get("query", "").lower()
 
         relevant_ids = set(
             query.get("relevant_paper_ids", [])
         )
+
+        query_samples = []
 
         for hit in query.get("top_k", []):
 
@@ -82,11 +87,68 @@ def create_streaming_samples(results):
             }
 
             # Simulated feedback label
-            # clicked helpful? y/n
             y = 1 if hit["paper_id"] in relevant_ids else 0
 
-            samples.append((x, y))
+            query_samples.append((x, y))
 
+        # =================================================
+        # Simulate temporal topic drift
+        # =================================================
+
+        nlp_keywords = [
+            "transformer",
+            "attention",
+            "language",
+            "llm",
+            "nlp",
+            "bert"
+        ]
+
+        if any(
+            keyword in query_text
+            for keyword in nlp_keywords
+        ):
+            nlp_samples.extend(query_samples)
+
+        else:
+            other_samples.extend(query_samples)
+
+    # =====================================================
+    # First half = NLP-style queries
+    # Second half = different topic distribution
+    # =====================================================
+       # =====================================================
+# Add unseen queries to simulate new incoming stream
+# =====================================================
+
+    new_stream_samples = []
+
+    new_queries = [
+    "vision transformer image retrieval",
+    "multimodal speech understanding",
+    "audio language models",
+    "image-text alignment methods"
+]
+
+    for query_text in new_queries:
+
+    # Simulate new unseen query behavior
+      x = {
+        "score": 0.15,
+        "rank": 15,
+        "word_count": 120
+    }
+
+    # Simulated feedback
+    y = 0
+
+    new_stream_samples.append((x, y))
+
+    samples = (
+    nlp_samples
+    + other_samples
+    + new_stream_samples
+)
     return samples
 
 
@@ -115,16 +177,10 @@ def run_online_learning(samples):
         # Inject artificial drift after halfway
         # =================================================
 
-        if i > total_samples // 2:
-
-            x["score"] = -9999
-            x["rank"] = 9999
-            x["word_count"] = 1
-
-            if i == (total_samples // 2) + 1:
-                print(
-                    "\n[online] Artificial topic drift injected.\n"
-                )
+        if i == (total_samples // 2) + 1:
+           print(
+        "\n[online] Query distribution shift injected.\n"
+    )
 
         # =================================================
         # Predict before learning
@@ -152,7 +208,7 @@ def run_online_learning(samples):
         # Drift detection
         # =================================================
 
-        error_value = abs(x["score"])
+        error_value = int(y_pred != y)
 
         adwin.update(error_value)
 
@@ -169,11 +225,9 @@ def run_online_learning(samples):
             # Reset model
             # =============================================
 
-            print(
-                "[online] Resetting online learner...\n"
-            )
+           
 
-            model = create_model()
+            print("[online] Drift adaptation triggered.")
 
         # =================================================
         # Online learning update
@@ -181,12 +235,11 @@ def run_online_learning(samples):
 
         model.learn_one(x, y)
 
-        print(
-            f"[online] sample={i} "
-            f"| pred={y_pred} "
-            f"| actual={y} "
-            f"| acc={current_accuracy:.3f}"
-        )
+        if i % 10 == 0:
+         print(
+        f"[online] sample={i} "
+        f"| acc={current_accuracy:.3f}"
+    )
 
     return prequential_history, drift_detected
 
