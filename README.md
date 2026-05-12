@@ -36,3 +36,37 @@ run AutoML tuning on the latest pipeline output
 
 or specify trial count / output folder
 * python -m src.autoML_Optuna --output-dir outputs/test1 --n-trials 30
+
+## Online Learning + Drift Detection
+
+Files:
+- `src/online_learning.py`
+- `src/drift_detection.py`
+
+### Required Libraries
+
+
+```bash
+
+Windows:
+
+* pip install river matplotlib
+
+Mac:  
+* pip3 install river matplotlib
+
+Run the Online Learning Module
+
+Windows:
+
+* python -m src.online_learning
+
+Mac:
+
+* python3 -m src.online_learning
+
+Generated Outputs
+outputs/test1/online_learning/
+├── prequential_metrics.csv
+├── prequential_accuracy.png
+├── online_summary.json
