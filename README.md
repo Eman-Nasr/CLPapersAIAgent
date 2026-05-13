@@ -65,6 +65,16 @@ Mac:
 
 * python3 -m src.online_learning
 
+Run ADWIN Drift Detection Demo
+
+Windows
+
+* py -3.11 -m src.drift_detection
+
+Mac
+
+* python3 -m src.drift_detection
+
 Generated Outputs
 outputs/test1/online_learning/
 ├── prequential_metrics.csv
