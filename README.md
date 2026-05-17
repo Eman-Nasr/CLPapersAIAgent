@@ -1,6 +1,8 @@
 # CLPapersAIAgent
 
 # users guidelines 
+
+# Prepare data and baseline member 1 (Eman)
 create venv using Python 3.11 or 3.12
 
 Check installed Python versions first, make sure u have 3.11 or 3.12 :
@@ -29,7 +31,7 @@ requirments installation
 run the full pipeline and find the results in output folder as test/n
 * python -m src.run_pipeline
 
-# AutoMl part:
+# AutoMl member 2 (Khawla):
 
 run AutoML tuning on the latest pipeline output
 * python -m src.autoML_Optuna
@@ -37,16 +39,13 @@ run AutoML tuning on the latest pipeline output
 or specify trial count / output folder
 * python -m src.autoML_Optuna --output-dir outputs/test1 --n-trials 30
 
-## Online Learning + Drift Detection
+# Online Learning + Drift Detection member 3 (Maryam)
 
 Files:
 - `src/online_learning.py`
 - `src/drift_detection.py`
 
-### Required Libraries
-
-
-```bash
+Required Libraries
 
 Windows:
 
@@ -80,3 +79,17 @@ outputs/test1/online_learning/
 ├── prequential_metrics.csv
 ├── prequential_accuracy.png
 ├── online_summary.json
+
+# evaluation.py  –  Member 4 (Tahani): 
+ 
+
+* python -m src.evaluation --output-dir outputs/test3/automl  # uses latest outputs/test*
+
+Evaluation Outputs
+Standalone script that reads the AutoML results produced by
+autoML_Optuna.py and generates three deliverables:
+
+    automl/automl_comparison_chart.png  — bar chart (quality + latency)
+    automl/automl_comparison.csv        — flat comparison table
+    automl/automl_eval_summary.md       — report-ready markdown summary
+    
