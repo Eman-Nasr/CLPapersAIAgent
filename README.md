@@ -93,3 +93,24 @@ autoML_Optuna.py and generates three deliverables:
     automl/automl_comparison.csv        — flat comparison table
     automl/automl_eval_summary.md       — report-ready markdown summary
     
+
+    ## MongoDB Setup (Mac)
+
+Install MongoDB:
+
+```bash
+brew tap mongodb/brew
+brew install mongodb-community
+```
+
+Activate virtual environment:
+
+```bash
+source .venv/bin/activate
+```
+
+Install Python MongoDB driver:
+
+```bash
+pip install pymongo
+```
