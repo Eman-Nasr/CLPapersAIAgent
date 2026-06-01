@@ -1,0 +1,1666 @@
+[
+  {
+    "paper_id": "paper1",
+    "pages": 18,
+    "total_chars": 62909,
+    "empty_pages": 0,
+    "elapsed_s": 0.039,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper2",
+    "pages": 71,
+    "total_chars": 209023,
+    "empty_pages": 0,
+    "elapsed_s": 0.111,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper3",
+    "pages": 5,
+    "total_chars": 18197,
+    "empty_pages": 0,
+    "elapsed_s": 0.012,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper4",
+    "pages": 8,
+    "total_chars": 31211,
+    "empty_pages": 0,
+    "elapsed_s": 0.02,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper5",
+    "pages": 12,
+    "total_chars": 42905,
+    "empty_pages": 0,
+    "elapsed_s": 0.065,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper6",
+    "pages": 19,
+    "total_chars": 103598,
+    "empty_pages": 0,
+    "elapsed_s": 0.049,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper7",
+    "pages": 12,
+    "total_chars": 48852,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper8",
+    "pages": 24,
+    "total_chars": 89632,
+    "empty_pages": 0,
+    "elapsed_s": 0.049,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper9",
+    "pages": 14,
+    "total_chars": 36517,
+    "empty_pages": 0,
+    "elapsed_s": 0.045,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper10",
+    "pages": 11,
+    "total_chars": 46811,
+    "empty_pages": 0,
+    "elapsed_s": 0.024,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper11",
+    "pages": 15,
+    "total_chars": 58796,
+    "empty_pages": 0,
+    "elapsed_s": 0.036,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper12",
+    "pages": 15,
+    "total_chars": 48438,
+    "empty_pages": 0,
+    "elapsed_s": 0.038,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper13",
+    "pages": 13,
+    "total_chars": 54323,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper14",
+    "pages": 6,
+    "total_chars": 23560,
+    "empty_pages": 0,
+    "elapsed_s": 0.016,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper15",
+    "pages": 14,
+    "total_chars": 53061,
+    "empty_pages": 0,
+    "elapsed_s": 0.034,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper16",
+    "pages": 11,
+    "total_chars": 42665,
+    "empty_pages": 0,
+    "elapsed_s": 0.018,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper17",
+    "pages": 6,
+    "total_chars": 18915,
+    "empty_pages": 0,
+    "elapsed_s": 0.017,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper18",
+    "pages": 10,
+    "total_chars": 52518,
+    "empty_pages": 0,
+    "elapsed_s": 0.108,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper19",
+    "pages": 37,
+    "total_chars": 92479,
+    "empty_pages": 0,
+    "elapsed_s": 0.071,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper20",
+    "pages": 30,
+    "total_chars": 62742,
+    "empty_pages": 0,
+    "elapsed_s": 0.042,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper21",
+    "pages": 12,
+    "total_chars": 71080,
+    "empty_pages": 0,
+    "elapsed_s": 0.069,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper22",
+    "pages": 21,
+    "total_chars": 62768,
+    "empty_pages": 0,
+    "elapsed_s": 0.038,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper23",
+    "pages": 18,
+    "total_chars": 42807,
+    "empty_pages": 0,
+    "elapsed_s": 0.031,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper24",
+    "pages": 35,
+    "total_chars": 107501,
+    "empty_pages": 0,
+    "elapsed_s": 0.076,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper25",
+    "pages": 28,
+    "total_chars": 52093,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper26",
+    "pages": 23,
+    "total_chars": 68181,
+    "empty_pages": 0,
+    "elapsed_s": 0.046,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper27",
+    "pages": 11,
+    "total_chars": 48576,
+    "empty_pages": 0,
+    "elapsed_s": 0.043,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper28",
+    "pages": 15,
+    "total_chars": 56431,
+    "empty_pages": 0,
+    "elapsed_s": 0.034,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper29",
+    "pages": 31,
+    "total_chars": 118194,
+    "empty_pages": 0,
+    "elapsed_s": 0.106,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper30",
+    "pages": 9,
+    "total_chars": 48018,
+    "empty_pages": 0,
+    "elapsed_s": 0.045,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper31",
+    "pages": 14,
+    "total_chars": 59929,
+    "empty_pages": 0,
+    "elapsed_s": 0.049,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper32",
+    "pages": 13,
+    "total_chars": 45616,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper33",
+    "pages": 16,
+    "total_chars": 54775,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper34",
+    "pages": 11,
+    "total_chars": 60132,
+    "empty_pages": 0,
+    "elapsed_s": 0.097,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper35",
+    "pages": 11,
+    "total_chars": 42045,
+    "empty_pages": 0,
+    "elapsed_s": 0.036,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper36",
+    "pages": 17,
+    "total_chars": 30928,
+    "empty_pages": 0,
+    "elapsed_s": 0.023,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper37",
+    "pages": 16,
+    "total_chars": 54936,
+    "empty_pages": 0,
+    "elapsed_s": 0.036,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper38",
+    "pages": 10,
+    "total_chars": 37890,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper39",
+    "pages": 13,
+    "total_chars": 54111,
+    "empty_pages": 0,
+    "elapsed_s": 0.18,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper40",
+    "pages": 6,
+    "total_chars": 39022,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper41",
+    "pages": 26,
+    "total_chars": 93809,
+    "empty_pages": 0,
+    "elapsed_s": 0.332,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper42",
+    "pages": 45,
+    "total_chars": 141847,
+    "empty_pages": 0,
+    "elapsed_s": 0.089,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper43",
+    "pages": 15,
+    "total_chars": 57138,
+    "empty_pages": 0,
+    "elapsed_s": 0.029,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper44",
+    "pages": 23,
+    "total_chars": 85137,
+    "empty_pages": 0,
+    "elapsed_s": 0.067,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper45",
+    "pages": 24,
+    "total_chars": 67076,
+    "empty_pages": 0,
+    "elapsed_s": 0.042,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper46",
+    "pages": 25,
+    "total_chars": 86558,
+    "empty_pages": 0,
+    "elapsed_s": 0.898,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper47",
+    "pages": 25,
+    "total_chars": 79187,
+    "empty_pages": 0,
+    "elapsed_s": 0.05,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper48",
+    "pages": 44,
+    "total_chars": 149705,
+    "empty_pages": 0,
+    "elapsed_s": 0.109,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper49",
+    "pages": 36,
+    "total_chars": 116767,
+    "empty_pages": 0,
+    "elapsed_s": 0.069,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper50",
+    "pages": 18,
+    "total_chars": 73876,
+    "empty_pages": 0,
+    "elapsed_s": 0.054,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper51",
+    "pages": 25,
+    "total_chars": 62719,
+    "empty_pages": 0,
+    "elapsed_s": 0.111,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper52",
+    "pages": 9,
+    "total_chars": 43587,
+    "empty_pages": 0,
+    "elapsed_s": 0.045,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper53",
+    "pages": 52,
+    "total_chars": 165868,
+    "empty_pages": 0,
+    "elapsed_s": 0.141,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper54",
+    "pages": 42,
+    "total_chars": 87244,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper55",
+    "pages": 26,
+    "total_chars": 92257,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper56",
+    "pages": 25,
+    "total_chars": 88247,
+    "empty_pages": 0,
+    "elapsed_s": 0.089,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper57",
+    "pages": 25,
+    "total_chars": 65076,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper58",
+    "pages": 15,
+    "total_chars": 37284,
+    "empty_pages": 0,
+    "elapsed_s": 0.065,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper59",
+    "pages": 16,
+    "total_chars": 66130,
+    "empty_pages": 0,
+    "elapsed_s": 0.063,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper60",
+    "pages": 8,
+    "total_chars": 31281,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper61",
+    "pages": 38,
+    "total_chars": 87842,
+    "empty_pages": 0,
+    "elapsed_s": 0.042,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper62",
+    "pages": 85,
+    "total_chars": 172691,
+    "empty_pages": 5,
+    "elapsed_s": 0.179,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper63",
+    "pages": 11,
+    "total_chars": 60236,
+    "empty_pages": 0,
+    "elapsed_s": 0.043,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper64",
+    "pages": 10,
+    "total_chars": 46306,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper65",
+    "pages": 26,
+    "total_chars": 61285,
+    "empty_pages": 1,
+    "elapsed_s": 0.091,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper66",
+    "pages": 14,
+    "total_chars": 64441,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper67",
+    "pages": 22,
+    "total_chars": 71302,
+    "empty_pages": 0,
+    "elapsed_s": 0.05,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper68",
+    "pages": 59,
+    "total_chars": 161018,
+    "empty_pages": 0,
+    "elapsed_s": 0.067,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper69",
+    "pages": 21,
+    "total_chars": 90547,
+    "empty_pages": 0,
+    "elapsed_s": 0.101,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper70",
+    "pages": 19,
+    "total_chars": 73437,
+    "empty_pages": 0,
+    "elapsed_s": 0.059,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper71",
+    "pages": 19,
+    "total_chars": 61182,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper72",
+    "pages": 14,
+    "total_chars": 58949,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper73",
+    "pages": 16,
+    "total_chars": 63163,
+    "empty_pages": 0,
+    "elapsed_s": 0.049,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper74",
+    "pages": 23,
+    "total_chars": 79492,
+    "empty_pages": 0,
+    "elapsed_s": 0.138,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper75",
+    "pages": 17,
+    "total_chars": 70022,
+    "empty_pages": 0,
+    "elapsed_s": 0.063,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper76",
+    "pages": 45,
+    "total_chars": 171572,
+    "empty_pages": 0,
+    "elapsed_s": 0.103,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper77",
+    "pages": 23,
+    "total_chars": 74124,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper78",
+    "pages": 28,
+    "total_chars": 91043,
+    "empty_pages": 0,
+    "elapsed_s": 0.083,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper79",
+    "pages": 23,
+    "total_chars": 80738,
+    "empty_pages": 0,
+    "elapsed_s": 0.058,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper80",
+    "pages": 21,
+    "total_chars": 56787,
+    "empty_pages": 1,
+    "elapsed_s": 0.056,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper81",
+    "pages": 8,
+    "total_chars": 31892,
+    "empty_pages": 0,
+    "elapsed_s": 0.018,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper82",
+    "pages": 9,
+    "total_chars": 29498,
+    "empty_pages": 0,
+    "elapsed_s": 0.02,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper83",
+    "pages": 8,
+    "total_chars": 32030,
+    "empty_pages": 0,
+    "elapsed_s": 0.02,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper84",
+    "pages": 7,
+    "total_chars": 16533,
+    "empty_pages": 0,
+    "elapsed_s": 0.012,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper85",
+    "pages": 12,
+    "total_chars": 70222,
+    "empty_pages": 0,
+    "elapsed_s": 0.071,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper86",
+    "pages": 9,
+    "total_chars": 50730,
+    "empty_pages": 0,
+    "elapsed_s": 0.056,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper87",
+    "pages": 13,
+    "total_chars": 50429,
+    "empty_pages": 0,
+    "elapsed_s": 0.045,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper88",
+    "pages": 26,
+    "total_chars": 83066,
+    "empty_pages": 0,
+    "elapsed_s": 0.168,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper89",
+    "pages": 15,
+    "total_chars": 54812,
+    "empty_pages": 0,
+    "elapsed_s": 0.036,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper90",
+    "pages": 41,
+    "total_chars": 101719,
+    "empty_pages": 0,
+    "elapsed_s": 0.305,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper91",
+    "pages": 14,
+    "total_chars": 49606,
+    "empty_pages": 0,
+    "elapsed_s": 0.041,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper92",
+    "pages": 29,
+    "total_chars": 39938,
+    "empty_pages": 0,
+    "elapsed_s": 0.034,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper93",
+    "pages": 11,
+    "total_chars": 44022,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper94",
+    "pages": 15,
+    "total_chars": 42510,
+    "empty_pages": 0,
+    "elapsed_s": 0.038,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper95",
+    "pages": 44,
+    "total_chars": 145113,
+    "empty_pages": 0,
+    "elapsed_s": 0.064,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper96",
+    "pages": 22,
+    "total_chars": 94625,
+    "empty_pages": 0,
+    "elapsed_s": 0.063,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper97",
+    "pages": 24,
+    "total_chars": 71767,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper98",
+    "pages": 27,
+    "total_chars": 80264,
+    "empty_pages": 0,
+    "elapsed_s": 0.046,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper99",
+    "pages": 20,
+    "total_chars": 78050,
+    "empty_pages": 0,
+    "elapsed_s": 0.057,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper100",
+    "pages": 21,
+    "total_chars": 57429,
+    "empty_pages": 0,
+    "elapsed_s": 0.085,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper101",
+    "pages": 47,
+    "total_chars": 127773,
+    "empty_pages": 0,
+    "elapsed_s": 0.101,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper102",
+    "pages": 37,
+    "total_chars": 111079,
+    "empty_pages": 0,
+    "elapsed_s": 1.265,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper103",
+    "pages": 10,
+    "total_chars": 34624,
+    "empty_pages": 0,
+    "elapsed_s": 0.02,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper104",
+    "pages": 27,
+    "total_chars": 65361,
+    "empty_pages": 0,
+    "elapsed_s": 0.035,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper105",
+    "pages": 11,
+    "total_chars": 26151,
+    "empty_pages": 0,
+    "elapsed_s": 0.021,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper106",
+    "pages": 19,
+    "total_chars": 99229,
+    "empty_pages": 0,
+    "elapsed_s": 0.056,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper107",
+    "pages": 30,
+    "total_chars": 80512,
+    "empty_pages": 0,
+    "elapsed_s": 0.079,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper108",
+    "pages": 23,
+    "total_chars": 63217,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper109",
+    "pages": 38,
+    "total_chars": 116438,
+    "empty_pages": 0,
+    "elapsed_s": 0.166,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper110",
+    "pages": 12,
+    "total_chars": 51631,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper111",
+    "pages": 8,
+    "total_chars": 42837,
+    "empty_pages": 0,
+    "elapsed_s": 0.035,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper112",
+    "pages": 28,
+    "total_chars": 110360,
+    "empty_pages": 0,
+    "elapsed_s": 0.064,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper113",
+    "pages": 20,
+    "total_chars": 83551,
+    "empty_pages": 0,
+    "elapsed_s": 0.053,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper114",
+    "pages": 10,
+    "total_chars": 28725,
+    "empty_pages": 0,
+    "elapsed_s": 0.022,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper115",
+    "pages": 20,
+    "total_chars": 87809,
+    "empty_pages": 0,
+    "elapsed_s": 0.088,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper116",
+    "pages": 6,
+    "total_chars": 30403,
+    "empty_pages": 0,
+    "elapsed_s": 0.022,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper117",
+    "pages": 93,
+    "total_chars": 345384,
+    "empty_pages": 0,
+    "elapsed_s": 0.129,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper118",
+    "pages": 16,
+    "total_chars": 58956,
+    "empty_pages": 0,
+    "elapsed_s": 0.033,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper119",
+    "pages": 43,
+    "total_chars": 104048,
+    "empty_pages": 0,
+    "elapsed_s": 0.205,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper120",
+    "pages": 5,
+    "total_chars": 28603,
+    "empty_pages": 0,
+    "elapsed_s": 0.024,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper121",
+    "pages": 9,
+    "total_chars": 51723,
+    "empty_pages": 0,
+    "elapsed_s": 0.03,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper122",
+    "pages": 18,
+    "total_chars": 74050,
+    "empty_pages": 0,
+    "elapsed_s": 0.039,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper123",
+    "pages": 24,
+    "total_chars": 80656,
+    "empty_pages": 0,
+    "elapsed_s": 0.043,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper124",
+    "pages": 24,
+    "total_chars": 67104,
+    "empty_pages": 0,
+    "elapsed_s": 0.076,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper125",
+    "pages": 41,
+    "total_chars": 148838,
+    "empty_pages": 0,
+    "elapsed_s": 0.067,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper126",
+    "pages": 25,
+    "total_chars": 63374,
+    "empty_pages": 0,
+    "elapsed_s": 0.051,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper127",
+    "pages": 21,
+    "total_chars": 70269,
+    "empty_pages": 0,
+    "elapsed_s": 0.082,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper128",
+    "pages": 17,
+    "total_chars": 58878,
+    "empty_pages": 0,
+    "elapsed_s": 0.047,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper129",
+    "pages": 42,
+    "total_chars": 107414,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper130",
+    "pages": 6,
+    "total_chars": 27111,
+    "empty_pages": 0,
+    "elapsed_s": 0.008,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper131",
+    "pages": 18,
+    "total_chars": 62003,
+    "empty_pages": 0,
+    "elapsed_s": 0.034,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper132",
+    "pages": 62,
+    "total_chars": 126266,
+    "empty_pages": 0,
+    "elapsed_s": 3.815,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper133",
+    "pages": 28,
+    "total_chars": 76473,
+    "empty_pages": 0,
+    "elapsed_s": 0.065,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper134",
+    "pages": 14,
+    "total_chars": 54610,
+    "empty_pages": 0,
+    "elapsed_s": 0.042,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper135",
+    "pages": 17,
+    "total_chars": 92312,
+    "empty_pages": 0,
+    "elapsed_s": 0.069,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper136",
+    "pages": 38,
+    "total_chars": 230842,
+    "empty_pages": 0,
+    "elapsed_s": 0.183,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper137",
+    "pages": 22,
+    "total_chars": 76570,
+    "empty_pages": 0,
+    "elapsed_s": 0.067,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper138",
+    "pages": 12,
+    "total_chars": 39768,
+    "empty_pages": 0,
+    "elapsed_s": 0.043,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper139",
+    "pages": 31,
+    "total_chars": 57218,
+    "empty_pages": 0,
+    "elapsed_s": 0.026,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper140",
+    "pages": 17,
+    "total_chars": 71818,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper141",
+    "pages": 77,
+    "total_chars": 113409,
+    "empty_pages": 0,
+    "elapsed_s": 0.341,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper142",
+    "pages": 32,
+    "total_chars": 81657,
+    "empty_pages": 0,
+    "elapsed_s": 0.128,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper143",
+    "pages": 22,
+    "total_chars": 71586,
+    "empty_pages": 0,
+    "elapsed_s": 0.042,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper144",
+    "pages": 28,
+    "total_chars": 115110,
+    "empty_pages": 0,
+    "elapsed_s": 0.076,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper145",
+    "pages": 25,
+    "total_chars": 95479,
+    "empty_pages": 0,
+    "elapsed_s": 0.072,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper146",
+    "pages": 33,
+    "total_chars": 97914,
+    "empty_pages": 0,
+    "elapsed_s": 0.068,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper147",
+    "pages": 57,
+    "total_chars": 192626,
+    "empty_pages": 0,
+    "elapsed_s": 0.096,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper148",
+    "pages": 8,
+    "total_chars": 30426,
+    "empty_pages": 0,
+    "elapsed_s": 0.016,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper149",
+    "pages": 12,
+    "total_chars": 46486,
+    "empty_pages": 0,
+    "elapsed_s": 0.031,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper150",
+    "pages": 19,
+    "total_chars": 102236,
+    "empty_pages": 0,
+    "elapsed_s": 0.045,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper151",
+    "pages": 15,
+    "total_chars": 53323,
+    "empty_pages": 0,
+    "elapsed_s": 0.018,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper152",
+    "pages": 29,
+    "total_chars": 92937,
+    "empty_pages": 0,
+    "elapsed_s": 0.067,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper153",
+    "pages": 18,
+    "total_chars": 65286,
+    "empty_pages": 0,
+    "elapsed_s": 0.055,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper154",
+    "pages": 16,
+    "total_chars": 61570,
+    "empty_pages": 0,
+    "elapsed_s": 0.056,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper155",
+    "pages": 29,
+    "total_chars": 101483,
+    "empty_pages": 0,
+    "elapsed_s": 0.154,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper156",
+    "pages": 20,
+    "total_chars": 84933,
+    "empty_pages": 0,
+    "elapsed_s": 0.112,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper157",
+    "pages": 48,
+    "total_chars": 117240,
+    "empty_pages": 0,
+    "elapsed_s": 0.117,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper158",
+    "pages": 8,
+    "total_chars": 23949,
+    "empty_pages": 0,
+    "elapsed_s": 0.028,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper159",
+    "pages": 18,
+    "total_chars": 76032,
+    "empty_pages": 0,
+    "elapsed_s": 0.145,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper160",
+    "pages": 18,
+    "total_chars": 45075,
+    "empty_pages": 0,
+    "elapsed_s": 0.048,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper161",
+    "pages": 14,
+    "total_chars": 42219,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper162",
+    "pages": 9,
+    "total_chars": 41749,
+    "empty_pages": 0,
+    "elapsed_s": 0.044,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper163",
+    "pages": 15,
+    "total_chars": 16898,
+    "empty_pages": 0,
+    "elapsed_s": 0.019,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper164",
+    "pages": 14,
+    "total_chars": 43049,
+    "empty_pages": 0,
+    "elapsed_s": 0.056,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper165",
+    "pages": 25,
+    "total_chars": 86576,
+    "empty_pages": 0,
+    "elapsed_s": 0.17,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper166",
+    "pages": 23,
+    "total_chars": 100625,
+    "empty_pages": 0,
+    "elapsed_s": 0.228,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper167",
+    "pages": 22,
+    "total_chars": 64644,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper168",
+    "pages": 5,
+    "total_chars": 20926,
+    "empty_pages": 0,
+    "elapsed_s": 0.027,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper169",
+    "pages": 40,
+    "total_chars": 93977,
+    "empty_pages": 0,
+    "elapsed_s": 0.112,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper170",
+    "pages": 13,
+    "total_chars": 58289,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper171",
+    "pages": 35,
+    "total_chars": 111252,
+    "empty_pages": 0,
+    "elapsed_s": 0.236,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper172",
+    "pages": 27,
+    "total_chars": 54339,
+    "empty_pages": 0,
+    "elapsed_s": 0.075,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper173",
+    "pages": 14,
+    "total_chars": 27382,
+    "empty_pages": 0,
+    "elapsed_s": 0.034,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper174",
+    "pages": 32,
+    "total_chars": 87162,
+    "empty_pages": 0,
+    "elapsed_s": 0.211,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper175",
+    "pages": 31,
+    "total_chars": 88505,
+    "empty_pages": 0,
+    "elapsed_s": 0.068,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper176",
+    "pages": 13,
+    "total_chars": 31684,
+    "empty_pages": 0,
+    "elapsed_s": 0.047,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper177",
+    "pages": 22,
+    "total_chars": 79326,
+    "empty_pages": 0,
+    "elapsed_s": 0.124,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper178",
+    "pages": 266,
+    "total_chars": 499420,
+    "empty_pages": 0,
+    "elapsed_s": 0.801,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper179",
+    "pages": 51,
+    "total_chars": 172904,
+    "empty_pages": 0,
+    "elapsed_s": 0.132,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper180",
+    "pages": 22,
+    "total_chars": 62952,
+    "empty_pages": 1,
+    "elapsed_s": 0.06,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper181",
+    "pages": 14,
+    "total_chars": 49736,
+    "empty_pages": 0,
+    "elapsed_s": 0.055,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper182",
+    "pages": 13,
+    "total_chars": 49225,
+    "empty_pages": 0,
+    "elapsed_s": 0.116,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper183",
+    "pages": 17,
+    "total_chars": 49775,
+    "empty_pages": 0,
+    "elapsed_s": 0.074,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper184",
+    "pages": 8,
+    "total_chars": 37933,
+    "empty_pages": 0,
+    "elapsed_s": 0.049,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper185",
+    "pages": 20,
+    "total_chars": 60756,
+    "empty_pages": 0,
+    "elapsed_s": 0.058,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper186",
+    "pages": 19,
+    "total_chars": 65687,
+    "empty_pages": 0,
+    "elapsed_s": 0.087,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper187",
+    "pages": 12,
+    "total_chars": 60341,
+    "empty_pages": 0,
+    "elapsed_s": 0.089,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper188",
+    "pages": 15,
+    "total_chars": 65229,
+    "empty_pages": 0,
+    "elapsed_s": 0.072,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper189",
+    "pages": 315,
+    "total_chars": 507761,
+    "empty_pages": 0,
+    "elapsed_s": 1.563,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper190",
+    "pages": 12,
+    "total_chars": 48453,
+    "empty_pages": 0,
+    "elapsed_s": 0.077,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper191",
+    "pages": 9,
+    "total_chars": 24862,
+    "empty_pages": 0,
+    "elapsed_s": 0.03,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper192",
+    "pages": 7,
+    "total_chars": 28385,
+    "empty_pages": 0,
+    "elapsed_s": 0.031,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper193",
+    "pages": 33,
+    "total_chars": 102023,
+    "empty_pages": 0,
+    "elapsed_s": 0.135,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper194",
+    "pages": 12,
+    "total_chars": 52348,
+    "empty_pages": 0,
+    "elapsed_s": 0.052,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper195",
+    "pages": 16,
+    "total_chars": 53201,
+    "empty_pages": 0,
+    "elapsed_s": 0.1,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper196",
+    "pages": 15,
+    "total_chars": 54943,
+    "empty_pages": 0,
+    "elapsed_s": 0.097,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper197",
+    "pages": 25,
+    "total_chars": 71444,
+    "empty_pages": 0,
+    "elapsed_s": 0.086,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper198",
+    "pages": 12,
+    "total_chars": 47722,
+    "empty_pages": 0,
+    "elapsed_s": 0.108,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper199",
+    "pages": 16,
+    "total_chars": 56184,
+    "empty_pages": 0,
+    "elapsed_s": 0.126,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper200",
+    "pages": 14,
+    "total_chars": 61323,
+    "empty_pages": 0,
+    "elapsed_s": 0.401,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper201",
+    "pages": 31,
+    "total_chars": 84287,
+    "empty_pages": 0,
+    "elapsed_s": 0.086,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper202",
+    "pages": 37,
+    "total_chars": 116496,
+    "empty_pages": 0,
+    "elapsed_s": 0.183,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper203",
+    "pages": 18,
+    "total_chars": 50697,
+    "empty_pages": 0,
+    "elapsed_s": 0.134,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper204",
+    "pages": 24,
+    "total_chars": 80501,
+    "empty_pages": 0,
+    "elapsed_s": 0.158,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper205",
+    "pages": 16,
+    "total_chars": 44508,
+    "empty_pages": 0,
+    "elapsed_s": 0.065,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper206",
+    "pages": 14,
+    "total_chars": 56628,
+    "empty_pages": 0,
+    "elapsed_s": 0.068,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper207",
+    "pages": 16,
+    "total_chars": 69401,
+    "empty_pages": 0,
+    "elapsed_s": 0.061,
+    "status": "ok"
+  },
+  {
+    "paper_id": "paper208",
+    "pages": 12,
+    "total_chars": 16856,
+    "empty_pages": 0,
+    "elapsed_s": 0.039,
+    "status": "ok"
+  }
+]

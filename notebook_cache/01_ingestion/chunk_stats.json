@@ -1,0 +1,1666 @@
+[
+  {
+    "paper_id": "paper1",
+    "num_chunks": 26,
+    "total_words_raw": 9033,
+    "overlap_words": 1250,
+    "unique_word_count": 9033,
+    "chunks_word_sum": 10283
+  },
+  {
+    "paper_id": "paper2",
+    "num_chunks": 92,
+    "total_words_raw": 31935,
+    "overlap_words": 4550,
+    "unique_word_count": 31935,
+    "chunks_word_sum": 36485
+  },
+  {
+    "paper_id": "paper3",
+    "num_chunks": 8,
+    "total_words_raw": 2685,
+    "overlap_words": 350,
+    "unique_word_count": 2685,
+    "chunks_word_sum": 3035
+  },
+  {
+    "paper_id": "paper4",
+    "num_chunks": 14,
+    "total_words_raw": 4642,
+    "overlap_words": 650,
+    "unique_word_count": 4642,
+    "chunks_word_sum": 5292
+  },
+  {
+    "paper_id": "paper5",
+    "num_chunks": 20,
+    "total_words_raw": 6741,
+    "overlap_words": 950,
+    "unique_word_count": 6741,
+    "chunks_word_sum": 7691
+  },
+  {
+    "paper_id": "paper6",
+    "num_chunks": 42,
+    "total_words_raw": 14698,
+    "overlap_words": 2050,
+    "unique_word_count": 14698,
+    "chunks_word_sum": 16748
+  },
+  {
+    "paper_id": "paper7",
+    "num_chunks": 20,
+    "total_words_raw": 6977,
+    "overlap_words": 950,
+    "unique_word_count": 6977,
+    "chunks_word_sum": 7927
+  },
+  {
+    "paper_id": "paper8",
+    "num_chunks": 40,
+    "total_words_raw": 13929,
+    "overlap_words": 1950,
+    "unique_word_count": 13929,
+    "chunks_word_sum": 15879
+  },
+  {
+    "paper_id": "paper9",
+    "num_chunks": 17,
+    "total_words_raw": 5677,
+    "overlap_words": 800,
+    "unique_word_count": 5677,
+    "chunks_word_sum": 6477
+  },
+  {
+    "paper_id": "paper10",
+    "num_chunks": 19,
+    "total_words_raw": 6648,
+    "overlap_words": 900,
+    "unique_word_count": 6648,
+    "chunks_word_sum": 7548
+  },
+  {
+    "paper_id": "paper11",
+    "num_chunks": 26,
+    "total_words_raw": 8781,
+    "overlap_words": 1250,
+    "unique_word_count": 8781,
+    "chunks_word_sum": 10012
+  },
+  {
+    "paper_id": "paper12",
+    "num_chunks": 19,
+    "total_words_raw": 6444,
+    "overlap_words": 900,
+    "unique_word_count": 6444,
+    "chunks_word_sum": 7344
+  },
+  {
+    "paper_id": "paper13",
+    "num_chunks": 22,
+    "total_words_raw": 7572,
+    "overlap_words": 1050,
+    "unique_word_count": 7572,
+    "chunks_word_sum": 8622
+  },
+  {
+    "paper_id": "paper14",
+    "num_chunks": 10,
+    "total_words_raw": 3325,
+    "overlap_words": 450,
+    "unique_word_count": 3325,
+    "chunks_word_sum": 3775
+  },
+  {
+    "paper_id": "paper15",
+    "num_chunks": 22,
+    "total_words_raw": 7549,
+    "overlap_words": 1050,
+    "unique_word_count": 7549,
+    "chunks_word_sum": 8599
+  },
+  {
+    "paper_id": "paper16",
+    "num_chunks": 19,
+    "total_words_raw": 6527,
+    "overlap_words": 900,
+    "unique_word_count": 6527,
+    "chunks_word_sum": 7427
+  },
+  {
+    "paper_id": "paper17",
+    "num_chunks": 9,
+    "total_words_raw": 2823,
+    "overlap_words": 400,
+    "unique_word_count": 2823,
+    "chunks_word_sum": 3196
+  },
+  {
+    "paper_id": "paper18",
+    "num_chunks": 22,
+    "total_words_raw": 7401,
+    "overlap_words": 1050,
+    "unique_word_count": 7401,
+    "chunks_word_sum": 8451
+  },
+  {
+    "paper_id": "paper19",
+    "num_chunks": 38,
+    "total_words_raw": 13047,
+    "overlap_words": 1850,
+    "unique_word_count": 13047,
+    "chunks_word_sum": 14897
+  },
+  {
+    "paper_id": "paper20",
+    "num_chunks": 26,
+    "total_words_raw": 8826,
+    "overlap_words": 1250,
+    "unique_word_count": 8826,
+    "chunks_word_sum": 10076
+  },
+  {
+    "paper_id": "paper21",
+    "num_chunks": 30,
+    "total_words_raw": 10391,
+    "overlap_words": 1450,
+    "unique_word_count": 10391,
+    "chunks_word_sum": 11841
+  },
+  {
+    "paper_id": "paper22",
+    "num_chunks": 28,
+    "total_words_raw": 9699,
+    "overlap_words": 1350,
+    "unique_word_count": 9699,
+    "chunks_word_sum": 11049
+  },
+  {
+    "paper_id": "paper23",
+    "num_chunks": 18,
+    "total_words_raw": 6173,
+    "overlap_words": 850,
+    "unique_word_count": 6173,
+    "chunks_word_sum": 7023
+  },
+  {
+    "paper_id": "paper24",
+    "num_chunks": 45,
+    "total_words_raw": 15474,
+    "overlap_words": 2200,
+    "unique_word_count": 15474,
+    "chunks_word_sum": 17674
+  },
+  {
+    "paper_id": "paper25",
+    "num_chunks": 23,
+    "total_words_raw": 7973,
+    "overlap_words": 1100,
+    "unique_word_count": 7973,
+    "chunks_word_sum": 9073
+  },
+  {
+    "paper_id": "paper26",
+    "num_chunks": 26,
+    "total_words_raw": 9090,
+    "overlap_words": 1250,
+    "unique_word_count": 9090,
+    "chunks_word_sum": 10340
+  },
+  {
+    "paper_id": "paper27",
+    "num_chunks": 21,
+    "total_words_raw": 7126,
+    "overlap_words": 1000,
+    "unique_word_count": 7126,
+    "chunks_word_sum": 8126
+  },
+  {
+    "paper_id": "paper28",
+    "num_chunks": 24,
+    "total_words_raw": 8155,
+    "overlap_words": 1150,
+    "unique_word_count": 8155,
+    "chunks_word_sum": 9305
+  },
+  {
+    "paper_id": "paper29",
+    "num_chunks": 45,
+    "total_words_raw": 15491,
+    "overlap_words": 2200,
+    "unique_word_count": 15491,
+    "chunks_word_sum": 17691
+  },
+  {
+    "paper_id": "paper30",
+    "num_chunks": 20,
+    "total_words_raw": 6899,
+    "overlap_words": 950,
+    "unique_word_count": 6899,
+    "chunks_word_sum": 7849
+  },
+  {
+    "paper_id": "paper31",
+    "num_chunks": 25,
+    "total_words_raw": 8571,
+    "overlap_words": 1200,
+    "unique_word_count": 8571,
+    "chunks_word_sum": 9771
+  },
+  {
+    "paper_id": "paper32",
+    "num_chunks": 19,
+    "total_words_raw": 6575,
+    "overlap_words": 900,
+    "unique_word_count": 6575,
+    "chunks_word_sum": 7475
+  },
+  {
+    "paper_id": "paper33",
+    "num_chunks": 22,
+    "total_words_raw": 7603,
+    "overlap_words": 1050,
+    "unique_word_count": 7603,
+    "chunks_word_sum": 8653
+  },
+  {
+    "paper_id": "paper34",
+    "num_chunks": 26,
+    "total_words_raw": 9034,
+    "overlap_words": 1250,
+    "unique_word_count": 9034,
+    "chunks_word_sum": 10284
+  },
+  {
+    "paper_id": "paper35",
+    "num_chunks": 18,
+    "total_words_raw": 6247,
+    "overlap_words": 850,
+    "unique_word_count": 6247,
+    "chunks_word_sum": 7097
+  },
+  {
+    "paper_id": "paper36",
+    "num_chunks": 12,
+    "total_words_raw": 4138,
+    "overlap_words": 550,
+    "unique_word_count": 4138,
+    "chunks_word_sum": 4688
+  },
+  {
+    "paper_id": "paper37",
+    "num_chunks": 23,
+    "total_words_raw": 7772,
+    "overlap_words": 1100,
+    "unique_word_count": 7772,
+    "chunks_word_sum": 8872
+  },
+  {
+    "paper_id": "paper38",
+    "num_chunks": 16,
+    "total_words_raw": 5368,
+    "overlap_words": 750,
+    "unique_word_count": 5368,
+    "chunks_word_sum": 6118
+  },
+  {
+    "paper_id": "paper39",
+    "num_chunks": 22,
+    "total_words_raw": 7674,
+    "overlap_words": 1050,
+    "unique_word_count": 7674,
+    "chunks_word_sum": 8724
+  },
+  {
+    "paper_id": "paper40",
+    "num_chunks": 16,
+    "total_words_raw": 5478,
+    "overlap_words": 750,
+    "unique_word_count": 5478,
+    "chunks_word_sum": 6228
+  },
+  {
+    "paper_id": "paper41",
+    "num_chunks": 38,
+    "total_words_raw": 13137,
+    "overlap_words": 1850,
+    "unique_word_count": 13137,
+    "chunks_word_sum": 14987
+  },
+  {
+    "paper_id": "paper42",
+    "num_chunks": 63,
+    "total_words_raw": 21812,
+    "overlap_words": 3100,
+    "unique_word_count": 21812,
+    "chunks_word_sum": 24912
+  },
+  {
+    "paper_id": "paper43",
+    "num_chunks": 24,
+    "total_words_raw": 8355,
+    "overlap_words": 1150,
+    "unique_word_count": 8355,
+    "chunks_word_sum": 9505
+  },
+  {
+    "paper_id": "paper44",
+    "num_chunks": 33,
+    "total_words_raw": 11279,
+    "overlap_words": 1600,
+    "unique_word_count": 11279,
+    "chunks_word_sum": 12879
+  },
+  {
+    "paper_id": "paper45",
+    "num_chunks": 27,
+    "total_words_raw": 9382,
+    "overlap_words": 1300,
+    "unique_word_count": 9382,
+    "chunks_word_sum": 10682
+  },
+  {
+    "paper_id": "paper46",
+    "num_chunks": 38,
+    "total_words_raw": 13074,
+    "overlap_words": 1850,
+    "unique_word_count": 13074,
+    "chunks_word_sum": 14924
+  },
+  {
+    "paper_id": "paper47",
+    "num_chunks": 33,
+    "total_words_raw": 11309,
+    "overlap_words": 1600,
+    "unique_word_count": 11309,
+    "chunks_word_sum": 12909
+  },
+  {
+    "paper_id": "paper48",
+    "num_chunks": 64,
+    "total_words_raw": 22091,
+    "overlap_words": 3150,
+    "unique_word_count": 22091,
+    "chunks_word_sum": 25232
+  },
+  {
+    "paper_id": "paper49",
+    "num_chunks": 49,
+    "total_words_raw": 16945,
+    "overlap_words": 2400,
+    "unique_word_count": 16945,
+    "chunks_word_sum": 19345
+  },
+  {
+    "paper_id": "paper50",
+    "num_chunks": 32,
+    "total_words_raw": 11069,
+    "overlap_words": 1550,
+    "unique_word_count": 11069,
+    "chunks_word_sum": 12619
+  },
+  {
+    "paper_id": "paper51",
+    "num_chunks": 26,
+    "total_words_raw": 9006,
+    "overlap_words": 1250,
+    "unique_word_count": 9006,
+    "chunks_word_sum": 10256
+  },
+  {
+    "paper_id": "paper52",
+    "num_chunks": 20,
+    "total_words_raw": 6684,
+    "overlap_words": 950,
+    "unique_word_count": 6684,
+    "chunks_word_sum": 7618
+  },
+  {
+    "paper_id": "paper53",
+    "num_chunks": 70,
+    "total_words_raw": 24225,
+    "overlap_words": 3450,
+    "unique_word_count": 24225,
+    "chunks_word_sum": 27675
+  },
+  {
+    "paper_id": "paper54",
+    "num_chunks": 36,
+    "total_words_raw": 12291,
+    "overlap_words": 1750,
+    "unique_word_count": 12291,
+    "chunks_word_sum": 14032
+  },
+  {
+    "paper_id": "paper55",
+    "num_chunks": 40,
+    "total_words_raw": 13739,
+    "overlap_words": 1950,
+    "unique_word_count": 13739,
+    "chunks_word_sum": 15689
+  },
+  {
+    "paper_id": "paper56",
+    "num_chunks": 38,
+    "total_words_raw": 12972,
+    "overlap_words": 1850,
+    "unique_word_count": 12972,
+    "chunks_word_sum": 14794
+  },
+  {
+    "paper_id": "paper57",
+    "num_chunks": 26,
+    "total_words_raw": 8794,
+    "overlap_words": 1250,
+    "unique_word_count": 8794,
+    "chunks_word_sum": 10038
+  },
+  {
+    "paper_id": "paper58",
+    "num_chunks": 16,
+    "total_words_raw": 5588,
+    "overlap_words": 750,
+    "unique_word_count": 5588,
+    "chunks_word_sum": 6338
+  },
+  {
+    "paper_id": "paper59",
+    "num_chunks": 29,
+    "total_words_raw": 9867,
+    "overlap_words": 1400,
+    "unique_word_count": 9867,
+    "chunks_word_sum": 11267
+  },
+  {
+    "paper_id": "paper60",
+    "num_chunks": 14,
+    "total_words_raw": 4769,
+    "overlap_words": 650,
+    "unique_word_count": 4769,
+    "chunks_word_sum": 5419
+  },
+  {
+    "paper_id": "paper61",
+    "num_chunks": 35,
+    "total_words_raw": 12167,
+    "overlap_words": 1700,
+    "unique_word_count": 12167,
+    "chunks_word_sum": 13867
+  },
+  {
+    "paper_id": "paper62",
+    "num_chunks": 67,
+    "total_words_raw": 23186,
+    "overlap_words": 3300,
+    "unique_word_count": 23186,
+    "chunks_word_sum": 26486
+  },
+  {
+    "paper_id": "paper63",
+    "num_chunks": 25,
+    "total_words_raw": 8457,
+    "overlap_words": 1200,
+    "unique_word_count": 8457,
+    "chunks_word_sum": 9657
+  },
+  {
+    "paper_id": "paper64",
+    "num_chunks": 20,
+    "total_words_raw": 6695,
+    "overlap_words": 950,
+    "unique_word_count": 6695,
+    "chunks_word_sum": 7640
+  },
+  {
+    "paper_id": "paper65",
+    "num_chunks": 25,
+    "total_words_raw": 8602,
+    "overlap_words": 1200,
+    "unique_word_count": 8602,
+    "chunks_word_sum": 9802
+  },
+  {
+    "paper_id": "paper66",
+    "num_chunks": 27,
+    "total_words_raw": 9105,
+    "overlap_words": 1300,
+    "unique_word_count": 9105,
+    "chunks_word_sum": 10360
+  },
+  {
+    "paper_id": "paper67",
+    "num_chunks": 30,
+    "total_words_raw": 10379,
+    "overlap_words": 1450,
+    "unique_word_count": 10379,
+    "chunks_word_sum": 11829
+  },
+  {
+    "paper_id": "paper68",
+    "num_chunks": 69,
+    "total_words_raw": 24142,
+    "overlap_words": 3400,
+    "unique_word_count": 24142,
+    "chunks_word_sum": 27542
+  },
+  {
+    "paper_id": "paper69",
+    "num_chunks": 38,
+    "total_words_raw": 13152,
+    "overlap_words": 1850,
+    "unique_word_count": 13152,
+    "chunks_word_sum": 15002
+  },
+  {
+    "paper_id": "paper70",
+    "num_chunks": 32,
+    "total_words_raw": 10986,
+    "overlap_words": 1550,
+    "unique_word_count": 10986,
+    "chunks_word_sum": 12536
+  },
+  {
+    "paper_id": "paper71",
+    "num_chunks": 25,
+    "total_words_raw": 8616,
+    "overlap_words": 1200,
+    "unique_word_count": 8616,
+    "chunks_word_sum": 9816
+  },
+  {
+    "paper_id": "paper72",
+    "num_chunks": 27,
+    "total_words_raw": 9215,
+    "overlap_words": 1300,
+    "unique_word_count": 9215,
+    "chunks_word_sum": 10515
+  },
+  {
+    "paper_id": "paper73",
+    "num_chunks": 27,
+    "total_words_raw": 9422,
+    "overlap_words": 1300,
+    "unique_word_count": 9422,
+    "chunks_word_sum": 10722
+  },
+  {
+    "paper_id": "paper74",
+    "num_chunks": 35,
+    "total_words_raw": 11975,
+    "overlap_words": 1700,
+    "unique_word_count": 11975,
+    "chunks_word_sum": 13675
+  },
+  {
+    "paper_id": "paper75",
+    "num_chunks": 30,
+    "total_words_raw": 10190,
+    "overlap_words": 1450,
+    "unique_word_count": 10190,
+    "chunks_word_sum": 11630
+  },
+  {
+    "paper_id": "paper76",
+    "num_chunks": 71,
+    "total_words_raw": 24835,
+    "overlap_words": 3500,
+    "unique_word_count": 24835,
+    "chunks_word_sum": 28335
+  },
+  {
+    "paper_id": "paper77",
+    "num_chunks": 32,
+    "total_words_raw": 10994,
+    "overlap_words": 1550,
+    "unique_word_count": 10994,
+    "chunks_word_sum": 12544
+  },
+  {
+    "paper_id": "paper78",
+    "num_chunks": 39,
+    "total_words_raw": 13647,
+    "overlap_words": 1900,
+    "unique_word_count": 13647,
+    "chunks_word_sum": 15547
+  },
+  {
+    "paper_id": "paper79",
+    "num_chunks": 35,
+    "total_words_raw": 12198,
+    "overlap_words": 1700,
+    "unique_word_count": 12198,
+    "chunks_word_sum": 13898
+  },
+  {
+    "paper_id": "paper80",
+    "num_chunks": 21,
+    "total_words_raw": 7344,
+    "overlap_words": 1000,
+    "unique_word_count": 7344,
+    "chunks_word_sum": 8344
+  },
+  {
+    "paper_id": "paper81",
+    "num_chunks": 13,
+    "total_words_raw": 4429,
+    "overlap_words": 600,
+    "unique_word_count": 4429,
+    "chunks_word_sum": 5029
+  },
+  {
+    "paper_id": "paper82",
+    "num_chunks": 12,
+    "total_words_raw": 3976,
+    "overlap_words": 550,
+    "unique_word_count": 3976,
+    "chunks_word_sum": 4526
+  },
+  {
+    "paper_id": "paper83",
+    "num_chunks": 13,
+    "total_words_raw": 4442,
+    "overlap_words": 600,
+    "unique_word_count": 4442,
+    "chunks_word_sum": 5042
+  },
+  {
+    "paper_id": "paper84",
+    "num_chunks": 7,
+    "total_words_raw": 2361,
+    "overlap_words": 300,
+    "unique_word_count": 2361,
+    "chunks_word_sum": 2661
+  },
+  {
+    "paper_id": "paper85",
+    "num_chunks": 29,
+    "total_words_raw": 10065,
+    "overlap_words": 1400,
+    "unique_word_count": 10065,
+    "chunks_word_sum": 11465
+  },
+  {
+    "paper_id": "paper86",
+    "num_chunks": 22,
+    "total_words_raw": 7361,
+    "overlap_words": 1050,
+    "unique_word_count": 7361,
+    "chunks_word_sum": 8372
+  },
+  {
+    "paper_id": "paper87",
+    "num_chunks": 22,
+    "total_words_raw": 7363,
+    "overlap_words": 1050,
+    "unique_word_count": 7363,
+    "chunks_word_sum": 8376
+  },
+  {
+    "paper_id": "paper88",
+    "num_chunks": 33,
+    "total_words_raw": 11503,
+    "overlap_words": 1600,
+    "unique_word_count": 11503,
+    "chunks_word_sum": 13103
+  },
+  {
+    "paper_id": "paper89",
+    "num_chunks": 24,
+    "total_words_raw": 8400,
+    "overlap_words": 1150,
+    "unique_word_count": 8400,
+    "chunks_word_sum": 9550
+  },
+  {
+    "paper_id": "paper90",
+    "num_chunks": 49,
+    "total_words_raw": 17150,
+    "overlap_words": 2400,
+    "unique_word_count": 17150,
+    "chunks_word_sum": 19550
+  },
+  {
+    "paper_id": "paper91",
+    "num_chunks": 21,
+    "total_words_raw": 7001,
+    "overlap_words": 1000,
+    "unique_word_count": 7001,
+    "chunks_word_sum": 7952
+  },
+  {
+    "paper_id": "paper92",
+    "num_chunks": 17,
+    "total_words_raw": 5720,
+    "overlap_words": 800,
+    "unique_word_count": 5720,
+    "chunks_word_sum": 6520
+  },
+  {
+    "paper_id": "paper93",
+    "num_chunks": 19,
+    "total_words_raw": 6486,
+    "overlap_words": 900,
+    "unique_word_count": 6486,
+    "chunks_word_sum": 7386
+  },
+  {
+    "paper_id": "paper94",
+    "num_chunks": 18,
+    "total_words_raw": 6109,
+    "overlap_words": 850,
+    "unique_word_count": 6109,
+    "chunks_word_sum": 6959
+  },
+  {
+    "paper_id": "paper95",
+    "num_chunks": 61,
+    "total_words_raw": 21286,
+    "overlap_words": 3000,
+    "unique_word_count": 21286,
+    "chunks_word_sum": 24286
+  },
+  {
+    "paper_id": "paper96",
+    "num_chunks": 43,
+    "total_words_raw": 14892,
+    "overlap_words": 2100,
+    "unique_word_count": 14892,
+    "chunks_word_sum": 16992
+  },
+  {
+    "paper_id": "paper97",
+    "num_chunks": 31,
+    "total_words_raw": 10648,
+    "overlap_words": 1500,
+    "unique_word_count": 10648,
+    "chunks_word_sum": 12148
+  },
+  {
+    "paper_id": "paper98",
+    "num_chunks": 36,
+    "total_words_raw": 12547,
+    "overlap_words": 1750,
+    "unique_word_count": 12547,
+    "chunks_word_sum": 14297
+  },
+  {
+    "paper_id": "paper99",
+    "num_chunks": 32,
+    "total_words_raw": 11007,
+    "overlap_words": 1550,
+    "unique_word_count": 11007,
+    "chunks_word_sum": 12557
+  },
+  {
+    "paper_id": "paper100",
+    "num_chunks": 24,
+    "total_words_raw": 8395,
+    "overlap_words": 1150,
+    "unique_word_count": 8395,
+    "chunks_word_sum": 9545
+  },
+  {
+    "paper_id": "paper101",
+    "num_chunks": 53,
+    "total_words_raw": 18469,
+    "overlap_words": 2600,
+    "unique_word_count": 18469,
+    "chunks_word_sum": 21069
+  },
+  {
+    "paper_id": "paper102",
+    "num_chunks": 48,
+    "total_words_raw": 16524,
+    "overlap_words": 2350,
+    "unique_word_count": 16524,
+    "chunks_word_sum": 18874
+  },
+  {
+    "paper_id": "paper103",
+    "num_chunks": 14,
+    "total_words_raw": 4755,
+    "overlap_words": 650,
+    "unique_word_count": 4755,
+    "chunks_word_sum": 5405
+  },
+  {
+    "paper_id": "paper104",
+    "num_chunks": 28,
+    "total_words_raw": 9550,
+    "overlap_words": 1350,
+    "unique_word_count": 9550,
+    "chunks_word_sum": 10900
+  },
+  {
+    "paper_id": "paper105",
+    "num_chunks": 12,
+    "total_words_raw": 3900,
+    "overlap_words": 550,
+    "unique_word_count": 3900,
+    "chunks_word_sum": 4450
+  },
+  {
+    "paper_id": "paper106",
+    "num_chunks": 40,
+    "total_words_raw": 13800,
+    "overlap_words": 1950,
+    "unique_word_count": 13800,
+    "chunks_word_sum": 15750
+  },
+  {
+    "paper_id": "paper107",
+    "num_chunks": 33,
+    "total_words_raw": 11374,
+    "overlap_words": 1600,
+    "unique_word_count": 11374,
+    "chunks_word_sum": 12974
+  },
+  {
+    "paper_id": "paper108",
+    "num_chunks": 27,
+    "total_words_raw": 9199,
+    "overlap_words": 1300,
+    "unique_word_count": 9199,
+    "chunks_word_sum": 10499
+  },
+  {
+    "paper_id": "paper109",
+    "num_chunks": 46,
+    "total_words_raw": 15874,
+    "overlap_words": 2250,
+    "unique_word_count": 15874,
+    "chunks_word_sum": 18124
+  },
+  {
+    "paper_id": "paper110",
+    "num_chunks": 22,
+    "total_words_raw": 7591,
+    "overlap_words": 1050,
+    "unique_word_count": 7591,
+    "chunks_word_sum": 8641
+  },
+  {
+    "paper_id": "paper111",
+    "num_chunks": 18,
+    "total_words_raw": 6270,
+    "overlap_words": 850,
+    "unique_word_count": 6270,
+    "chunks_word_sum": 7120
+  },
+  {
+    "paper_id": "paper112",
+    "num_chunks": 46,
+    "total_words_raw": 16039,
+    "overlap_words": 2250,
+    "unique_word_count": 16039,
+    "chunks_word_sum": 18289
+  },
+  {
+    "paper_id": "paper113",
+    "num_chunks": 36,
+    "total_words_raw": 12327,
+    "overlap_words": 1750,
+    "unique_word_count": 12327,
+    "chunks_word_sum": 14077
+  },
+  {
+    "paper_id": "paper114",
+    "num_chunks": 12,
+    "total_words_raw": 4062,
+    "overlap_words": 550,
+    "unique_word_count": 4062,
+    "chunks_word_sum": 4612
+  },
+  {
+    "paper_id": "paper115",
+    "num_chunks": 37,
+    "total_words_raw": 12792,
+    "overlap_words": 1800,
+    "unique_word_count": 12792,
+    "chunks_word_sum": 14592
+  },
+  {
+    "paper_id": "paper116",
+    "num_chunks": 13,
+    "total_words_raw": 4298,
+    "overlap_words": 600,
+    "unique_word_count": 4298,
+    "chunks_word_sum": 4898
+  },
+  {
+    "paper_id": "paper117",
+    "num_chunks": 140,
+    "total_words_raw": 48658,
+    "overlap_words": 6950,
+    "unique_word_count": 48658,
+    "chunks_word_sum": 55566
+  },
+  {
+    "paper_id": "paper118",
+    "num_chunks": 26,
+    "total_words_raw": 8765,
+    "overlap_words": 1250,
+    "unique_word_count": 8765,
+    "chunks_word_sum": 9980
+  },
+  {
+    "paper_id": "paper119",
+    "num_chunks": 45,
+    "total_words_raw": 15431,
+    "overlap_words": 2200,
+    "unique_word_count": 15431,
+    "chunks_word_sum": 17612
+  },
+  {
+    "paper_id": "paper120",
+    "num_chunks": 12,
+    "total_words_raw": 4013,
+    "overlap_words": 550,
+    "unique_word_count": 4013,
+    "chunks_word_sum": 4563
+  },
+  {
+    "paper_id": "paper121",
+    "num_chunks": 21,
+    "total_words_raw": 7023,
+    "overlap_words": 1000,
+    "unique_word_count": 7023,
+    "chunks_word_sum": 7996
+  },
+  {
+    "paper_id": "paper122",
+    "num_chunks": 33,
+    "total_words_raw": 11323,
+    "overlap_words": 1600,
+    "unique_word_count": 11323,
+    "chunks_word_sum": 12923
+  },
+  {
+    "paper_id": "paper123",
+    "num_chunks": 33,
+    "total_words_raw": 11338,
+    "overlap_words": 1600,
+    "unique_word_count": 11338,
+    "chunks_word_sum": 12938
+  },
+  {
+    "paper_id": "paper124",
+    "num_chunks": 31,
+    "total_words_raw": 10741,
+    "overlap_words": 1500,
+    "unique_word_count": 10741,
+    "chunks_word_sum": 12241
+  },
+  {
+    "paper_id": "paper125",
+    "num_chunks": 62,
+    "total_words_raw": 21599,
+    "overlap_words": 3050,
+    "unique_word_count": 21599,
+    "chunks_word_sum": 24649
+  },
+  {
+    "paper_id": "paper126",
+    "num_chunks": 25,
+    "total_words_raw": 8722,
+    "overlap_words": 1200,
+    "unique_word_count": 8722,
+    "chunks_word_sum": 9922
+  },
+  {
+    "paper_id": "paper127",
+    "num_chunks": 28,
+    "total_words_raw": 9581,
+    "overlap_words": 1350,
+    "unique_word_count": 9581,
+    "chunks_word_sum": 10931
+  },
+  {
+    "paper_id": "paper128",
+    "num_chunks": 23,
+    "total_words_raw": 7808,
+    "overlap_words": 1100,
+    "unique_word_count": 7808,
+    "chunks_word_sum": 8908
+  },
+  {
+    "paper_id": "paper129",
+    "num_chunks": 46,
+    "total_words_raw": 16078,
+    "overlap_words": 2250,
+    "unique_word_count": 16078,
+    "chunks_word_sum": 18328
+  },
+  {
+    "paper_id": "paper130",
+    "num_chunks": 11,
+    "total_words_raw": 3837,
+    "overlap_words": 500,
+    "unique_word_count": 3837,
+    "chunks_word_sum": 4337
+  },
+  {
+    "paper_id": "paper131",
+    "num_chunks": 28,
+    "total_words_raw": 9632,
+    "overlap_words": 1350,
+    "unique_word_count": 9632,
+    "chunks_word_sum": 10982
+  },
+  {
+    "paper_id": "paper132",
+    "num_chunks": 61,
+    "total_words_raw": 21183,
+    "overlap_words": 3000,
+    "unique_word_count": 21183,
+    "chunks_word_sum": 24183
+  },
+  {
+    "paper_id": "paper133",
+    "num_chunks": 34,
+    "total_words_raw": 11676,
+    "overlap_words": 1650,
+    "unique_word_count": 11676,
+    "chunks_word_sum": 13326
+  },
+  {
+    "paper_id": "paper134",
+    "num_chunks": 24,
+    "total_words_raw": 8111,
+    "overlap_words": 1150,
+    "unique_word_count": 8111,
+    "chunks_word_sum": 9261
+  },
+  {
+    "paper_id": "paper135",
+    "num_chunks": 38,
+    "total_words_raw": 13193,
+    "overlap_words": 1850,
+    "unique_word_count": 13193,
+    "chunks_word_sum": 15043
+  },
+  {
+    "paper_id": "paper136",
+    "num_chunks": 96,
+    "total_words_raw": 33441,
+    "overlap_words": 4750,
+    "unique_word_count": 33441,
+    "chunks_word_sum": 38191
+  },
+  {
+    "paper_id": "paper137",
+    "num_chunks": 31,
+    "total_words_raw": 10833,
+    "overlap_words": 1500,
+    "unique_word_count": 10833,
+    "chunks_word_sum": 12333
+  },
+  {
+    "paper_id": "paper138",
+    "num_chunks": 17,
+    "total_words_raw": 5697,
+    "overlap_words": 800,
+    "unique_word_count": 5697,
+    "chunks_word_sum": 6497
+  },
+  {
+    "paper_id": "paper139",
+    "num_chunks": 23,
+    "total_words_raw": 7915,
+    "overlap_words": 1100,
+    "unique_word_count": 7915,
+    "chunks_word_sum": 9015
+  },
+  {
+    "paper_id": "paper140",
+    "num_chunks": 32,
+    "total_words_raw": 11043,
+    "overlap_words": 1550,
+    "unique_word_count": 11043,
+    "chunks_word_sum": 12593
+  },
+  {
+    "paper_id": "paper141",
+    "num_chunks": 52,
+    "total_words_raw": 18101,
+    "overlap_words": 2550,
+    "unique_word_count": 18101,
+    "chunks_word_sum": 20651
+  },
+  {
+    "paper_id": "paper142",
+    "num_chunks": 36,
+    "total_words_raw": 12279,
+    "overlap_words": 1750,
+    "unique_word_count": 12279,
+    "chunks_word_sum": 14008
+  },
+  {
+    "paper_id": "paper143",
+    "num_chunks": 39,
+    "total_words_raw": 13362,
+    "overlap_words": 1900,
+    "unique_word_count": 13362,
+    "chunks_word_sum": 15262
+  },
+  {
+    "paper_id": "paper144",
+    "num_chunks": 48,
+    "total_words_raw": 16611,
+    "overlap_words": 2350,
+    "unique_word_count": 16611,
+    "chunks_word_sum": 18961
+  },
+  {
+    "paper_id": "paper145",
+    "num_chunks": 41,
+    "total_words_raw": 14070,
+    "overlap_words": 2000,
+    "unique_word_count": 14070,
+    "chunks_word_sum": 16070
+  },
+  {
+    "paper_id": "paper146",
+    "num_chunks": 41,
+    "total_words_raw": 14013,
+    "overlap_words": 2000,
+    "unique_word_count": 14013,
+    "chunks_word_sum": 15976
+  },
+  {
+    "paper_id": "paper147",
+    "num_chunks": 82,
+    "total_words_raw": 28664,
+    "overlap_words": 4050,
+    "unique_word_count": 28664,
+    "chunks_word_sum": 32714
+  },
+  {
+    "paper_id": "paper148",
+    "num_chunks": 12,
+    "total_words_raw": 4172,
+    "overlap_words": 550,
+    "unique_word_count": 4172,
+    "chunks_word_sum": 4722
+  },
+  {
+    "paper_id": "paper149",
+    "num_chunks": 19,
+    "total_words_raw": 6337,
+    "overlap_words": 900,
+    "unique_word_count": 6337,
+    "chunks_word_sum": 7224
+  },
+  {
+    "paper_id": "paper150",
+    "num_chunks": 43,
+    "total_words_raw": 14783,
+    "overlap_words": 2100,
+    "unique_word_count": 14783,
+    "chunks_word_sum": 16883
+  },
+  {
+    "paper_id": "paper151",
+    "num_chunks": 24,
+    "total_words_raw": 8076,
+    "overlap_words": 1150,
+    "unique_word_count": 8076,
+    "chunks_word_sum": 9202
+  },
+  {
+    "paper_id": "paper152",
+    "num_chunks": 39,
+    "total_words_raw": 13313,
+    "overlap_words": 1900,
+    "unique_word_count": 13313,
+    "chunks_word_sum": 15176
+  },
+  {
+    "paper_id": "paper153",
+    "num_chunks": 28,
+    "total_words_raw": 9677,
+    "overlap_words": 1350,
+    "unique_word_count": 9677,
+    "chunks_word_sum": 11027
+  },
+  {
+    "paper_id": "paper154",
+    "num_chunks": 29,
+    "total_words_raw": 9838,
+    "overlap_words": 1400,
+    "unique_word_count": 9838,
+    "chunks_word_sum": 11226
+  },
+  {
+    "paper_id": "paper155",
+    "num_chunks": 41,
+    "total_words_raw": 14278,
+    "overlap_words": 2000,
+    "unique_word_count": 14278,
+    "chunks_word_sum": 16278
+  },
+  {
+    "paper_id": "paper156",
+    "num_chunks": 36,
+    "total_words_raw": 12541,
+    "overlap_words": 1750,
+    "unique_word_count": 12541,
+    "chunks_word_sum": 14291
+  },
+  {
+    "paper_id": "paper157",
+    "num_chunks": 50,
+    "total_words_raw": 17370,
+    "overlap_words": 2450,
+    "unique_word_count": 17370,
+    "chunks_word_sum": 19820
+  },
+  {
+    "paper_id": "paper158",
+    "num_chunks": 11,
+    "total_words_raw": 3744,
+    "overlap_words": 500,
+    "unique_word_count": 3744,
+    "chunks_word_sum": 4244
+  },
+  {
+    "paper_id": "paper159",
+    "num_chunks": 29,
+    "total_words_raw": 9808,
+    "overlap_words": 1400,
+    "unique_word_count": 9808,
+    "chunks_word_sum": 11166
+  },
+  {
+    "paper_id": "paper160",
+    "num_chunks": 19,
+    "total_words_raw": 6356,
+    "overlap_words": 900,
+    "unique_word_count": 6356,
+    "chunks_word_sum": 7256
+  },
+  {
+    "paper_id": "paper161",
+    "num_chunks": 18,
+    "total_words_raw": 6107,
+    "overlap_words": 850,
+    "unique_word_count": 6107,
+    "chunks_word_sum": 6957
+  },
+  {
+    "paper_id": "paper162",
+    "num_chunks": 19,
+    "total_words_raw": 6582,
+    "overlap_words": 900,
+    "unique_word_count": 6582,
+    "chunks_word_sum": 7482
+  },
+  {
+    "paper_id": "paper163",
+    "num_chunks": 8,
+    "total_words_raw": 2492,
+    "overlap_words": 350,
+    "unique_word_count": 2492,
+    "chunks_word_sum": 2834
+  },
+  {
+    "paper_id": "paper164",
+    "num_chunks": 19,
+    "total_words_raw": 6450,
+    "overlap_words": 900,
+    "unique_word_count": 6450,
+    "chunks_word_sum": 7350
+  },
+  {
+    "paper_id": "paper165",
+    "num_chunks": 39,
+    "total_words_raw": 13604,
+    "overlap_words": 1900,
+    "unique_word_count": 13604,
+    "chunks_word_sum": 15504
+  },
+  {
+    "paper_id": "paper166",
+    "num_chunks": 43,
+    "total_words_raw": 14903,
+    "overlap_words": 2100,
+    "unique_word_count": 14903,
+    "chunks_word_sum": 17003
+  },
+  {
+    "paper_id": "paper167",
+    "num_chunks": 25,
+    "total_words_raw": 8591,
+    "overlap_words": 1200,
+    "unique_word_count": 8591,
+    "chunks_word_sum": 9791
+  },
+  {
+    "paper_id": "paper168",
+    "num_chunks": 9,
+    "total_words_raw": 3118,
+    "overlap_words": 400,
+    "unique_word_count": 3118,
+    "chunks_word_sum": 3518
+  },
+  {
+    "paper_id": "paper169",
+    "num_chunks": 40,
+    "total_words_raw": 13839,
+    "overlap_words": 1950,
+    "unique_word_count": 13839,
+    "chunks_word_sum": 15789
+  },
+  {
+    "paper_id": "paper170",
+    "num_chunks": 25,
+    "total_words_raw": 8456,
+    "overlap_words": 1200,
+    "unique_word_count": 8456,
+    "chunks_word_sum": 9656
+  },
+  {
+    "paper_id": "paper171",
+    "num_chunks": 50,
+    "total_words_raw": 17376,
+    "overlap_words": 2450,
+    "unique_word_count": 17376,
+    "chunks_word_sum": 19826
+  },
+  {
+    "paper_id": "paper172",
+    "num_chunks": 23,
+    "total_words_raw": 7924,
+    "overlap_words": 1100,
+    "unique_word_count": 7924,
+    "chunks_word_sum": 9024
+  },
+  {
+    "paper_id": "paper173",
+    "num_chunks": 13,
+    "total_words_raw": 4367,
+    "overlap_words": 600,
+    "unique_word_count": 4367,
+    "chunks_word_sum": 4967
+  },
+  {
+    "paper_id": "paper174",
+    "num_chunks": 37,
+    "total_words_raw": 12792,
+    "overlap_words": 1800,
+    "unique_word_count": 12792,
+    "chunks_word_sum": 14592
+  },
+  {
+    "paper_id": "paper175",
+    "num_chunks": 36,
+    "total_words_raw": 12378,
+    "overlap_words": 1750,
+    "unique_word_count": 12378,
+    "chunks_word_sum": 14128
+  },
+  {
+    "paper_id": "paper176",
+    "num_chunks": 12,
+    "total_words_raw": 4127,
+    "overlap_words": 550,
+    "unique_word_count": 4127,
+    "chunks_word_sum": 4677
+  },
+  {
+    "paper_id": "paper177",
+    "num_chunks": 35,
+    "total_words_raw": 12096,
+    "overlap_words": 1700,
+    "unique_word_count": 12096,
+    "chunks_word_sum": 13796
+  },
+  {
+    "paper_id": "paper178",
+    "num_chunks": 208,
+    "total_words_raw": 72615,
+    "overlap_words": 10350,
+    "unique_word_count": 72615,
+    "chunks_word_sum": 82965
+  },
+  {
+    "paper_id": "paper179",
+    "num_chunks": 68,
+    "total_words_raw": 23744,
+    "overlap_words": 3350,
+    "unique_word_count": 23744,
+    "chunks_word_sum": 27094
+  },
+  {
+    "paper_id": "paper180",
+    "num_chunks": 27,
+    "total_words_raw": 9261,
+    "overlap_words": 1300,
+    "unique_word_count": 9261,
+    "chunks_word_sum": 10561
+  },
+  {
+    "paper_id": "paper181",
+    "num_chunks": 23,
+    "total_words_raw": 7799,
+    "overlap_words": 1100,
+    "unique_word_count": 7799,
+    "chunks_word_sum": 8899
+  },
+  {
+    "paper_id": "paper182",
+    "num_chunks": 22,
+    "total_words_raw": 7639,
+    "overlap_words": 1050,
+    "unique_word_count": 7639,
+    "chunks_word_sum": 8689
+  },
+  {
+    "paper_id": "paper183",
+    "num_chunks": 23,
+    "total_words_raw": 7706,
+    "overlap_words": 1100,
+    "unique_word_count": 7706,
+    "chunks_word_sum": 8762
+  },
+  {
+    "paper_id": "paper184",
+    "num_chunks": 16,
+    "total_words_raw": 5543,
+    "overlap_words": 750,
+    "unique_word_count": 5543,
+    "chunks_word_sum": 6293
+  },
+  {
+    "paper_id": "paper185",
+    "num_chunks": 25,
+    "total_words_raw": 8507,
+    "overlap_words": 1200,
+    "unique_word_count": 8507,
+    "chunks_word_sum": 9707
+  },
+  {
+    "paper_id": "paper186",
+    "num_chunks": 29,
+    "total_words_raw": 10074,
+    "overlap_words": 1400,
+    "unique_word_count": 10074,
+    "chunks_word_sum": 11474
+  },
+  {
+    "paper_id": "paper187",
+    "num_chunks": 27,
+    "total_words_raw": 9379,
+    "overlap_words": 1300,
+    "unique_word_count": 9379,
+    "chunks_word_sum": 10679
+  },
+  {
+    "paper_id": "paper188",
+    "num_chunks": 29,
+    "total_words_raw": 10063,
+    "overlap_words": 1400,
+    "unique_word_count": 10063,
+    "chunks_word_sum": 11463
+  },
+  {
+    "paper_id": "paper189",
+    "num_chunks": 231,
+    "total_words_raw": 80720,
+    "overlap_words": 11500,
+    "unique_word_count": 80720,
+    "chunks_word_sum": 92220
+  },
+  {
+    "paper_id": "paper190",
+    "num_chunks": 23,
+    "total_words_raw": 7990,
+    "overlap_words": 1100,
+    "unique_word_count": 7990,
+    "chunks_word_sum": 9090
+  },
+  {
+    "paper_id": "paper191",
+    "num_chunks": 12,
+    "total_words_raw": 3909,
+    "overlap_words": 550,
+    "unique_word_count": 3909,
+    "chunks_word_sum": 4459
+  },
+  {
+    "paper_id": "paper192",
+    "num_chunks": 12,
+    "total_words_raw": 4189,
+    "overlap_words": 550,
+    "unique_word_count": 4189,
+    "chunks_word_sum": 4739
+  },
+  {
+    "paper_id": "paper193",
+    "num_chunks": 45,
+    "total_words_raw": 15734,
+    "overlap_words": 2200,
+    "unique_word_count": 15734,
+    "chunks_word_sum": 17934
+  },
+  {
+    "paper_id": "paper194",
+    "num_chunks": 24,
+    "total_words_raw": 8130,
+    "overlap_words": 1150,
+    "unique_word_count": 8130,
+    "chunks_word_sum": 9280
+  },
+  {
+    "paper_id": "paper195",
+    "num_chunks": 23,
+    "total_words_raw": 7963,
+    "overlap_words": 1100,
+    "unique_word_count": 7963,
+    "chunks_word_sum": 9063
+  },
+  {
+    "paper_id": "paper196",
+    "num_chunks": 23,
+    "total_words_raw": 7979,
+    "overlap_words": 1100,
+    "unique_word_count": 7979,
+    "chunks_word_sum": 9079
+  },
+  {
+    "paper_id": "paper197",
+    "num_chunks": 32,
+    "total_words_raw": 10885,
+    "overlap_words": 1550,
+    "unique_word_count": 10885,
+    "chunks_word_sum": 12420
+  },
+  {
+    "paper_id": "paper198",
+    "num_chunks": 20,
+    "total_words_raw": 6860,
+    "overlap_words": 950,
+    "unique_word_count": 6860,
+    "chunks_word_sum": 7810
+  },
+  {
+    "paper_id": "paper199",
+    "num_chunks": 26,
+    "total_words_raw": 9019,
+    "overlap_words": 1250,
+    "unique_word_count": 9019,
+    "chunks_word_sum": 10269
+  },
+  {
+    "paper_id": "paper200",
+    "num_chunks": 25,
+    "total_words_raw": 8574,
+    "overlap_words": 1200,
+    "unique_word_count": 8574,
+    "chunks_word_sum": 9774
+  },
+  {
+    "paper_id": "paper201",
+    "num_chunks": 32,
+    "total_words_raw": 11003,
+    "overlap_words": 1550,
+    "unique_word_count": 11003,
+    "chunks_word_sum": 12553
+  },
+  {
+    "paper_id": "paper202",
+    "num_chunks": 48,
+    "total_words_raw": 16483,
+    "overlap_words": 2350,
+    "unique_word_count": 16483,
+    "chunks_word_sum": 18816
+  },
+  {
+    "paper_id": "paper203",
+    "num_chunks": 22,
+    "total_words_raw": 7392,
+    "overlap_words": 1050,
+    "unique_word_count": 7392,
+    "chunks_word_sum": 8434
+  },
+  {
+    "paper_id": "paper204",
+    "num_chunks": 37,
+    "total_words_raw": 12835,
+    "overlap_words": 1800,
+    "unique_word_count": 12835,
+    "chunks_word_sum": 14635
+  },
+  {
+    "paper_id": "paper205",
+    "num_chunks": 19,
+    "total_words_raw": 6609,
+    "overlap_words": 900,
+    "unique_word_count": 6609,
+    "chunks_word_sum": 7509
+  },
+  {
+    "paper_id": "paper206",
+    "num_chunks": 23,
+    "total_words_raw": 7901,
+    "overlap_words": 1100,
+    "unique_word_count": 7901,
+    "chunks_word_sum": 9001
+  },
+  {
+    "paper_id": "paper207",
+    "num_chunks": 29,
+    "total_words_raw": 9983,
+    "overlap_words": 1400,
+    "unique_word_count": 9983,
+    "chunks_word_sum": 11383
+  },
+  {
+    "paper_id": "paper208",
+    "num_chunks": 8,
+    "total_words_raw": 2585,
+    "overlap_words": 350,
+    "unique_word_count": 2585,
+    "chunks_word_sum": 2935
+  }
+]

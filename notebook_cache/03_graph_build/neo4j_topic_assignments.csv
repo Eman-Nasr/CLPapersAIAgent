@@ -1,0 +1,777 @@
+paper_id,title,topic,topic_type,source,evidence,confidence,tfidf_score,doc_frequency
+paper1,FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents,Text-to-SQL,controlled,controlled_title,text-to-sql,0.95,,
+paper1,FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents,Code Generation,controlled,controlled_abstract,coding agent,0.82,,
+paper1,FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper2,Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper2,Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces,LLM Agents,controlled,controlled_abstract,llm agents,0.82,,
+paper2,Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper3,mdok-style at SemEval-2026 Task 10: Finetuning LLMs for Conspiracy Detection,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper3,mdok-style at SemEval-2026 Task 10: Finetuning LLMs for Conspiracy Detection,Text Classification,controlled,controlled_abstract,text classification,0.82,,
+paper4,mdok-style at SemEval-2026 Task 9: Finetuning LLMs for Multilingual Polarization Detection,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper4,mdok-style at SemEval-2026 Task 9: Finetuning LLMs for Multilingual Polarization Detection,Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper4,mdok-style at SemEval-2026 Task 9: Finetuning LLMs for Multilingual Polarization Detection,Text Classification,controlled,controlled_abstract,classification task,0.82,,
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Embeddings,controlled,controlled_abstract,embeddings,0.82,,
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Pre Trained Language,discovered,extracted_keyphrase,pre trained language,0.76,0.298,2.0
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Pre Trained,discovered,extracted_keyphrase,pre trained,0.76,0.2423,6.0
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Pre Trained Language Models,discovered,extracted_keyphrase,pre trained language models,0.72,0.3211,1.0
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Emotion Recognition,discovered,extracted_keyphrase,emotion recognition,0.72,0.3211,1.0
+paper5,Fuzzy Fingerprinting Encoder Pre-trained Language Models for Emotion Recognition in Conversations: Human Assessment and Validity Study,Valuable Insights,discovered,extracted_keyphrase,valuable insights,0.69,0.0939,2.0
+paper6,ContextualJailbreak: Evolutionary Red-Teaming via Simulated Conversational Priming,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper6,ContextualJailbreak: Evolutionary Red-Teaming via Simulated Conversational Priming,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Multi Layer,discovered,extracted_keyphrase,multi layer,0.76,0.2532,3.0
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Hpv Vaccine,discovered,extracted_keyphrase,hpv vaccine,0.72,0.4329,1.0
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Mapping Discourse,discovered,extracted_keyphrase,mapping discourse,0.72,0.2886,1.0
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Information Disorder,discovered,extracted_keyphrase,information disorder,0.69,0.6698,2.0
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Proposes Novel,discovered,extracted_keyphrase,proposes novel,0.69,0.134,2.0
+paper7,Mapping Discourse Reframing: A Multi-Layer Network Approach to Italian HPV Vaccine Discourse on X (2010-2024),Abstract Understanding,discovered,extracted_keyphrase,abstract understanding,0.69,0.1266,3.0
+paper8,"Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",Dialogue Systems,controlled,controlled_abstract,chatbot,0.82,,
+paper8,"Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",Multi Turn,discovered,extracted_keyphrase,multi turn,0.76,0.3355,7.0
+paper8,"Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",Real User,discovered,extracted_keyphrase,real user,0.69,0.4127,2.0
+paper8,"Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",Domain Specific,discovered,extracted_keyphrase,domain specific,0.69,0.1791,3.0
+paper9,Beating the Style Detector: Three Hours of Agentic Research on the AI-Text Arms Race,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper9,Beating the Style Detector: Three Hours of Agentic Research on the AI-Text Arms Race,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Low-Resource NLP,controlled,controlled_title,low resource,0.95,,
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Low Resource,discovered,extracted_keyphrase,low resource,0.76,0.5722,3.0
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Lan Guages,discovered,extracted_keyphrase,lan guages,0.69,0.2397,3.0
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Remains Poorly Understood,discovered,extracted_keyphrase,remains poorly understood,0.69,0.1268,2.0
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Remains Poorly,discovered,extracted_keyphrase,remains poorly,0.69,0.1268,2.0
+paper10,Dependency Parsing Across the Resource Spectrum: Evaluating Architectures on High and Low-Resource Languages,Poorly Understood,discovered,extracted_keyphrase,poorly understood,0.69,0.1268,2.0
+paper11,SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper11,SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper11,SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper11,SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures,Low-Resource NLP,controlled,controlled_abstract,low resource,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Dense Retrieval,controlled,controlled_abstract,dense retrieval,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Hybrid Search,controlled,controlled_abstract,hybrid search,0.82,,
+paper12,Generation: A Controlled Empirical Study1,Reranking,controlled,controlled_abstract,reranking,0.82,,
+paper13,Revisiting Semantic Role Labeling: Efficient Structured Inference with Dependency-Informed Analysis,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper13,Revisiting Semantic Role Labeling: Efficient Structured Inference with Dependency-Informed Analysis,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper14,A multilingual hallucination benchmark: MultiWikiQHalluA,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper14,A multilingual hallucination benchmark: MultiWikiQHalluA,Hallucination Detection,controlled,controlled_title,hallucination,0.95,,
+paper14,A multilingual hallucination benchmark: MultiWikiQHalluA,Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper15,Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper15,Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper16,"ATLAS: Article Tracking, Linking, and Analysis of Swedish Encyclopedias",Named Entity Recognition,controlled,controlled_abstract,named entity recognition,0.82,,
+paper16,"ATLAS: Article Tracking, Linking, and Analysis of Swedish Encyclopedias",F1 Score,discovered,extracted_keyphrase,f1 score,0.69,0.7612,5.0
+paper16,"ATLAS: Article Tracking, Linking, and Analysis of Swedish Encyclopedias",Raw Text,discovered,extracted_keyphrase,raw text,0.69,0.4815,2.0
+paper16,"ATLAS: Article Tracking, Linking, and Analysis of Swedish Encyclopedias",Small Scale,discovered,extracted_keyphrase,small scale,0.69,0.4345,4.0
+paper17,Leveraging Argument Structure to Predict Content Hatefulness,Argument Structure,discovered,extracted_keyphrase,argument structure,0.76,0.6022,2.0
+paper17,Leveraging Argument Structure to Predict Content Hatefulness,Information Disorder,discovered,extracted_keyphrase,information disorder,0.69,0.4015,2.0
+paper17,Leveraging Argument Structure to Predict Content Hatefulness,Hate Speech,discovered,extracted_keyphrase,hate speech,0.69,0.3794,3.0
+paper17,Leveraging Argument Structure to Predict Content Hatefulness,Warning Paper Contains,discovered,extracted_keyphrase,warning paper contains,0.69,0.1897,2.0
+paper18,PC-MNet: Dual-Level Congruity Modeling for Multimodal Sarcasm Detection via Polarity-Modulated Attention,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper18,PC-MNet: Dual-Level Congruity Modeling for Multimodal Sarcasm Detection via Polarity-Modulated Attention,Polarity Modulated Attention,discovered,extracted_keyphrase,polarity modulated attention,0.72,0.1125,1.0
+paper19,HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper19,HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs,Instruction Tuning,controlled,controlled_title,instruction following,0.95,,
+paper19,HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper19,HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs,Hallucination Detection,controlled,controlled_title,hallucinations,0.95,,
+paper20,Automatic Reflection Level Classification in Hungarian Student Essays,Text Classification,controlled,controlled_abstract,text classification,0.82,,
+paper20,Automatic Reflection Level Classification in Hungarian Student Essays,Low-Resource NLP,controlled,controlled_abstract,low resource,0.82,,
+paper20,Automatic Reflection Level Classification in Hungarian Student Essays,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper21,Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper21,Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper21,Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval,Text Classification,controlled,controlled_abstract,classification task,0.82,,
+paper21,Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper21,Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Scaling Laws,discovered,extracted_keyphrase,scaling laws,0.76,0.391,4.0
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Information Scaling Laws,discovered,extracted_keyphrase,information scaling laws,0.72,0.3111,1.0
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Information Scaling,discovered,extracted_keyphrase,information scaling,0.72,0.3111,1.0
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Infolaw Information Scaling Laws,discovered,extracted_keyphrase,infolaw information scaling laws,0.72,0.3111,1.0
+paper22,InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition,Infolaw Information Scaling,discovered,extracted_keyphrase,infolaw information scaling,0.72,0.3111,1.0
+paper23,When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper23,When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper23,When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper23,When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper24,MolViBench: Evaluating LLMs on Molecular Vibe Coding,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper24,MolViBench: Evaluating LLMs on Molecular Vibe Coding,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper24,MolViBench: Evaluating LLMs on Molecular Vibe Coding,Code Generation,controlled,controlled_abstract,code generation,0.82,,
+paper24,MolViBench: Evaluating LLMs on Molecular Vibe Coding,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper25,Decoding-Time Debiasing via Process Reward Models: From Controlled Fill-in to Open-Ended Generation,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper25,Decoding-Time Debiasing via Process Reward Models: From Controlled Fill-in to Open-Ended Generation,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper25,Decoding-Time Debiasing via Process Reward Models: From Controlled Fill-in to Open-Ended Generation,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper25,Decoding-Time Debiasing via Process Reward Models: From Controlled Fill-in to Open-Ended Generation,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Legal Texts,discovered,extracted_keyphrase,legal texts,0.69,0.2097,3.0
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Artificial Intelligence,discovered,extracted_keyphrase,artificial intelligence,0.69,0.171,8.0
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Practical Implications,discovered,extracted_keyphrase,practical implications,0.69,0.111,2.0
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Legal Text,discovered,extracted_keyphrase,legal text,0.69,0.111,2.0
+paper26,"Xianglei Liao1, Chuanyi Li2, Kun Chen1†",Corresponding Author,discovered,extracted_keyphrase,corresponding author,0.69,0.0816,3.0
+paper27,Compositional Multi-hop Factual Error Correction via Decomposition-and-Injection,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper27,Compositional Multi-hop Factual Error Correction via Decomposition-and-Injection,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper27,Compositional Multi-hop Factual Error Correction via Decomposition-and-Injection,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper27,Compositional Multi-hop Factual Error Correction via Decomposition-and-Injection,Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper27,Compositional Multi-hop Factual Error Correction via Decomposition-and-Injection,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper28,A Systematic Benchmark of Machine Transliteration Models for the Tajik-Farsi Language Pair: A Comparative Study from Rule-Based to Transformer Architectures,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper28,A Systematic Benchmark of Machine Transliteration Models for the Tajik-Farsi Language Pair: A Comparative Study from Rule-Based to Transformer Architectures,Fine-Tuning,controlled,controlled_abstract,lora,0.82,,
+paper28,A Systematic Benchmark of Machine Transliteration Models for the Tajik-Farsi Language Pair: A Comparative Study from Rule-Based to Transformer Architectures,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Acm Manuscript,discovered,extracted_keyphrase,acm manuscript,0.69,0.2414,2.0
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Submitted Acm,discovered,extracted_keyphrase,submitted acm,0.69,0.2414,2.0
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Manuscript Submitted Acm,discovered,extracted_keyphrase,manuscript submitted acm,0.69,0.2414,2.0
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Manuscript Submitted,discovered,extracted_keyphrase,manuscript submitted,0.69,0.2414,2.0
+paper29,Reliability-Oriented Multilingual Orthopedic Diagnosis: A Domain-Adaptive Modeling and a Conceptual Validation Framework,Acm Manuscript Submitted Acm,discovered,extracted_keyphrase,acm manuscript submitted acm,0.69,0.2414,2.0
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,News Detection,discovered,extracted_keyphrase,news detection,0.76,0.3492,2.0
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,Fake News Detection,discovered,extracted_keyphrase,fake news detection,0.76,0.3492,2.0
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,Fake News,discovered,extracted_keyphrase,fake news,0.76,0.3492,2.0
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,Propagation Denoising,discovered,extracted_keyphrase,propagation denoising,0.72,0.1881,1.0
+paper30,An Information-theoretic Propagation Denoising and Fusion Framework for Fake News Detection,Information Theoretic Propagation Denoising,discovered,extracted_keyphrase,information theoretic propagation denoising,0.72,0.1881,1.0
+paper31,ARGUS: Policy-Adaptive Ad Governance via Evolving Reinforcement with Adversarial Umpiring,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper31,ARGUS: Policy-Adaptive Ad Governance via Evolving Reinforcement with Adversarial Umpiring,Prompt Engineering,controlled,controlled_abstract,chain of thought,0.82,,
+paper31,ARGUS: Policy-Adaptive Ad Governance via Evolving Reinforcement with Adversarial Umpiring,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper31,ARGUS: Policy-Adaptive Ad Governance via Evolving Reinforcement with Adversarial Umpiring,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper32,CLaC at SemEval-2026 Task 6: Response Clarity Detection in Political Discourse,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper32,CLaC at SemEval-2026 Task 6: Response Clarity Detection in Political Discourse,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper32,CLaC at SemEval-2026 Task 6: Response Clarity Detection in Political Discourse,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper33,EditPropBench: Measuring Factual Edit Propagation in Scientific Manuscripts,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper33,EditPropBench: Measuring Factual Edit Propagation in Scientific Manuscripts,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper34,Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper34,Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper34,Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning,Fine-Tuning,controlled,controlled_abstract,lora,0.82,,
+paper34,Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper34,Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning,Code Generation,controlled,controlled_abstract,code generation,0.82,,
+paper35,Pair2Score: Pairwise-to-Absolute Transfer for LLM-Based Essay Scoring,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper35,Pair2Score: Pairwise-to-Absolute Transfer for LLM-Based Essay Scoring,Reranking,controlled,controlled_abstract,ranker,0.82,,
+paper35,Pair2Score: Pairwise-to-Absolute Transfer for LLM-Based Essay Scoring,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper37,What Single-Prompt Accuracy Misses: A Multi-Variant Reliability Audit of Language Models,Prompt Engineering,controlled,controlled_abstract,chain of thought,0.82,,
+paper37,What Single-Prompt Accuracy Misses: A Multi-Variant Reliability Audit of Language Models,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper37,What Single-Prompt Accuracy Misses: A Multi-Variant Reliability Audit of Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper38,A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation,Machine Translation,controlled,controlled_title,machine translation,0.95,,
+paper38,A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper38,A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation,Prompt Engineering,controlled,controlled_abstract,chain of thought,0.82,,
+paper38,A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper38,A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper39,Counting as a minimal probe of language model reliability,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper39,Counting as a minimal probe of language model reliability,LLM Evaluation,controlled,controlled_abstract,model evaluation,0.82,,
+paper39,Counting as a minimal probe of language model reliability,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,Retrieval-Augmented Generation,controlled,controlled_abstract,retrieval augmented generation,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper40,Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper41,Learn-to-learn on Arbitrary Textual Conditioning: A Hypernetwork-Driven Meta-Gated LLM,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper41,Learn-to-learn on Arbitrary Textual Conditioning: A Hypernetwork-Driven Meta-Gated LLM,Abstract Conventional,discovered,extracted_keyphrase,abstract conventional,0.69,0.3823,2.0
+paper41,Learn-to-learn on Arbitrary Textual Conditioning: A Hypernetwork-Driven Meta-Gated LLM,Https Github Com,discovered,extracted_keyphrase,https github com,0.69,0.244,8.0
+paper41,Learn-to-learn on Arbitrary Textual Conditioning: A Hypernetwork-Driven Meta-Gated LLM,Https Github,discovered,extracted_keyphrase,https github,0.69,0.244,8.0
+paper41,Learn-to-learn on Arbitrary Textual Conditioning: A Hypernetwork-Driven Meta-Gated LLM,Github Com,discovered,extracted_keyphrase,github com,0.69,0.237,8.0
+paper42,StressEval: Failure-Driven Dynamic Benchmarking for Knowledge-Intensive Reasoning in Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper42,StressEval: Failure-Driven Dynamic Benchmarking for Knowledge-Intensive Reasoning in Large Language Models,LLM Evaluation,controlled,controlled_title,benchmarking,0.95,,
+paper42,StressEval: Failure-Driven Dynamic Benchmarking for Knowledge-Intensive Reasoning in Large Language Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,Large Language Models,controlled,controlled_title,large language model,0.95,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,LLM Evaluation,controlled,controlled_abstract,llm evaluation,0.82,,
+paper43,Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper44,Spatiotemporal Hidden-State Dynamics as a Signature of Internal Reasoning in Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper44,Spatiotemporal Hidden-State Dynamics as a Signature of Internal Reasoning in Large Language Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper45,Do Large Language Models Plan Answer Positions? Position Bias in Multiple-Choice Question Generation,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper45,Do Large Language Models Plan Answer Positions? Position Bias in Multiple-Choice Question Generation,Safety and Bias,controlled,controlled_title,bias,0.95,,
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Representation Hypothesis,discovered,extracted_keyphrase,representation hypothesis,0.72,0.6183,1.0
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Intrinsic Uncertainty,discovered,extracted_keyphrase,intrinsic uncertainty,0.69,0.1913,2.0
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Widely Used,discovered,extracted_keyphrase,widely used,0.69,0.166,5.0
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Computer Science,discovered,extracted_keyphrase,computer science,0.69,0.166,4.0
+paper46,The Cylindrical Representation Hypothesis for Language Model Steering,Artificial Intelligence,discovered,extracted_keyphrase,artificial intelligence,0.69,0.1474,8.0
+paper47,RMGAP: Benchmarking the Generalization of Reward Models across Diverse Preferences,LLM Evaluation,controlled,controlled_title,benchmarking,0.95,,
+paper47,RMGAP: Benchmarking the Generalization of Reward Models across Diverse Preferences,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper47,RMGAP: Benchmarking the Generalization of Reward Models across Diverse Preferences,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper48,The Compliance Gap: Why AI Systems Promise to Follow Process Instructions but Don't,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper48,The Compliance Gap: Why AI Systems Promise to Follow Process Instructions but Don't,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper49,Only Say What You Know: Calibration-Aware Generation for Long-Form Factuality,Hallucination Detection,controlled,controlled_title,factuality,0.95,,
+paper49,Only Say What You Know: Calibration-Aware Generation for Long-Form Factuality,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper50,Less is More: Geometric Unlearning for LLMs with Minimal Data Disclosure,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper50,Less is More: Geometric Unlearning for LLMs with Minimal Data Disclosure,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Token Level,discovered,extracted_keyphrase,token level,0.76,0.5751,5.0
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Knowledge Transfer,discovered,extracted_keyphrase,knowledge transfer,0.76,0.3369,3.0
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Knowledge Distillation,discovered,extracted_keyphrase,knowledge distillation,0.69,0.3239,3.0
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Model Smaller Student,discovered,extracted_keyphrase,model smaller student,0.69,0.1866,2.0
+paper51,EGAD: Entropy-Guided Adaptive Distillation for Token-Level Knowledge Transfer,Models Llms Achieved,discovered,extracted_keyphrase,models llms achieved,0.69,0.1866,2.0
+paper52,TCDA: Thread-Constrained Discourse-Aware Modeling for Conversational Sentiment Quadruple Analysis,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper52,TCDA: Thread-Constrained Discourse-Aware Modeling for Conversational Sentiment Quadruple Analysis,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper53,The Reasoning Trap: An Information-Theoretic Bound on Closed-System Multi-Step LLM Reasoning,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper53,The Reasoning Trap: An Information-Theoretic Bound on Closed-System Multi-Step LLM Reasoning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper53,The Reasoning Trap: An Information-Theoretic Bound on Closed-System Multi-Step LLM Reasoning,Hallucination Detection,controlled,controlled_abstract,faithfulness,0.82,,
+paper54,BIM Information Extraction Through LLM-based Adaptive Exploration,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper54,BIM Information Extraction Through LLM-based Adaptive Exploration,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper54,BIM Information Extraction Through LLM-based Adaptive Exploration,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper55,GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper55,GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper56,MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper56,MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper56,MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety,Safety and Bias,controlled,controlled_title,safety,0.95,,
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,Ai Text Detection,discovered,extracted_keyphrase,ai text detection,0.76,0.3349,2.0
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,Ai Text,discovered,extracted_keyphrase,ai text,0.76,0.3349,2.0
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,Text Detection,discovered,extracted_keyphrase,text detection,0.76,0.3023,4.0
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,Mdta Benchmark,discovered,extracted_keyphrase,mdta benchmark,0.72,0.3608,1.0
+paper57,Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection,Models Trained Massive,discovered,extracted_keyphrase,models trained massive,0.69,0.1675,2.0
+paper58,Prosa: Rubric-Based Evaluation of LLMs on Real User Chats in Brazilian Portuguese,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper58,Prosa: Rubric-Based Evaluation of LLMs on Real User Chats in Brazilian Portuguese,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper58,Prosa: Rubric-Based Evaluation of LLMs on Real User Chats in Brazilian Portuguese,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper59,Where Do Prompt Perturbations Break Generation? A Segment-Level View of Robustness in LoRA-Tuned Language Models,Fine-Tuning,controlled,controlled_title,lora,0.95,,
+paper59,Where Do Prompt Perturbations Break Generation? A Segment-Level View of Robustness in LoRA-Tuned Language Models,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Fine-Tuning,controlled,controlled_title,fine tuning,0.95,,
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Generated Code,discovered,extracted_keyphrase,generated code,0.72,0.4205,1.0
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Ai Generated Code,discovered,extracted_keyphrase,ai generated code,0.72,0.4205,1.0
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Ai Generated,discovered,extracted_keyphrase,ai generated,0.72,0.4205,1.0
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Pre Trained Code,discovered,extracted_keyphrase,pre trained code,0.72,0.2803,1.0
+paper60,Fine-Tuning Pre-Trained Code Models for AI-Generated Code Detection,Pre Trained Code Models,discovered,extracted_keyphrase,pre trained code models,0.72,0.2803,1.0
+paper61,Automated Interpretability and Feature Discovery in Language Models with Agents,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper61,Automated Interpretability and Feature Discovery in Language Models with Agents,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Machine Translation,controlled,controlled_abstract,translation,0.82,,
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Hong Jiang9 10 Yongjun,discovered,extracted_keyphrase,hong jiang9 10 yongjun,0.72,0.1258,1.0
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Hong Jiang9 10,discovered,extracted_keyphrase,hong jiang9 10,0.72,0.1258,1.0
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Rezaii4 Sergi Valero5,discovered,extracted_keyphrase,rezaii4 sergi valero5,0.72,0.1258,1.0
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Rezaii4 Sergi,discovered,extracted_keyphrase,rezaii4 sergi,0.72,0.1258,1.0
+paper62,"Santos Santos3, Neguine Rezaii4, Sergi Valero5,6, Yonghua Huang7, Huan Li8, Hong Jiang9,10, Yongjun Peng11,",Neguine Rezaii4,discovered,extracted_keyphrase,neguine rezaii4,0.72,0.1258,1.0
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,Retrieval-Augmented Generation,controlled,controlled_title,rag,0.95,,
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper64,ReMedi: Reasoner for Medical Clinical Prediction,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper64,ReMedi: Reasoner for Medical Clinical Prediction,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper64,ReMedi: Reasoner for Medical Clinical Prediction,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper64,ReMedi: Reasoner for Medical Clinical Prediction,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper65,"William Guey¹, Wei Zhang¹, Pierrick Bougault¹, Yi Wang¹, Bertan Ucar¹, Vitor D.",Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper65,"William Guey¹, Wei Zhang¹, Pierrick Bougault¹, Yi Wang¹, Bertan Ucar¹, Vitor D.",Text Classification,controlled,controlled_abstract,classification task,0.82,,
+paper65,"William Guey¹, Wei Zhang¹, Pierrick Bougault¹, Yi Wang¹, Bertan Ucar¹, Vitor D.",Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper65,"William Guey¹, Wei Zhang¹, Pierrick Bougault¹, Yi Wang¹, Bertan Ucar¹, Vitor D.",Multilingual NLP,controlled,controlled_abstract,cross lingual,0.82,,
+paper66,Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead,Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper66,Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper66,Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead,Machine Translation,controlled,controlled_abstract,translation,0.82,,
+paper66,Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper67,Hallucinations Undermine Trust; Metacognition is a Way Forward,Hallucination Detection,controlled,controlled_title,hallucinations,0.95,,
+paper67,Hallucinations Undermine Trust; Metacognition is a Way Forward,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper67,Hallucinations Undermine Trust; Metacognition is a Way Forward,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper68,Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper68,Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper68,Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper68,Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper68,Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper69,Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper69,Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper69,Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper69,Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper69,Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression,Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning,Reranking,controlled,controlled_title,reranker,0.95,,
+paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper71,MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper71,MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents,LLM Agents,controlled,controlled_abstract,llm agents,0.82,,
+paper72,A framework for analyzing concept representations in neural models,Abstract Understanding,discovered,extracted_keyphrase,abstract understanding,0.69,0.266,3.0
+paper72,A framework for analyzing concept representations in neural models,Prior Work,discovered,extracted_keyphrase,prior work,0.69,0.2443,4.0
+paper73,MTA: Multi-Granular Trajectory Alignment for Large Language Model Distillation,Large Language Models,controlled,controlled_title,large language model,0.95,,
+paper73,MTA: Multi-Granular Trajectory Alignment for Large Language Model Distillation,Safety and Bias,controlled,controlled_title,alignment,0.95,,
+paper74,Focus on the Core: Empowering Diffusion Large Language Models by Self-Contrast,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper74,Focus on the Core: Empowering Diffusion Large Language Models by Self-Contrast,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper75,Embedding-based In-Context Prompt Training for Enhancing LLMs as Text Encoders,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper75,Embedding-based In-Context Prompt Training for Enhancing LLMs as Text Encoders,Embeddings,controlled,controlled_title,embedding,0.95,,
+paper75,Embedding-based In-Context Prompt Training for Enhancing LLMs as Text Encoders,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper76,On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility,LLM Evaluation,controlled,controlled_title,benchmarking,0.95,,
+paper76,On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper77,LLM Output Detectability and Task Performance Can be Jointly Optimized,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper77,LLM Output Detectability and Task Performance Can be Jointly Optimized,Question Answering,controlled,controlled_abstract,qa,0.82,,
+paper77,LLM Output Detectability and Task Performance Can be Jointly Optimized,Text Summarization,controlled,controlled_abstract,summarization,0.82,,
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Code Generation,controlled,controlled_abstract,code generation,0.82,,
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Multi Agent,discovered,extracted_keyphrase,multi agent,0.76,0.2113,7.0
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Mad Opd,discovered,extracted_keyphrase,mad opd,0.72,0.56,1.0
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Policy Distillation,discovered,extracted_keyphrase,policy distillation,0.72,0.42,1.0
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Multi Agent Debate,discovered,extracted_keyphrase,multi agent debate,0.72,0.2599,1.0
+paper78,MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate,Agent Debate,discovered,extracted_keyphrase,agent debate,0.72,0.2599,1.0
+paper79,"A Multi-View Media Profiling Suite: Resources, Evaluation, and Analysis",Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper79,"A Multi-View Media Profiling Suite: Resources, Evaluation, and Analysis",Hallucination Detection,controlled,controlled_abstract,factuality,0.82,,
+paper79,"A Multi-View Media Profiling Suite: Resources, Evaluation, and Analysis",Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper79,"A Multi-View Media Profiling Suite: Resources, Evaluation, and Analysis",Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper80,"Rongyang Wang1, Shuang Zhou2,*, Jiashuo Wang3, Wenya Xie4, Xiaoxia Che1,*",Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper80,"Rongyang Wang1, Shuang Zhou2,*, Jiashuo Wang3, Wenya Xie4, Xiaoxia Che1,*",LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper80,"Rongyang Wang1, Shuang Zhou2,*, Jiashuo Wang3, Wenya Xie4, Xiaoxia Che1,*",Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper81,Creating and Evaluating Figurative Language Dataset for Sindhi,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper81,Creating and Evaluating Figurative Language Dataset for Sindhi,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper81,Creating and Evaluating Figurative Language Dataset for Sindhi,Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper82,Benchmarking LightGBM and BiLSTM for Sentiment Analysis on Indonesian E-Commerce Reviews,Sentiment Analysis,controlled,controlled_title,sentiment analysis,0.95,,
+paper82,Benchmarking LightGBM and BiLSTM for Sentiment Analysis on Indonesian E-Commerce Reviews,LLM Evaluation,controlled,controlled_title,benchmarking,0.95,,
+paper82,Benchmarking LightGBM and BiLSTM for Sentiment Analysis on Indonesian E-Commerce Reviews,Text Classification,controlled,controlled_abstract,classification task,0.82,,
+paper83,Sentiment Analysis of Mobile Legends App Reviews Using Machine Learning and LSTM-Based Deep Learning Models,Sentiment Analysis,controlled,controlled_title,sentiment analysis,0.95,,
+paper83,Sentiment Analysis of Mobile Legends App Reviews Using Machine Learning and LSTM-Based Deep Learning Models,Text Classification,controlled,controlled_abstract,text classification,0.82,,
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Sentiment Analysis,controlled,controlled_abstract,sentiment analysis,0.82,,
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Steam Platform,discovered,extracted_keyphrase,steam platform,0.72,0.2898,1.0
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Attention Mechanism,discovered,extracted_keyphrase,attention mechanism,0.69,0.3501,3.0
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Reviews Contain,discovered,extracted_keyphrase,reviews contain,0.69,0.1345,2.0
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Related Words,discovered,extracted_keyphrase,related words,0.69,0.1345,2.0
+paper84,Enhancing Game Review Sentiment Classification on Steam Platform with Attention-Based BiLSTM,Short Term Memory Bilstm,discovered,extracted_keyphrase,short term memory bilstm,0.69,0.1345,2.0
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Retrieval-Augmented Generation,controlled,controlled_title,retrieval augmented generation,0.95,,
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Hallucination Detection,controlled,controlled_abstract,hallucinations,0.82,,
+paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper86,Addressing Data Scarcity in Bangla Fake News Detection: An LLM-Based Dataset Augmentation Approach,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper86,Addressing Data Scarcity in Bangla Fake News Detection: An LLM-Based Dataset Augmentation Approach,Text Classification,controlled,controlled_abstract,text classification,0.82,,
+paper86,Addressing Data Scarcity in Bangla Fake News Detection: An LLM-Based Dataset Augmentation Approach,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper86,Addressing Data Scarcity in Bangla Fake News Detection: An LLM-Based Dataset Augmentation Approach,Low-Resource NLP,controlled,controlled_abstract,low resource,0.82,,
+paper87,GIFT: Guided Fine-Tuning and Transfer for Enhancing Instruction-Tuned Language Models,Fine-Tuning,controlled,controlled_title,fine tuning,0.95,,
+paper87,GIFT: Guided Fine-Tuning and Transfer for Enhancing Instruction-Tuned Language Models,Instruction Tuning,controlled,controlled_abstract,instruction following,0.82,,
+paper88,Lost in the Tower of Babel: The Adverse Effects of Incidental Multilingualism in LLMs,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper88,Lost in the Tower of Babel: The Adverse Effects of Incidental Multilingualism in LLMs,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper89,SRA: Span Representation Alignment for Large Language Model Distillation,Large Language Models,controlled,controlled_title,large language model,0.95,,
+paper89,SRA: Span Representation Alignment for Large Language Model Distillation,Safety and Bias,controlled,controlled_title,alignment,0.95,,
+paper90,Compute Optimal Tokenization,Compute Optimal,discovered,extracted_keyphrase,compute optimal,0.76,0.3668,2.0
+paper90,Compute Optimal Tokenization,Optimal Tokenization,discovered,extracted_keyphrase,optimal tokenization,0.72,0.2634,1.0
+paper90,Compute Optimal Tokenization,Github Io,discovered,extracted_keyphrase,github io,0.69,0.1223,2.0
+paper90,Compute Optimal Tokenization,Remains Underexplored,discovered,extracted_keyphrase,remains underexplored,0.69,0.1155,3.0
+paper90,Compute Optimal Tokenization,Languages English,discovered,extracted_keyphrase,languages english,0.69,0.1155,2.0
+paper90,Compute Optimal Tokenization,Scaling Laws,discovered,extracted_keyphrase,scaling laws,0.69,0.1103,4.0
+paper91,Quantifying and Predicting Disagreement in Graded Human Ratings,Human Ratings,discovered,extracted_keyphrase,human ratings,0.72,0.4763,1.0
+paper91,Quantifying and Predicting Disagreement in Graded Human Ratings,Graded Human Ratings,discovered,extracted_keyphrase,graded human ratings,0.72,0.4763,1.0
+paper91,Quantifying and Predicting Disagreement in Graded Human Ratings,Graded Human,discovered,extracted_keyphrase,graded human,0.72,0.4763,1.0
+paper91,Quantifying and Predicting Disagreement in Graded Human Ratings,Human Annotators,discovered,extracted_keyphrase,human annotators,0.69,0.2211,2.0
+paper91,Quantifying and Predicting Disagreement in Graded Human Ratings,Hate Speech,discovered,extracted_keyphrase,hate speech,0.69,0.2089,3.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Speculative Decoding,discovered,extracted_keyphrase,speculative decoding,0.76,0.4898,3.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Self Speculative,discovered,extracted_keyphrase,self speculative,0.72,0.3722,1.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Self Speculative Decoding,discovered,extracted_keyphrase,self speculative decoding,0.72,0.2792,1.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Component Aware,discovered,extracted_keyphrase,component aware,0.72,0.2792,1.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Acceptance Rates,discovered,extracted_keyphrase,acceptance rates,0.69,0.1728,2.0
+paper92,Component-Aware Self-Speculative Decoding in Hybrid Language Models,Speculative Decoding Accelerates,discovered,extracted_keyphrase,speculative decoding accelerates,0.69,0.0864,2.0
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Representations Llms,discovered,extracted_keyphrase,representations llms,0.69,0.2076,2.0
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Student Knowledge,discovered,extracted_keyphrase,student knowledge,0.69,0.2076,2.0
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Outper Forms Existing,discovered,extracted_keyphrase,outper forms existing,0.69,0.2076,2.0
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Latent Representations,discovered,extracted_keyphrase,latent representations,0.69,0.2076,2.0
+paper93,Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues,Outper Forms,discovered,extracted_keyphrase,outper forms,0.69,0.1962,3.0
+paper94,Teaching LLMs Brazilian Healthcare: Injecting Knowledge from Official Clinical Guidelines,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper94,Teaching LLMs Brazilian Healthcare: Injecting Knowledge from Official Clinical Guidelines,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper94,Teaching LLMs Brazilian Healthcare: Injecting Knowledge from Official Clinical Guidelines,Question Answering,controlled,controlled_abstract,qa,0.82,,
+paper94,Teaching LLMs Brazilian Healthcare: Injecting Knowledge from Official Clinical Guidelines,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Embeddings,controlled,controlled_title,embedding,0.95,,
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Sentence Embedding Space,discovered,extracted_keyphrase,sentence embedding space,0.72,0.2724,1.0
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Sentence Embedding,discovered,extracted_keyphrase,sentence embedding,0.72,0.2724,1.0
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Latent Probing,discovered,extracted_keyphrase,latent probing,0.72,0.2724,1.0
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Embedding Space,discovered,extracted_keyphrase,embedding space,0.72,0.2724,1.0
+paper95,Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing,Manifold Modeling,discovered,extracted_keyphrase,manifold modeling,0.72,0.2043,1.0
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Private Text,discovered,extracted_keyphrase,private text,0.72,0.6794,1.0
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Significantly Different,discovered,extracted_keyphrase,significantly different,0.69,0.3153,2.0
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Trade Offs,discovered,extracted_keyphrase,trade offs,0.69,0.3153,2.0
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Word Level,discovered,extracted_keyphrase,word level,0.69,0.298,2.0
+paper96,A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation,Doc Uments,discovered,extracted_keyphrase,doc uments,0.69,0.298,2.0
+paper97,Compared to What? Baselines and Metrics for Counterfactual Prompting,Prompt Engineering,controlled,controlled_title,prompting,0.95,,
+paper97,Compared to What? Baselines and Metrics for Counterfactual Prompting,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper97,Compared to What? Baselines and Metrics for Counterfactual Prompting,Hallucination Detection,controlled,controlled_abstract,faithfulness,0.82,,
+paper97,Compared to What? Baselines and Metrics for Counterfactual Prompting,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper98,A Theoretical Game of Attacks via Compositional Skills,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper98,A Theoretical Game of Attacks via Compositional Skills,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper98,A Theoretical Game of Attacks via Compositional Skills,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper99,"Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison Triggers They Fail to Detect",Large Language Models,controlled,controlled_title,llms,0.95,,
+paper99,"Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison Triggers They Fail to Detect",LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper100,CLEAR: Revealing How Noise and Ambiguity Degrade Reliability in LLMs for Medicine,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper100,CLEAR: Revealing How Noise and Ambiguity Degrade Reliability in LLMs for Medicine,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper101,AI News_full_draft_for_arXiv,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper102,Model Organisms Are Leaky: Perplexity Differencing Often Reveals Finetuning Objectives,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper102,Model Organisms Are Leaky: Perplexity Differencing Often Reveals Finetuning Objectives,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper103,DIAGRAMS: A Review Framework for Reasoning-Level Attribution in Diagram QA,Question Answering,controlled,controlled_title,qa,0.95,,
+paper103,DIAGRAMS: A Review Framework for Reasoning-Level Attribution in Diagram QA,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper104,H-Probes: Extracting Hierarchical Structures From Latent Representations of Language Models,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper104,H-Probes: Extracting Hierarchical Structures From Latent Representations of Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Speculative Decoding,discovered,extracted_keyphrase,speculative decoding,0.76,0.4157,3.0
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Speculative Decoding Accelerates,discovered,extracted_keyphrase,speculative decoding accelerates,0.69,0.1466,2.0
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Step Level,discovered,extracted_keyphrase,step level,0.69,0.1466,2.0
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Acceptance Rates,discovered,extracted_keyphrase,acceptance rates,0.69,0.1466,2.0
+paper105,SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection,Candidate Tokens,discovered,extracted_keyphrase,candidate tokens,0.69,0.1386,3.0
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,Evolutionary Fuzzing,discovered,extracted_keyphrase,evolutionary fuzzing,0.72,0.5237,1.0
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,Llm Driven,discovered,extracted_keyphrase,llm driven,0.69,0.3151,2.0
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,Keywords Llm,discovered,extracted_keyphrase,keywords llm,0.69,0.1746,2.0
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,High Value,discovered,extracted_keyphrase,high value,0.69,0.1746,2.0
+paper106,FunFuzz: An LLM-Powered Evolutionary Fuzzing Framework,Evalu Ate,discovered,extracted_keyphrase,evalu ate,0.69,0.165,3.0
+paper107,When Audio-Language Models Fail to Leverage Multimodal Context for Dysarthric Speech Recognition,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper107,When Audio-Language Models Fail to Leverage Multimodal Context for Dysarthric Speech Recognition,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper107,When Audio-Language Models Fail to Leverage Multimodal Context for Dysarthric Speech Recognition,LLM Evaluation,controlled,controlled_abstract,evaluation benchmark,0.82,,
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Misalignment Contagion,discovered,extracted_keyphrase,misalignment contagion,0.72,0.5726,1.0
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Multi Turn,discovered,extracted_keyphrase,multi turn,0.69,0.288,7.0
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Multi Agent,discovered,extracted_keyphrase,multi agent,0.69,0.288,7.0
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Pro Social,discovered,extracted_keyphrase,pro social,0.69,0.1772,2.0
+paper108,Mitigating Misalignment Contagion by Steering with Implicit Traits,Increasingly Com,discovered,extracted_keyphrase,increasingly com,0.69,0.1772,2.0
+paper109,Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims,Large Language Models,controlled,controlled_title,foundation models,0.95,,
+paper110,PubMed-Ophtha: An open resource for training ophthalmology vision-language models on scientific literature,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper110,PubMed-Ophtha: An open resource for training ophthalmology vision-language models on scientific literature,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper111,GRAIL: A Deep-Granularity Hybrid Resonance Framework for Real-Time Agent Discovery via SLM-Enhanced Indexing,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper111,GRAIL: A Deep-Granularity Hybrid Resonance Framework for Real-Time Agent Discovery via SLM-Enhanced Indexing,Dense Retrieval,controlled,controlled_abstract,dense retrieval,0.82,,
+paper111,GRAIL: A Deep-Granularity Hybrid Resonance Framework for Real-Time Agent Discovery via SLM-Enhanced Indexing,Hybrid Search,controlled,controlled_abstract,hybrid retrieval,0.82,,
+paper112,Shadow-Loom: Causal Reasoning over Graphical World Model of Narratives,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper112,Shadow-Loom: Causal Reasoning over Graphical World Model of Narratives,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper113,Measuring AI Reasoning: A Guide for Researchers,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper113,Measuring AI Reasoning: A Guide for Researchers,Final Answer Accuracy,discovered,extracted_keyphrase,final answer accuracy,0.69,0.3765,2.0
+paper113,Measuring AI Reasoning: A Guide for Researchers,Reasoning Traces,discovered,extracted_keyphrase,reasoning traces,0.69,0.3559,3.0
+paper113,Measuring AI Reasoning: A Guide for Researchers,Final Answer,discovered,extracted_keyphrase,final answer,0.69,0.3398,4.0
+paper113,Measuring AI Reasoning: A Guide for Researchers,Answer Accuracy,discovered,extracted_keyphrase,answer accuracy,0.69,0.3398,3.0
+paper113,Measuring AI Reasoning: A Guide for Researchers,Input Dependent,discovered,extracted_keyphrase,input dependent,0.69,0.1883,2.0
+paper114,The Compliance Trap: How Structural Constraints Degrade Frontier AI Metacognition Under Adversarial Pressure,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper114,The Compliance Trap: How Structural Constraints Degrade Frontier AI Metacognition Under Adversarial Pressure,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper115,Fight Poison with Poison: Enhancing Robustness in Few-shot Machine-Generated Text Detection with Adversarial Training,Low-Resource NLP,controlled,controlled_title,few shot,0.95,,
+paper115,Fight Poison with Poison: Enhancing Robustness in Few-shot Machine-Generated Text Detection with Adversarial Training,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper115,Fight Poison with Poison: Enhancing Robustness in Few-shot Machine-Generated Text Detection with Adversarial Training,Embeddings,controlled,controlled_abstract,representation learning,0.82,,
+paper116,Zero-Shot Confidence Estimation for Small LLMs: When Supervised Baselines Aren't Worth Training,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper116,Zero-Shot Confidence Estimation for Small LLMs: When Supervised Baselines Aren't Worth Training,Low-Resource NLP,controlled,controlled_title,zero shot,0.95,,
+paper117,"Perturbation Dose Responses in Recursive LLM Loops: Raw Switching, Stochastic Floors, and Persistent Escape under Append, Replace, and Dialog Updates",Large Language Models,controlled,controlled_title,llm,0.95,,
+paper117,"Perturbation Dose Responses in Recursive LLM Loops: Raw Switching, Stochastic Floors, and Persistent Escape under Append, Replace, and Dialog Updates",Persistent Escape,discovered,extracted_keyphrase,persistent escape,0.72,0.1651,1.0
+paper117,"Perturbation Dose Responses in Recursive LLM Loops: Raw Switching, Stochastic Floors, and Persistent Escape under Append, Replace, and Dialog Updates",Policy Conditioned,discovered,extracted_keyphrase,policy conditioned,0.69,0.0766,2.0
+paper117,"Perturbation Dose Responses in Recursive LLM Loops: Raw Switching, Stochastic Floors, and Persistent Escape under Append, Replace, and Dialog Updates",Memory Policy,discovered,extracted_keyphrase,memory policy,0.69,0.0766,2.0
+paper118,Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction,Causal Abstraction,discovered,extracted_keyphrase,causal abstraction,0.72,0.4826,1.0
+paper118,Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction,Intermediate Variables,discovered,extracted_keyphrase,intermediate variables,0.69,0.112,2.0
+paper118,Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction,Instantiate Idea,discovered,extracted_keyphrase,instantiate idea,0.69,0.112,2.0
+paper118,Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction,Neural Networks,discovered,extracted_keyphrase,neural networks,0.69,0.1058,2.0
+paper118,Bucketing the Good Apples: A Method for Diagnosing and Improving Causal Abstraction,Abstract Present,discovered,extracted_keyphrase,abstract present,0.69,0.091,5.0
+paper119,Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper119,Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting,Aware Pretraining,discovered,extracted_keyphrase,aware pretraining,0.76,0.2101,2.0
+paper119,Sharpness-Aware Pretraining Mitigates Catastrophic Forgetting,Sharpness Aware,discovered,extracted_keyphrase,sharpness aware,0.72,0.4528,1.0
+paper120,Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks,Fine-Tuning,controlled,controlled_title,lora,0.95,,
+paper120,Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper120,Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper120,Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper121,LLM-Augmented Semantic Steering of Text Embedding Projection Spaces,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper121,LLM-Augmented Semantic Steering of Text Embedding Projection Spaces,Embeddings,controlled,controlled_title,embedding,0.95,,
+paper121,LLM-Augmented Semantic Steering of Text Embedding Projection Spaces,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper122,A Language for Describing Agentic LLM Contexts,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper122,A Language for Describing Agentic LLM Contexts,LLM Agents,controlled,controlled_abstract,llm agents,0.82,,
+paper123,RefusalGuard: Geometry-Preserving Fine-Tuning for Safety in LLMs,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper123,RefusalGuard: Geometry-Preserving Fine-Tuning for Safety in LLMs,Fine-Tuning,controlled,controlled_title,fine tuning,0.95,,
+paper123,RefusalGuard: Geometry-Preserving Fine-Tuning for Safety in LLMs,Safety and Bias,controlled,controlled_title,safety,0.95,,
+paper124,Prescriptive Scaling Laws for Data Constrained Training,Scaling Laws,discovered,extracted_keyphrase,scaling laws,0.76,0.1139,4.0
+paper124,Prescriptive Scaling Laws for Data Constrained Training,Scaling Law,discovered,extracted_keyphrase,scaling law,0.69,0.3785,2.0
+paper124,Prescriptive Scaling Laws for Data Constrained Training,Scaling Laws Data,discovered,extracted_keyphrase,scaling laws data,0.69,0.1262,2.0
+paper124,Prescriptive Scaling Laws for Data Constrained Training,Order Magnitude,discovered,extracted_keyphrase,order magnitude,0.69,0.1262,2.0
+paper124,Prescriptive Scaling Laws for Data Constrained Training,Compute Optimal,discovered,extracted_keyphrase,compute optimal,0.69,0.1262,2.0
+paper124,Prescriptive Scaling Laws for Data Constrained Training,High Quality Data,discovered,extracted_keyphrase,high quality data,0.69,0.1192,3.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Submitted Acm,discovered,extracted_keyphrase,submitted acm,0.69,0.2271,2.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Acm Manuscript,discovered,extracted_keyphrase,acm manuscript,0.69,0.2271,2.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Manuscript Submitted,discovered,extracted_keyphrase,manuscript submitted,0.69,0.2271,2.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Manuscript Submitted Acm,discovered,extracted_keyphrase,manuscript submitted acm,0.69,0.2271,2.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Acm Manuscript Submitted Acm,discovered,extracted_keyphrase,acm manuscript submitted acm,0.69,0.2271,2.0
+paper125,Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models,Acm Manuscript Submitted,discovered,extracted_keyphrase,acm manuscript submitted,0.69,0.2271,2.0
+paper126,Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture,Safety and Bias,controlled,controlled_title,safety,0.95,,
+paper126,Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture,Retrieval-Augmented Generation,controlled,controlled_abstract,rag,0.82,,
+paper126,Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper126,Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper126,Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture,Code Generation,controlled,controlled_abstract,coding agent,0.82,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,Large Language Models,controlled,controlled_abstract,foundation model,0.82,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper127,SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning,Knowledge Graphs,controlled,controlled_abstract,knowledge graph,0.82,,
+paper128,WHO DECIDES WHAT IS HARMFUL? CONTENT,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper128,WHO DECIDES WHAT IS HARMFUL? CONTENT,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper129,The Pre-Training Study of Expanded-SPLADE Models on Web Document Titles,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper129,The Pre-Training Study of Expanded-SPLADE Models on Web Document Titles,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper130,"Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",Machine Translation,controlled,controlled_title,machine translation,0.95,,
+paper130,"Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper130,"Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper130,"Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper131,GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper131,GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper131,GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper133,When Less is Enough: Efficient Inference via Collaborative Reasoning,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper133,When Less is Enough: Efficient Inference via Collaborative Reasoning,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Leap Layer Wise Exit,discovered,extracted_keyphrase,leap layer wise exit,0.72,0.328,1.0
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Leap Layer Wise,discovered,extracted_keyphrase,leap layer wise,0.72,0.328,1.0
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Leap Layer,discovered,extracted_keyphrase,leap layer,0.72,0.328,1.0
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Layer Wise Exit Aware,discovered,extracted_keyphrase,layer wise exit aware,0.72,0.328,1.0
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Layer Wise Exit,discovered,extracted_keyphrase,layer wise exit,0.72,0.328,1.0
+paper134,LEAP: Layer-wise Exit-Aware Pretraining for Efficient Transformer Inference,Early Exit,discovered,extracted_keyphrase,early exit,0.69,0.4567,2.0
+paper135,LLM Ghostbusters: Surgical Hallucination Suppression via Adaptive Unlearning,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper135,LLM Ghostbusters: Surgical Hallucination Suppression via Adaptive Unlearning,Hallucination Detection,controlled,controlled_title,hallucination,0.95,,
+paper135,LLM Ghostbusters: Surgical Hallucination Suppression via Adaptive Unlearning,Code Generation,controlled,controlled_abstract,code generation,0.82,,
+paper136,SRTJ: Self-Evolving Rule-Driven Training-Free LLM Jailbreaking,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper136,SRTJ: Self-Evolving Rule-Driven Training-Free LLM Jailbreaking,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper136,SRTJ: Self-Evolving Rule-Driven Training-Free LLM Jailbreaking,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Redundant Nlp Datasets,discovered,extracted_keyphrase,redundant nlp datasets,0.72,0.2625,1.0
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Redundant Nlp,discovered,extracted_keyphrase,redundant nlp,0.72,0.2625,1.0
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Multi Seed,discovered,extracted_keyphrase,multi seed,0.69,0.2437,2.0
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Random Seeds,discovered,extracted_keyphrase,random seeds,0.69,0.1218,2.0
+paper137,SCARV: Structure-Constrained Aggregation for Stable Sample Ranking in Redundant NLP Datasets,Global Local,discovered,extracted_keyphrase,global local,0.69,0.1152,2.0
+paper138,OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models,Large Language Models,controlled,controlled_title,foundation models,0.95,,
+paper138,OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models,LLM Evaluation,controlled,controlled_abstract,evaluation benchmark,0.82,,
+paper138,OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper138,OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models,Knowledge Graphs,controlled,controlled_abstract,knowledge graph,0.82,,
+paper139,How Well Can We Decode Vowels from Auditory EEG -- A Rigorous Cross-Subject Benchmark with Honest Assessment,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper139,How Well Can We Decode Vowels from Auditory EEG -- A Rigorous Cross-Subject Benchmark with Honest Assessment,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,LLM Agents,controlled,controlled_title,language agents,0.95,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,Knowledge Graphs,controlled,controlled_abstract,knowledge graph,0.82,,
+paper140,Graph Query Generation with Constraint-guided Large Language Agents,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper141,When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper141,When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper141,When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Sentiment Analysis,controlled,controlled_abstract,sentiment analysis,0.82,,
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Social Regard,discovered,extracted_keyphrase,social regard,0.72,0.3121,1.0
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Online Media,discovered,extracted_keyphrase,online media,0.72,0.3121,1.0
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Social Science,discovered,extracted_keyphrase,social science,0.69,0.3922,3.0
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Span Level,discovered,extracted_keyphrase,span level,0.69,0.2738,3.0
+paper142,"Directed Social Regard: Surfacing Targeted Advocacy, Opposition, Aid, Harms, and Victimization in Online Media",Pro Social,discovered,extracted_keyphrase,pro social,0.69,0.1449,2.0
+paper143,Characterizing the Expressivity of Local Attention in Transformers,Local Attention,discovered,extracted_keyphrase,local attention,0.72,0.5886,1.0
+paper143,Characterizing the Expressivity of Local Attention in Transformers,Global Local,discovered,extracted_keyphrase,global local,0.69,0.3442,2.0
+paper143,Characterizing the Expressivity of Local Attention in Transformers,Attention Mechanism,discovered,extracted_keyphrase,attention mechanism,0.69,0.158,3.0
+paper144,FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper144,FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios,Safety and Bias,controlled,controlled_title,safety,0.95,,
+paper144,FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper145,Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper145,Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory,LLM Agents,controlled,controlled_abstract,llm agents,0.82,,
+paper146,ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper146,ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper146,ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models,Safety and Bias,controlled,controlled_title,safety,0.95,,
+paper146,ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models,Multilingual NLP,controlled,controlled_title,multilingual,0.95,,
+paper146,ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models,Machine Translation,controlled,controlled_abstract,machine translation,0.82,,
+paper147,Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper147,Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper147,Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper148,H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations,Retrieval-Augmented Generation,controlled,controlled_title,rag,0.95,,
+paper148,H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper148,H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper149,SC-Taxo: Hierarchical Taxonomy Generation under Semantic Consistency Constraints using Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper149,SC-Taxo: Hierarchical Taxonomy Generation under Semantic Consistency Constraints using Large Language Models,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper149,SC-Taxo: Hierarchical Taxonomy Generation under Semantic Consistency Constraints using Large Language Models,Safety and Bias,controlled,controlled_abstract,alignment,0.82,,
+paper149,SC-Taxo: Hierarchical Taxonomy Generation under Semantic Consistency Constraints using Large Language Models,Multilingual NLP,controlled,controlled_abstract,cross lingual,0.82,,
+paper150,Is Textual Similarity Invariant under Machine Translation? Evidence Based on the Political Manifesto Corpus,Machine Translation,controlled,controlled_title,machine translation,0.95,,
+paper150,Is Textual Similarity Invariant under Machine Translation? Evidence Based on the Political Manifesto Corpus,Information Retrieval,controlled,controlled_abstract,information retrieval,0.82,,
+paper150,Is Textual Similarity Invariant under Machine Translation? Evidence Based on the Political Manifesto Corpus,Multilingual NLP,controlled,controlled_abstract,cross lingual,0.82,,
+paper150,Is Textual Similarity Invariant under Machine Translation? Evidence Based on the Political Manifesto Corpus,Embeddings,controlled,controlled_abstract,embedding,0.82,,
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Encoding Probe,discovered,extracted_keyphrase,encoding probe,0.72,0.6824,1.0
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Represen Tations,discovered,extracted_keyphrase,represen tations,0.69,0.1584,2.0
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Internal Repre Sentations,discovered,extracted_keyphrase,internal repre sentations,0.69,0.1584,2.0
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Internal Repre,discovered,extracted_keyphrase,internal repre,0.69,0.1584,2.0
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Repre Sentations,discovered,extracted_keyphrase,repre sentations,0.69,0.1497,3.0
+paper151,Beyond Decodability: Reconstructing Language Model Representations with an Encoding Probe,Widely Used,discovered,extracted_keyphrase,widely used,0.69,0.1374,5.0
+paper152,Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper152,Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,A11Y Compressor,discovered,extracted_keyphrase,a11y compressor,0.72,0.576,1.0
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,Spatial Relationships,discovered,extracted_keyphrase,spatial relationships,0.69,0.2673,2.0
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,Input Tokens,discovered,extracted_keyphrase,input tokens,0.69,0.2673,2.0
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,Abstract Ai,discovered,extracted_keyphrase,abstract ai,0.69,0.2673,2.0
+paper153,A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction,Repre Sentations,discovered,extracted_keyphrase,repre sentations,0.69,0.2527,3.0
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Large Language Models,controlled,controlled_title,llms,0.95,,
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Gradient Quantization,discovered,extracted_keyphrase,gradient quantization,0.72,0.4103,1.0
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Reducing Gpu Memory,discovered,extracted_keyphrase,reducing gpu memory,0.69,0.1904,2.0
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Reducing Gpu,discovered,extracted_keyphrase,reducing gpu,0.69,0.1904,2.0
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Lan Guage Models Llms,discovered,extracted_keyphrase,lan guage models llms,0.69,0.1904,2.0
+paper154,AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs,Guage Models Llms,discovered,extracted_keyphrase,guage models llms,0.69,0.1904,2.0
+paper155,ControBench: An Interaction-Aware Benchmark for Controversial Discourse Analysis on Social Networks,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper155,ControBench: An Interaction-Aware Benchmark for Controversial Discourse Analysis on Social Networks,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper156,Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue,Goal Directed,discovered,extracted_keyphrase,goal directed,0.72,0.6452,1.0
+paper156,Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue,Rela Tive,discovered,extracted_keyphrase,rela tive,0.69,0.1887,2.0
+paper156,Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue,Information Theoretic,discovered,extracted_keyphrase,information theoretic,0.69,0.1887,2.0
+paper156,Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue,Open Ended,discovered,extracted_keyphrase,open ended,0.69,0.1623,7.0
+paper157,"ReLay: Personalized LLM-Generated Plain-Language Summaries for Better Understanding, but at What Cost?",Large Language Models,controlled,controlled_title,llm,0.95,,
+paper157,"ReLay: Personalized LLM-Generated Plain-Language Summaries for Better Understanding, but at What Cost?",Hallucination Detection,controlled,controlled_abstract,hallucinations,0.82,,
+paper157,"ReLay: Personalized LLM-Generated Plain-Language Summaries for Better Understanding, but at What Cost?",Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper158,Impact of Task Phrasing on Presumptions in Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper158,Impact of Task Phrasing on Presumptions in Large Language Models,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper158,Impact of Task Phrasing on Presumptions in Large Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,Mode Collapse,discovered,extracted_keyphrase,mode collapse,0.72,0.7817,1.0
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,State Space,discovered,extracted_keyphrase,state space,0.69,0.2902,2.0
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,Representation Space,discovered,extracted_keyphrase,representation space,0.69,0.131,2.0
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,Low Dimensional,discovered,extracted_keyphrase,low dimensional,0.69,0.131,2.0
+paper159,Escaping Mode Collapse in LLM Generation via Geometric Regulation,Large Lan Guage Models,discovered,extracted_keyphrase,large lan guage models,0.69,0.131,3.0
+paper160,RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI,Fine-Tuning,controlled,controlled_title,fine tuning,0.95,,
+paper160,RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper160,RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI,Named Entity Recognition,controlled,controlled_abstract,ner,0.82,,
+paper160,RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper160,RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI,Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper161,Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper161,Compute-Accuracy Pareto Frontiers for Open-Source Reasoning Large Language Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Reservoir Computing,discovered,extracted_keyphrase,reservoir computing,0.72,0.3861,1.0
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Multiplication Free Language Model,discovered,extracted_keyphrase,multiplication free language model,0.72,0.2574,1.0
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Matrix Multiplication Free Language,discovered,extracted_keyphrase,matrix multiplication free language,0.72,0.2574,1.0
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Matrix Multiplication Free,discovered,extracted_keyphrase,matrix multiplication free,0.72,0.2574,1.0
+paper162,Reservoir Computing inspired Matrix Multiplication-free Language Model,Multiplication Free,discovered,extracted_keyphrase,multiplication free,0.72,0.2574,1.0
+paper163,Architectural Trade-offs in Small Language Models Under Compute Constraints,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper163,Architectural Trade-offs in Small Language Models Under Compute Constraints,Embeddings,controlled,controlled_abstract,embeddings,0.82,,
+paper164,The Art of Scaling Test-Time Compute for Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper164,The Art of Scaling Test-Time Compute for Large Language Models,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper165,Do Reasoning Vision-Language Models Inversely Scale in Test-Time Compute? A Distractor-centric Empirical Analysis,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper165,Do Reasoning Vision-Language Models Inversely Scale in Test-Time Compute? A Distractor-centric Empirical Analysis,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper165,Do Reasoning Vision-Language Models Inversely Scale in Test-Time Compute? A Distractor-centric Empirical Analysis,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper165,Do Reasoning Vision-Language Models Inversely Scale in Test-Time Compute? A Distractor-centric Empirical Analysis,Safety and Bias,controlled,controlled_abstract,bias,0.82,,
+paper166,Training Language Models to Explain Their Own Computations,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper166,Training Language Models to Explain Their Own Computations,Fine Tuning,discovered,extracted_keyphrase,fine tuning,0.69,0.2094,25.0
+paper166,Training Language Models to Explain Their Own Computations,Internal Activations,discovered,extracted_keyphrase,internal activations,0.69,0.1929,2.0
+paper166,Training Language Models to Explain Their Own Computations,Input Tokens,discovered,extracted_keyphrase,input tokens,0.69,0.1929,2.0
+paper166,Training Language Models to Explain Their Own Computations,Information Encoded,discovered,extracted_keyphrase,information encoded,0.69,0.1929,2.0
+paper166,Training Language Models to Explain Their Own Computations,Fine Tune,discovered,extracted_keyphrase,fine tune,0.69,0.1823,3.0
+paper167,Computational Turing Test Reveals Systematic Differences Between Human and AI Language,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper167,Computational Turing Test Reveals Systematic Differences Between Human and AI Language,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper167,Computational Turing Test Reveals Systematic Differences Between Human and AI Language,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper167,Computational Turing Test Reveals Systematic Differences Between Human and AI Language,LLM Evaluation,controlled,controlled_abstract,benchmarking,0.82,,
+paper168,A Computational Approach to Analyzing Disrupted Language in Schizophrenia: Integrating Surprisal and Coherence Measures,Semantic Coherence,discovered,extracted_keyphrase,semantic coherence,0.69,0.5624,2.0
+paper168,A Computational Approach to Analyzing Disrupted Language in Schizophrenia: Integrating Surprisal and Coherence Measures,Index Terms,discovered,extracted_keyphrase,index terms,0.69,0.2069,6.0
+paper169,CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper169,CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics,LLM Evaluation,controlled,controlled_title,benchmark,0.95,,
+paper169,CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics,LLM Agents,controlled,controlled_abstract,llm agents,0.82,,
+paper169,CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper170,Interdisciplinary Research in Conversation: A Case Study in Computational Morphology for Language Documentation,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper170,Interdisciplinary Research in Conversation: A Case Study in Computational Morphology for Language Documentation,Computational Morphology,discovered,extracted_keyphrase,computational morphology,0.72,0.4638,1.0
+paper170,Interdisciplinary Research in Conversation: A Case Study in Computational Morphology for Language Documentation,Lim Ited,discovered,extracted_keyphrase,lim ited,0.69,0.1435,2.0
+paper170,Interdisciplinary Research in Conversation: A Case Study in Computational Morphology for Language Documentation,Small Scale,discovered,extracted_keyphrase,small scale,0.69,0.1295,4.0
+paper170,Interdisciplinary Research in Conversation: A Case Study in Computational Morphology for Language Documentation,Real World,discovered,extracted_keyphrase,real world,0.69,0.0878,15.0
+paper171,Language and Experience: A Computational Model of Social Learning in Complex Tasks,Pre Trained Language,discovered,extracted_keyphrase,pre trained language,0.69,0.2294,2.0
+paper171,Language and Experience: A Computational Model of Social Learning in Complex Tasks,Knowledge Transfer,discovered,extracted_keyphrase,knowledge transfer,0.69,0.207,3.0
+paper171,Language and Experience: A Computational Model of Social Learning in Complex Tasks,Pre Trained,discovered,extracted_keyphrase,pre trained,0.69,0.1865,6.0
+paper171,Language and Experience: A Computational Model of Social Learning in Complex Tasks,Github Com,discovered,extracted_keyphrase,github com,0.69,0.1422,8.0
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,Resource Constraints,discovered,extracted_keyphrase,resource constraints,0.76,0.1556,2.0
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,Computational Cost,discovered,extracted_keyphrase,computational cost,0.69,0.3113,2.0
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,Llm Behavior,discovered,extracted_keyphrase,llm behavior,0.69,0.1556,2.0
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,Novel Computational,discovered,extracted_keyphrase,novel computational,0.69,0.1556,2.0
+paper172,Computational Economics in Large Language Models: Exploring Model Behavior and Incentive Design under Resource Constraints,High Value,discovered,extracted_keyphrase,high value,0.69,0.1556,2.0
+paper173,A Computational Approach to Analyzing Language Change and Variation in the Constructed Language Toki Pona,Toki Pona,discovered,extracted_keyphrase,toki pona,0.72,0.7098,1.0
+paper174,Iterative Learning of Computable Phenotypes for Treatment Resistant Hypertension using Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper174,Iterative Learning of Computable Phenotypes for Treatment Resistant Hypertension using Large Language Models,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper175,Can Large Language Models Integrate Spatial Data? Empirical Insights into Reasoning Strengths and Computational Weaknesses,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper175,Can Large Language Models Integrate Spatial Data? Empirical Insights into Reasoning Strengths and Computational Weaknesses,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper176,LLM Healthcare Computation Accuracy RareTech Preprint.docx,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper176,LLM Healthcare Computation Accuracy RareTech Preprint.docx,Prompt Engineering,controlled,controlled_abstract,prompt engineering,0.82,,
+paper176,LLM Healthcare Computation Accuracy RareTech Preprint.docx,Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper177,HaLoRA: Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper177,HaLoRA: Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture,Fine-Tuning,controlled,controlled_abstract,lora,0.82,,
+paper178,U N I V E R S I T Y O F C O P E N H A G E N,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper179,"Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications",Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper179,"Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications",Prompt Engineering,controlled,controlled_abstract,prompt engineering,0.82,,
+paper179,"Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications",Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper180,"Think Again! The Effect of Test-Time Compute on Preferences, Opinions, and Beliefs of Large Language Models",Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper180,"Think Again! The Effect of Test-Time Compute on Preferences, Opinions, and Beliefs of Large Language Models",LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper180,"Think Again! The Effect of Test-Time Compute on Preferences, Opinions, and Beliefs of Large Language Models",Reasoning,controlled,controlled_abstract,reasoning,0.82,,
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Pop Ups,discovered,extracted_keyphrase,pop ups,0.72,0.8426,1.0
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Success Rate,discovered,extracted_keyphrase,success rate,0.69,0.2464,2.0
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Large Vision Language Models,discovered,extracted_keyphrase,large vision language models,0.69,0.1304,2.0
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Large Vision Language,discovered,extracted_keyphrase,large vision language,0.69,0.1304,2.0
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Large Vision,discovered,extracted_keyphrase,large vision,0.69,0.1304,2.0
+paper181,Attacking Vision-Language Computer Agents via Pop-ups,Adver Sarial,discovered,extracted_keyphrase,adver sarial,0.69,0.1304,2.0
+paper182,Duo-LLM: A Framework for Studying,Large Language Models,controlled,controlled_title,llm,0.95,,
+paper182,Duo-LLM: A Framework for Studying,Propose Novel,discovered,extracted_keyphrase,propose novel,0.69,0.2456,2.0
+paper182,Duo-LLM: A Framework for Studying,Early Exit,discovered,extracted_keyphrase,early exit,0.69,0.2456,2.0
+paper182,Duo-LLM: A Framework for Studying,Valuable Insights,discovered,extracted_keyphrase,valuable insights,0.69,0.2321,2.0
+paper182,Duo-LLM: A Framework for Studying,Speculative Decoding,discovered,extracted_keyphrase,speculative decoding,0.69,0.2321,3.0
+paper182,Duo-LLM: A Framework for Studying,Compute Budget,discovered,extracted_keyphrase,compute budget,0.69,0.2321,3.0
+paper183,SIMULTANEOUS COMPUTATION AND MEMORY EFFI-,Large Language Models,controlled,controlled_abstract,large language models,0.82,,
+paper183,SIMULTANEOUS COMPUTATION AND MEMORY EFFI-,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper183,SIMULTANEOUS COMPUTATION AND MEMORY EFFI-,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",Question Answering,controlled,controlled_abstract,qa,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper184,"Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗",LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper185,Instruction Tuning Vs. In-Context Learning: Revisiting Large Language,Instruction Tuning,controlled,controlled_title,instruction tuning,0.95,,
+paper185,Instruction Tuning Vs. In-Context Learning: Revisiting Large Language,Large Language Models,controlled,controlled_abstract,llm,0.82,,
+paper185,Instruction Tuning Vs. In-Context Learning: Revisiting Large Language,Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper185,Instruction Tuning Vs. In-Context Learning: Revisiting Large Language,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper185,Instruction Tuning Vs. In-Context Learning: Revisiting Large Language,Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper186,Beyond Accuracy Optimization:,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper186,Beyond Accuracy Optimization:,Question Answering,controlled,controlled_abstract,question answering,0.82,,
+paper186,Beyond Accuracy Optimization:,Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper187,"Hongwei Jin∗, George Papadimitriou†, Krishnan Raghavan∗, Pawel Zuk†,",Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper187,"Hongwei Jin∗, George Papadimitriou†, Krishnan Raghavan∗, Pawel Zuk†,",Prompt Engineering,controlled,controlled_abstract,prompting,0.82,,
+paper187,"Hongwei Jin∗, George Papadimitriou†, Krishnan Raghavan∗, Pawel Zuk†,",Instruction Tuning,controlled,controlled_abstract,supervised fine tuning,0.82,,
+paper187,"Hongwei Jin∗, George Papadimitriou†, Krishnan Raghavan∗, Pawel Zuk†,",Fine-Tuning,controlled,controlled_abstract,fine tuning,0.82,,
+paper187,"Hongwei Jin∗, George Papadimitriou†, Krishnan Raghavan∗, Pawel Zuk†,",Low-Resource NLP,controlled,controlled_abstract,few shot,0.82,,
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Fine-Tuning,controlled,controlled_title,fine tuning,0.95,,
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Efficient Fine Tuning,discovered,extracted_keyphrase,efficient fine tuning,0.76,0.3719,3.0
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Fine Tuning,discovered,extracted_keyphrase,fine tuning,0.76,0.2135,25.0
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Scaling Law,discovered,extracted_keyphrase,scaling law,0.69,0.1967,2.0
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Narrow Scope,discovered,extracted_keyphrase,narrow scope,0.69,0.1967,2.0
+paper188,A Semantic-Aware Layer-Freezing Approach to Computation-Efficient Fine-Tuning of Language Models,Outper Forms Existing,discovered,extracted_keyphrase,outper forms existing,0.69,0.1967,2.0
+paper189,Computational Job Market Analysis,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper189,Computational Job Market Analysis,Job Market,discovered,extracted_keyphrase,job market,0.72,0.1476,1.0
+paper190,FinGPT-HPC: Efficient Pretraining and Finetuning,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper190,FinGPT-HPC: Efficient Pretraining and Finetuning,Fine-Tuning,controlled,controlled_abstract,lora,0.82,,
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Case Generation,discovered,extracted_keyphrase,case generation,0.72,0.3123,1.0
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Test Case Generation,discovered,extracted_keyphrase,test case generation,0.72,0.3123,1.0
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Test Case,discovered,extracted_keyphrase,test case,0.72,0.3123,1.0
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Computer Science Education,discovered,extracted_keyphrase,computer science education,0.72,0.2342,1.0
+paper191,Keywords: Computer Science Education; Large Language Models; Test Case Generation,Science Education,discovered,extracted_keyphrase,science education,0.72,0.2342,1.0
+paper192,Closely Related Languages,Multilingual NLP,controlled,controlled_abstract,multilingual,0.82,,
+paper192,Closely Related Languages,Closely Related,discovered,extracted_keyphrase,closely related,0.76,0.5924,2.0
+paper192,Closely Related Languages,Related Languages,discovered,extracted_keyphrase,related languages,0.76,0.395,2.0
+paper192,Closely Related Languages,Mutual Intelligibility,discovered,extracted_keyphrase,mutual intelligibility,0.69,0.395,2.0
+paper192,Closely Related Languages,Languages Abstract,discovered,extracted_keyphrase,languages abstract,0.69,0.1975,2.0
+paper192,Closely Related Languages,Intelligi Bility,discovered,extracted_keyphrase,intelligi bility,0.69,0.1975,2.0
+paper193,Carnegie Mellon Univeristy,Large Language Models,controlled,controlled_abstract,llms,0.82,,
+paper193,Carnegie Mellon Univeristy,Low-Resource NLP,controlled,controlled_abstract,zero shot,0.82,,
+paper194,"Miquel Esplà-Gomis, Víctor M. Sánchez-Cartagena",Machine Translation,controlled,controlled_abstract,translation,0.82,,
+paper194,"Miquel Esplà-Gomis, Víctor M. Sánchez-Cartagena",Multilingual NLP,controlled,controlled_abstract,cross lingual,0.82,,
+paper194,"Miquel Esplà-Gomis, Víctor M. Sánchez-Cartagena",Embeddings,controlled,controlled_abstract,embeddings,0.82,,
+paper195,IMPROVING NATURAL LANGUAGE UN-,Knowledge Intensive,discovered,extracted_keyphrase,knowledge intensive,0.69,0.4429,3.0
+paper195,IMPROVING NATURAL LANGUAGE UN-,Pa Proposes,discovered,extracted_keyphrase,pa proposes,0.69,0.2343,2.0
+paper195,IMPROVING NATURAL LANGUAGE UN-,Previous Works,discovered,extracted_keyphrase,previous works,0.69,0.2343,2.0
+paper195,IMPROVING NATURAL LANGUAGE UN-,Experimental Results Demonstrate,discovered,extracted_keyphrase,experimental results demonstrate,0.69,0.2215,3.0
+paper196,Reasoning Beyond Chain-of-Thought: A Latent Computational Mode in Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper196,Reasoning Beyond Chain-of-Thought: A Latent Computational Mode in Large Language Models,Prompt Engineering,controlled,controlled_title,chain of thought,0.95,,
+paper196,Reasoning Beyond Chain-of-Thought: A Latent Computational Mode in Large Language Models,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper197,Universal computation is intrinsic to language model decoding,Universal Computation,discovered,extracted_keyphrase,universal computation,0.72,0.6214,1.0
+paper197,Universal computation is intrinsic to language model decoding,Prob Lems,discovered,extracted_keyphrase,prob lems,0.69,0.1923,2.0
+paper197,Universal computation is intrinsic to language model decoding,Remain Major,discovered,extracted_keyphrase,remain major,0.69,0.1923,2.0
+paper197,Universal computation is intrinsic to language model decoding,Generated Text,discovered,extracted_keyphrase,generated text,0.69,0.1669,4.0
+paper198,A Computational Approach to Language Contact -- A Case Study of Persian,Information Encoded,discovered,extracted_keyphrase,information encoded,0.69,0.2303,2.0
+paper198,A Computational Approach to Language Contact -- A Case Study of Persian,Lan Guages,discovered,extracted_keyphrase,lan guages,0.69,0.2176,3.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Romance Languages,discovered,extracted_keyphrase,romance languages,0.72,0.5224,1.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Intelligi Bility,discovered,extracted_keyphrase,intelligi bility,0.69,0.4849,2.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Mutual Intelligibility,discovered,extracted_keyphrase,mutual intelligibility,0.69,0.2425,2.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Novel Computational,discovered,extracted_keyphrase,novel computational,0.69,0.2425,2.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Related Words,discovered,extracted_keyphrase,related words,0.69,0.2425,2.0
+paper199,Measuring cross-language intelligibility between Romance languages with computational tools,Related Languages,discovered,extracted_keyphrase,related languages,0.69,0.2425,2.0
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Multi Dimensional,discovered,extracted_keyphrase,multi dimensional,0.69,0.202,2.0
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Pearson Correlation,discovered,extracted_keyphrase,pearson correlation,0.69,0.202,2.0
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Pro Duce,discovered,extracted_keyphrase,pro duce,0.69,0.202,2.0
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Llms Substantially,discovered,extracted_keyphrase,llms substantially,0.69,0.202,2.0
+paper200,CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models,Llama 8B,discovered,extracted_keyphrase,llama 8b,0.69,0.202,2.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Context Dependent,discovered,extracted_keyphrase,context dependent,0.76,0.6769,3.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Sentence Level,discovered,extracted_keyphrase,sentence level,0.69,0.125,2.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Lower Cross,discovered,extracted_keyphrase,lower cross,0.69,0.125,2.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Vision Language Models Vlms,discovered,extracted_keyphrase,vision language models vlms,0.69,0.1128,4.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Available Https Github Com,discovered,extracted_keyphrase,available https github com,0.69,0.0866,7.0
+paper201,Context-Dependent Affordance Computation in Vision-Language Models,Available Https Github,discovered,extracted_keyphrase,available https github,0.69,0.0866,7.0
+paper203,SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation,Question Answering,controlled,controlled_title,qa,0.95,,
+paper203,SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation,LLM Evaluation,controlled,controlled_title,benchmarking,0.95,,
+paper203,SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation,Reasoning,controlled,controlled_title,reasoning,0.95,,
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Expert Threshold,discovered,extracted_keyphrase,expert threshold,0.72,0.4289,1.0
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Dynamic Computation Allocation,discovered,extracted_keyphrase,dynamic computation allocation,0.72,0.4289,1.0
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Dynamic Computation,discovered,extracted_keyphrase,dynamic computation,0.72,0.4289,1.0
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Computation Allocation,discovered,extracted_keyphrase,computation allocation,0.72,0.4289,1.0
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Lower Cross,discovered,extracted_keyphrase,lower cross,0.69,0.1327,2.0
+paper204,Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing,Entropy Loss,discovered,extracted_keyphrase,entropy loss,0.69,0.1327,2.0
+paper205,Adaptive Vision-Language Model Routing for Computer Use Agents,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
+paper205,Adaptive Vision-Language Model Routing for Computer Use Agents,Safety and Bias,controlled,controlled_abstract,safety,0.82,,
+paper205,Adaptive Vision-Language Model Routing for Computer Use Agents,Embeddings,controlled,controlled_abstract,embeddings,0.82,,
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Large Language Models,controlled,controlled_title,foundation models,0.95,,
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Kolmogorov Arnold,discovered,extracted_keyphrase,kolmogorov arnold,0.72,0.4632,1.0
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Object Detection,discovered,extracted_keyphrase,object detection,0.72,0.3706,1.0
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Offer Limited,discovered,extracted_keyphrase,offer limited,0.69,0.086,2.0
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Post Hoc,discovered,extracted_keyphrase,post hoc,0.69,0.0813,3.0
+paper206,YOLOv10 with Kolmogorov-Arnold networks and vision-language foundation models for interpretable object detection and trustworthy multimodal AI in computer vision perception,Address Limitation,discovered,extracted_keyphrase,address limitation,0.69,0.0721,4.0
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Large Language Models,controlled,controlled_title,llms,0.95,,
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Non Standard,discovered,extracted_keyphrase,non standard,0.72,0.5254,1.0
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Non Standard Language,discovered,extracted_keyphrase,non standard language,0.72,0.3503,1.0
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Monolin Gual,discovered,extracted_keyphrase,monolin gual,0.69,0.1626,2.0
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Widely Used,discovered,extracted_keyphrase,widely used,0.69,0.1411,5.0
+paper207,"\textit{Versteasch du mi?} Computational and Socio-Linguistic Perspectives on GenAI, LLMs, and Non-Standard Language",Artificial Intelligence,discovered,extracted_keyphrase,artificial intelligence,0.69,0.1252,8.0
+paper208,Evaluating Large Language Models on Computer Science University Exams in Data Structures,Large Language Models,controlled,controlled_title,large language models,0.95,,
+paper208,Evaluating Large Language Models on Computer Science University Exams in Data Structures,LLM Evaluation,controlled,controlled_abstract,benchmark,0.82,,
