@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+
+  # ── MongoDB ────────────────────────────────────────────────
+  mongodb:
+    image: mongo:7.0
+    container_name: clpapers_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./seed:/docker-entrypoint-initdb.d   # runs seed scripts on first start
+    environment:
+      MONGO_INITDB_DATABASE: clpapers
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Qdrant ─────────────────────────────────────────────────
+  qdrant:
+    image: qdrant/qdrant:v1.9.2
+    container_name: clpapers_qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"   # REST / gRPC
+      - "6334:6334"   # gRPC (optional)
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mongo_data:
+  qdrant_data:
