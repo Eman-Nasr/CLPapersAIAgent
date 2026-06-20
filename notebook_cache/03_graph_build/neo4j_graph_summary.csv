@@ -1,7 +1,7 @@
 graph_item,count
 papers,208
 authors,951
-topics,286
+topics,289
 WROTE relationships,981
-HAS_TOPIC relationships,776
+HAS_TOPIC relationships,779
 SUBTOPIC_OF relationships,23
