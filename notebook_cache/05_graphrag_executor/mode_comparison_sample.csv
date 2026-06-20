@@ -1,0 +1,4 @@
+mode,num_seed_chunks,num_graph_papers,num_candidate_chunks,num_final_chunks,citation_coverage,has_page_ranges,retrieval_ms,graph_ms,rerank_ms,generation_ms,total_ms,saved_to
+vector_only,5,0,5,5,1.0,True,170.99,0.0,0.0,0.0,170.99,D:\Year4\Term3\topicsOfAI\project\CLPapersAIAgent\notebook_cache\05_graphrag_executor\37cd45e7-193a-4b95-8418-c4576d1e8b93_vector_only.json
+graph_guided,5,5,15,8,1.0,True,121.83,98.03,0.0,0.0,219.86,D:\Year4\Term3\topicsOfAI\project\CLPapersAIAgent\notebook_cache\05_graphrag_executor\aee7b740-d7f5-4d73-80dd-147ead6608fc_graph_guided.json
+hybrid_graphrag,5,5,15,8,1.0,True,128.52,93.34,0.0,0.0,221.87,D:\Year4\Term3\topicsOfAI\project\CLPapersAIAgent\notebook_cache\05_graphrag_executor\13150942-3655-41ca-889c-19c710f97a3f_hybrid_graphrag.json
