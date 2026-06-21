@@ -1,0 +1,9 @@
+stage,rank,paper_id,title,pages,source,final_score,trusted
+BEFORE (no safety),1,paper85,Beyond Semantic Relevance: Counterfactual Risk Minimization ,12-12,vector,0.9,True
+BEFORE (no safety),2,paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Ret,10-10,graph,0.8586,True
+BEFORE (no safety),3,paper148,H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retr,6-7,vector,0.8413,True
+BEFORE (no safety),4,paper63,FT-RAG: A Fine-grained Retrieval-Augmented Generation Framew,8-9,graph,0.8222,True
+BEFORE (no safety),5,paper148,H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retr,7-7,vector,0.8158,True
+BEFORE (no safety),6,paper12,Generation: A Controlled Empirical Study1,1-2,vector,0.813,True
+BEFORE (no safety),7,paper12,Generation: A Controlled Empirical Study1,14-14,vector,0.8016,True
+BEFORE (no safety),8,paper70,Verbal-R3: Verbal Reranker as the Missing Bridge between Ret,1-1,graph,0.7916,True

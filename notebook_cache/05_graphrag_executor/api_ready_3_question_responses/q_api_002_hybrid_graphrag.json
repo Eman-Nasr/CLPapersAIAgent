@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "ca63e569-cf9c-4b65-9978-3f9dec009457",
+  "run_id": "63275282-4ea8-4f10-9d7d-7c66671072a6",
   "mode": "hybrid_graphrag",
   "question": "What methods are used for reranking in retrieval augmented generation?",
   "answer": "Question: What methods are used for reranking in retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Generation: A Controlled Empirical Study1 pages 14: on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM\n- Generation: A Controlled Empirical Study1 pages 1-2: Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 7: Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 2-3: computational cost, we collect query-document-Verbal Annotation triplets from such a model and distill them to smaller mod- els with 1.5B or 3B parameters through supervised fine-tuning. Afterwards, the Generator is aligned with the trained lightweight Verbal Reranker via Group Relative Policy Optim",
@@ -108,11 +108,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 98.49,
-    "graph_ms": 88.5,
+    "retrieval_ms": 106.16,
+    "graph_ms": 116.33,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 186.99
+    "total_ms": 222.49
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -140,7 +140,7 @@
       "final_score": 0.9,
       "graph_reasons": [],
       "snippet": "on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM",
-      "retrieval_score_raw": 0.4186873354585736,
+      "retrieval_score_raw": 0.418687365260896,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -153,13 +153,13 @@
       "page_start": 1,
       "page_end": 2,
       "source": "vector",
-      "retrieval_score": 0.9102373655926013,
+      "retrieval_score": 0.9102374776446119,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.8282,
       "graph_reasons": [],
       "snippet": "Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
-      "retrieval_score_raw": 0.39159879644046175,
+      "retrieval_score_raw": 0.3915988560451065,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -172,7 +172,7 @@
       "page_start": 7,
       "page_end": 7,
       "source": "vector",
-      "retrieval_score": 0.8859096276623353,
+      "retrieval_score": 0.8859095458076468,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.8087,
@@ -191,7 +191,7 @@
       "page_start": 2,
       "page_end": 3,
       "source": "graph",
-      "retrieval_score": 0.734491007653188,
+      "retrieval_score": 0.7344909482285678,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.7876,
@@ -219,7 +219,7 @@
       "page_start": 12,
       "page_end": 12,
       "source": "vector",
-      "retrieval_score": 0.8227778872360267,
+      "retrieval_score": 0.8227778147332213,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.7582,
@@ -238,7 +238,7 @@
       "page_start": 8,
       "page_end": 9,
       "source": "graph",
-      "retrieval_score": 0.6889551498036568,
+      "retrieval_score": 0.6889550971243918,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.7512,
@@ -266,13 +266,13 @@
       "page_start": 2,
       "page_end": 2,
       "source": "vector",
-      "retrieval_score": 0.8074687855128688,
+      "retrieval_score": 0.8074689127882797,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.746,
       "graph_reasons": [],
       "snippet": "a biased hallucination. Our contributions are summarized as follows: • We identify the “Relevance-Robustness Gap” in standard RAG systems, showing that semantic relevance often corre- lates poorly with decision reliability under user bias. • We introduce the CoRM-RAG framework, which leverages a Cog",
-      "retrieval_score_raw": 0.360585327309298,
+      "retrieval_score_raw": 0.36058538691394276,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -285,7 +285,7 @@
       "page_start": 3,
       "page_end": 3,
       "source": "graph",
-      "retrieval_score": 0.6226434576021973,
+      "retrieval_score": 0.6226435135010887,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.6981,
@@ -297,10 +297,10 @@
       ],
       "snippet": "Method 2Wiki Bamboogle HotpotQA MuSiQue NQ PopQA TriviaQA Average Search-R1 3B 38.06 32.75 37.50 14.69 43.49 43.98 60.75 38.75 Search-R1 3B + Paraphrase 37.38 32.05 35.42 13.94 41.94 43.11 60.59 37.78 Search-R1 3B + Verbal Annotation 38.65 40.40 39.58 16.01 45.71 45.83 67.28 41.92 Table 1: Analysis ",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8163203118375502,
+      "question_relevance_score_local": 0.8163203697702316,
       "tfidf_score_within_graph_paper": 0.08773452780956256,
-      "dense_score_within_graph_paper": 0.5218830704689026,
-      "retrieval_score_raw": 0.3048087991392326,
+      "dense_score_within_graph_paper": 0.5218831300735474,
+      "retrieval_score_raw": 0.304808828941555,
       "graph_score_raw_for_rerank": 1.0
     }
   ],
@@ -308,7 +308,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.4186873354585736,
+        "score": 0.418687365260896,
         "chunk_id": "paper12_chunk_0017",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -320,7 +320,7 @@
       },
       {
         "rank": 2,
-        "score": 0.39159879644046175,
+        "score": 0.3915988560451065,
         "chunk_id": "paper12_chunk_0000",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -356,7 +356,7 @@
       },
       {
         "rank": 5,
-        "score": 0.360585327309298,
+        "score": 0.36058538691394276,
         "chunk_id": "paper85_chunk_0003",
         "paper_id": "paper85",
         "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",

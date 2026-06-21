@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "55246f3a-3f30-41de-9382-d12b021e4578",
+  "run_id": "3089b5d0-88f8-4c4c-95e0-787c47fdb670",
   "mode": "hybrid_graphrag",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation pages 12: arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 10: Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language under- standing. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Tech- nologies, Volume 1 (Long and Short Papers), pages 4\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 6-7: long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop",
@@ -108,11 +108,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 99.5,
-    "graph_ms": 99.7,
+    "retrieval_ms": 73.24,
+    "graph_ms": 78.07,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 199.2
+    "total_ms": 151.32
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -140,7 +140,7 @@
       "final_score": 0.9,
       "graph_reasons": [],
       "snippet": "arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan",
-      "retrieval_score_raw": 0.39154549687523915,
+      "retrieval_score_raw": 0.3915454372705944,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -153,7 +153,7 @@
       "page_start": 10,
       "page_end": 10,
       "source": "graph",
-      "retrieval_score": 0.8232657658416693,
+      "retrieval_score": 0.8232658439261903,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8586,
@@ -167,8 +167,8 @@
       "graph_score_raw": 4.0,
       "question_relevance_score_local": 1.0,
       "tfidf_score_within_graph_paper": 0.10681615645880108,
-      "dense_score_within_graph_paper": 0.5890529155731201,
-      "retrieval_score_raw": 0.3479345360159606,
+      "dense_score_within_graph_paper": 0.5890528559684753,
+      "retrieval_score_raw": 0.3479345062136382,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -181,13 +181,13 @@
       "page_start": 6,
       "page_end": 7,
       "source": "vector",
-      "retrieval_score": 0.9266489934602149,
+      "retrieval_score": 0.9266490965168507,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.8413,
       "graph_reasons": [],
       "snippet": "long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation",
-      "retrieval_score_raw": 0.3734453936868017,
+      "retrieval_score_raw": 0.3734453638844793,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -200,7 +200,7 @@
       "page_start": 8,
       "page_end": 9,
       "source": "graph",
-      "retrieval_score": 0.7777403120646059,
+      "retrieval_score": 0.7777404999269971,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8222,
@@ -228,13 +228,13 @@
       "page_start": 7,
       "page_end": 7,
       "source": "vector",
-      "retrieval_score": 0.8947405689527235,
+      "retrieval_score": 0.8947406643019115,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.8158,
       "graph_reasons": [],
       "snippet": "Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu",
-      "retrieval_score_raw": 0.36557166702085875,
+      "retrieval_score_raw": 0.36557163721853636,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -247,13 +247,13 @@
       "page_start": 1,
       "page_end": 2,
       "source": "vector",
-      "retrieval_score": 0.8912892354718298,
+      "retrieval_score": 0.8912892092128538,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.813,
       "graph_reasons": [],
       "snippet": "Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
-      "retrieval_score_raw": 0.36472001555636246,
+      "retrieval_score_raw": 0.3647199559517177,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -266,13 +266,13 @@
       "page_start": 14,
       "page_end": 14,
       "source": "vector",
-      "retrieval_score": 0.8770597924184171,
+      "retrieval_score": 0.8770597627223334,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.8016,
       "graph_reasons": [],
       "snippet": "on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM",
-      "retrieval_score_raw": 0.3612087564785328,
+      "retrieval_score_raw": 0.361208696873888,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -285,7 +285,7 @@
       "page_start": 1,
       "page_end": 1,
       "source": "graph",
-      "retrieval_score": 0.7395312683643392,
+      "retrieval_score": 0.7395314469973743,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.7916,
@@ -297,7 +297,7 @@
       ],
       "snippet": "Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning Sangkwon Park1*, Donghun Kang1*, Jisoo Mok4†, Sungroh Yoon1,2,3† 1Department of Electrical and Computer Engineering, Seoul National University 2Interdisciplinary Program in Artificial Intelligence, Seoul National Univer",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8802292197513311,
+      "question_relevance_score_local": 0.8802292862943267,
       "tfidf_score_within_graph_paper": 0.08649979984101426,
       "dense_score_within_graph_paper": 0.5680446028709412,
       "retrieval_score_raw": 0.32727220135597773,
@@ -308,7 +308,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.39154549687523915,
+        "score": 0.3915454372705944,
         "chunk_id": "paper85_chunk_0027",
         "paper_id": "paper85",
         "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",
@@ -320,7 +320,7 @@
       },
       {
         "rank": 2,
-        "score": 0.3734453936868017,
+        "score": 0.3734453638844793,
         "chunk_id": "paper148_chunk_0009",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -332,7 +332,7 @@
       },
       {
         "rank": 3,
-        "score": 0.36557166702085875,
+        "score": 0.36557163721853636,
         "chunk_id": "paper148_chunk_0010",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -344,7 +344,7 @@
       },
       {
         "rank": 4,
-        "score": 0.36472001555636246,
+        "score": 0.3647199559517177,
         "chunk_id": "paper12_chunk_0000",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -356,7 +356,7 @@
       },
       {
         "rank": 5,
-        "score": 0.3612087564785328,
+        "score": 0.361208696873888,
         "chunk_id": "paper12_chunk_0017",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",

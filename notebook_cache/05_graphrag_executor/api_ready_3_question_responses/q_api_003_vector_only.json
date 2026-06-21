@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "a346f654-4085-455a-96ad-22bc48dff03c",
+  "run_id": "ba8d05fa-4ed2-4c28-bced-518354b175b5",
   "mode": "vector_only",
   "question": "How do recent papers discuss hallucination detection and safety in large language models?",
   "answer": "Question: How do recent papers discuss hallucination detection and safety in large language models?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 36-37: the Association for Computational Linguistics: EMNLP 2023 (2023) [Chen et al.] Chen, C., Liu, K., Chen, Z., Gu, Y., Wu, Y., Tao, M., Fu, Z., Ye, J.: Inside: LLM’s internal states retain the power of hallucination detection. In: Proceedings of the International Conference on Learning Representations \n- A multilingual hallucination benchmark: MultiWikiQHalluA pages 5-6: Weize Yu, Weiguang Ma, Wei Zhong, Zhen Feng, Haoran Wang, and Ting Liu. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Informa- tion Systems, 43(2):1–55. Akos Kovacs and Gabor Recski. 2025. Lettucede- tect: A halluc\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 1-2: HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs Ahmed Cherif1* 1Sofrecom Tunisia, Orange Innovation, Tunis, 1053, Tunisia. Corresponding author(s). E-mail(s): ahmed1.cherif@sofrecom.com; Abstract Large Language Models (LLMs) have demonstrat\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 7-8: low-confidence token generations serve as reliable hallucina- tion indicators, enabling early detection. M¨undler et al. [Mundler et al.] focus on self-contradictory hallucinations where models generate internally inconsistent statements. Internal state-based approaches have gained traction: Azaria ",
@@ -66,11 +66,11 @@
     "use_graph": false
   },
   "timing": {
-    "retrieval_ms": 158.04,
+    "retrieval_ms": 93.64,
     "graph_ms": 0.0,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 158.04
+    "total_ms": 93.64
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -98,7 +98,7 @@
       "final_score": 1.0,
       "graph_reasons": [],
       "snippet": "the Association for Computational Linguistics: EMNLP 2023 (2023) [Chen et al.] Chen, C., Liu, K., Chen, Z., Gu, Y., Wu, Y., Tao, M., Fu, Z., Ye, J.: Inside: LLM’s internal states retain the power of hallucination detection. In: Proceedings of the International Conference on Learning Representations ",
-      "retrieval_score_raw": 0.41878943244492584,
+      "retrieval_score_raw": 0.4187894920495706,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -111,13 +111,13 @@
       "page_start": 5,
       "page_end": 6,
       "source": "vector",
-      "retrieval_score": 0.7266841133110413,
+      "retrieval_score": 0.7266843538065035,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.7267,
       "graph_reasons": [],
       "snippet": "Weize Yu, Weiguang Ma, Wei Zhong, Zhen Feng, Haoran Wang, and Ting Liu. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Informa- tion Systems, 43(2):1–55. Akos Kovacs and Gabor Recski. 2025. Lettucede- tect: A halluc",
-      "retrieval_score_raw": 0.40027533318503583,
+      "retrieval_score_raw": 0.4002753927896806,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -130,13 +130,13 @@
       "page_start": 1,
       "page_end": 2,
       "source": "vector",
-      "retrieval_score": 0.27621512892112865,
+      "retrieval_score": 0.27621532583337793,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.2762,
       "graph_reasons": [],
       "snippet": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs Ahmed Cherif1* 1Sofrecom Tunisia, Orange Innovation, Tunis, 1053, Tunisia. Corresponding author(s). E-mail(s): ahmed1.cherif@sofrecom.com; Abstract Large Language Models (LLMs) have demonstrat",
-      "retrieval_score_raw": 0.3697610897887569,
+      "retrieval_score_raw": 0.36976111959107927,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -149,13 +149,13 @@
       "page_start": 7,
       "page_end": 8,
       "source": "vector",
-      "retrieval_score": 0.031267541486834145,
+      "retrieval_score": 0.03126707401516789,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.0313,
       "graph_reasons": [],
       "snippet": "low-confidence token generations serve as reliable hallucina- tion indicators, enabling early detection. M¨undler et al. [Mundler et al.] focus on self-contradictory hallucinations where models generate internally inconsistent statements. Internal state-based approaches have gained traction: Azaria ",
-      "retrieval_score_raw": 0.353168626020304,
+      "retrieval_score_raw": 0.35316859621798163,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -182,7 +182,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.41878943244492584,
+        "score": 0.4187894920495706,
         "chunk_id": "paper19_chunk_0036",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
@@ -194,7 +194,7 @@
       },
       {
         "rank": 2,
-        "score": 0.40027533318503583,
+        "score": 0.4002753927896806,
         "chunk_id": "paper14_chunk_0008",
         "paper_id": "paper14",
         "title": "A multilingual hallucination benchmark: MultiWikiQHalluA",
@@ -206,7 +206,7 @@
       },
       {
         "rank": 3,
-        "score": 0.3697610897887569,
+        "score": 0.36976111959107927,
         "chunk_id": "paper19_chunk_0000",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
@@ -218,7 +218,7 @@
       },
       {
         "rank": 4,
-        "score": 0.353168626020304,
+        "score": 0.35316859621798163,
         "chunk_id": "paper19_chunk_0007",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",

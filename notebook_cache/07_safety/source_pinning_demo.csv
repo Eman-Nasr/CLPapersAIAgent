@@ -1,0 +1,3 @@
+pin_scenario,evidence_chunks,unique_papers,citation_coverage,has_page_ranges,pinning_applied
+All trusted papers,8,5,1.0,True,False
+Top-5 papers only,0,0,0.0,False,True

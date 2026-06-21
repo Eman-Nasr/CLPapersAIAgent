@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "902785df-3fe5-47da-95be-34dd5417ea59",
+  "run_id": "a1e0c2ca-66ef-491b-8314-e53c1d436d2d",
   "mode": "graph_guided",
   "question": "How do recent papers discuss hallucination detection and safety in large language models?",
   "answer": "Question: How do recent papers discuss hallucination detection and safety in large language models?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models pages 10-11: In NAACL, 2025. [13] Zhiyuan Ning, Tianle Gu, Jiaxin Song, Shixin Hong, Lingyu Li, Huacan Liu, Jie Li, Yixu Wang, Meng Lingyu, Yan Teng, et al. Linguasafe: A comprehensive multilingual safety benchmark for large language models. arXiv preprint arXiv:2508.12733, 2025. [14] Wenxuan Wang, Zhaopeng Tu, \n- Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models pages 12: network): A family of Southeast Asian language models. In Tan, L., Milajevs, D., Chauhan, G., Gwinnup, J. & Rippeth, E. (eds.) Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023), 245–245, DOI: 10.18653/v1/2023.nlposs-1.26 (Association for Computationa\n- Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models pages 12-13: problem solving in large language models. In Al-Onaizan, Y., Bansal, M. & Chen, Y. N. (eds.) Findings of the Association for Computational Linguistics: EMNLP 2024, 7346–7356, DOI: 10.18653/v1/2024.findings-emnlp.432 (Association for Computational Linguistics, Miami, Florida, USA, 2024). 41. Dettmers\n- ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models pages 1: ML-BENCH&GUARD: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models Yunhan Zhao1,2,∗Zhaorun Chen3 Xingjun Ma2 Yu-Gang Jiang2 Bo Li1,3 1University of Illinois Urbana-Champaign 2Fudan University 3University of Chicago Abstract As Large Language Models (LLMs) are incre",
@@ -121,11 +121,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 141.48,
-    "graph_ms": 92.5,
+    "retrieval_ms": 111.53,
+    "graph_ms": 105.79,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 233.98
+    "total_ms": 217.33
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -147,7 +147,7 @@
       "page_start": 10,
       "page_end": 11,
       "source": "graph",
-      "retrieval_score": 0.4899317894455519,
+      "retrieval_score": 0.4899317912765365,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.645,
@@ -160,8 +160,8 @@
       "graph_score_raw": 3.0,
       "question_relevance_score_local": 0.9439764333828524,
       "tfidf_score_within_graph_paper": 0.0696099186049097,
-      "dense_score_within_graph_paper": 0.43361544609069824,
-      "retrieval_score_raw": 0.251612682347804,
+      "dense_score_within_graph_paper": 0.433615505695343,
+      "retrieval_score_raw": 0.25161271215012637,
       "graph_score_raw_for_rerank": 0.75
     },
     {
@@ -174,7 +174,7 @@
       "page_start": 12,
       "page_end": 12,
       "source": "graph",
-      "retrieval_score": 0.2602546800814862,
+      "retrieval_score": 0.26025472368109,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.6301,
@@ -186,10 +186,10 @@
       ],
       "snippet": "network): A family of Southeast Asian language models. In Tan, L., Milajevs, D., Chauhan, G., Gwinnup, J. & Rippeth, E. (eds.) Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023), 245–245, DOI: 10.18653/v1/2023.nlposs-1.26 (Association for Computationa",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.806325578261511,
+      "question_relevance_score_local": 0.8063255449899127,
       "tfidf_score_within_graph_paper": 0.044942798043479885,
-      "dense_score_within_graph_paper": 0.30772751569747925,
-      "retrieval_score_raw": 0.17633515687047957,
+      "dense_score_within_graph_paper": 0.307727575302124,
+      "retrieval_score_raw": 0.17633518667280196,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -202,7 +202,7 @@
       "page_start": 12,
       "page_end": 13,
       "source": "graph",
-      "retrieval_score": 0.25432939770671376,
+      "retrieval_score": 0.25432948784837683,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.6272,
@@ -214,10 +214,10 @@
       ],
       "snippet": "problem solving in large language models. In Al-Onaizan, Y., Bansal, M. & Chen, Y. N. (eds.) Findings of the Association for Computational Linguistics: EMNLP 2024, 7346–7356, DOI: 10.18653/v1/2024.findings-emnlp.432 (Association for Computational Linguistics, Miami, Florida, USA, 2024). 41. Dettmers",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.9360882088357392,
+      "question_relevance_score_local": 0.9360882229357479,
       "tfidf_score_within_graph_paper": 0.0655066195768253,
-      "dense_score_within_graph_paper": 0.2832796275615692,
-      "retrieval_score_raw": 0.17439312356919726,
+      "dense_score_within_graph_paper": 0.2832797169685364,
+      "retrieval_score_raw": 0.17439316827268084,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -230,7 +230,7 @@
       "page_start": 1,
       "page_end": 1,
       "source": "graph",
-      "retrieval_score": 0.4141864238233389,
+      "retrieval_score": 0.4141863939647247,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.6071,
@@ -241,10 +241,10 @@
       ],
       "snippet": "ML-BENCH&GUARD: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models Yunhan Zhao1,2,∗Zhaorun Chen3 Xingjun Ma2 Yu-Gang Jiang2 Bo Li1,3 1University of Illinois Urbana-Champaign 2Fudan University 3University of Chicago Abstract As Large Language Models (LLMs) are incre",
       "graph_score_raw": 3.0,
-      "question_relevance_score_local": 0.9458019904991617,
+      "question_relevance_score_local": 0.9458019703484437,
       "tfidf_score_within_graph_paper": 0.07839370895716356,
-      "dense_score_within_graph_paper": 0.3751800060272217,
-      "retrieval_score_raw": 0.22678685749219263,
+      "dense_score_within_graph_paper": 0.37518003582954407,
+      "retrieval_score_raw": 0.22678687239335382,
       "graph_score_raw_for_rerank": 0.75
     },
     {
@@ -263,7 +263,7 @@
       "final_score": 0.6,
       "graph_reasons": [],
       "snippet": "the Association for Computational Linguistics: EMNLP 2023 (2023) [Chen et al.] Chen, C., Liu, K., Chen, Z., Gu, Y., Wu, Y., Tao, M., Fu, Z., Ye, J.: Inside: LLM’s internal states retain the power of hallucination detection. In: Proceedings of the International Conference on Learning Representations ",
-      "retrieval_score_raw": 0.41878943244492584,
+      "retrieval_score_raw": 0.4187894920495706,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -276,7 +276,7 @@
       "page_start": 1,
       "page_end": 1,
       "source": "graph",
-      "retrieval_score": 0.16062704075856507,
+      "retrieval_score": 0.16062710247625178,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.5803,
@@ -288,10 +288,10 @@
       ],
       "snippet": "Rephrase and Contrast: Fine-Tuning Language Models for Enhanced Understanding of Communication and Computer Networks Liujianfu Wanga†, Yuyang Dua†, Jingqi Linb†, Kexin Chena, Soung Chang Liewa∗ a The Chinese University of Hong Kong, Hong Kong SAR, China b Huazhong University of Science and Technolog",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.9559905909082406,
+      "question_relevance_score_local": 0.955990654122048,
       "tfidf_score_within_graph_paper": 0.04592388161754099,
-      "dense_score_within_graph_paper": 0.24143977463245392,
-      "retrieval_score_raw": 0.14368182812499747,
+      "dense_score_within_graph_paper": 0.2414398342370987,
+      "retrieval_score_raw": 0.14368185792731986,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -304,7 +304,7 @@
       "page_start": 7,
       "page_end": 8,
       "source": "graph",
-      "retrieval_score": 0.15634543841345772,
+      "retrieval_score": 0.15634545544528872,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.5782,
@@ -316,10 +316,10 @@
       ],
       "snippet": "2023. [6] H. Cui, Y. Du, Q. Yang, Y. Shao, and S. C. Liew, “Llmind: Orches- trating ai and iot with llms for complex task execution,” arXiv preprint arXiv:2312.09007, 2023. [7] D. Wu, X. Wang, Y. Qiao, Z. Wang, J. Jiang, S. Cui, and F. Wang, “Netllm: Adapting large language models for networking,” i",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8936414070883401,
+      "question_relevance_score_local": 0.8936414125348981,
       "tfidf_score_within_graph_paper": 0.0401064947636529,
-      "dense_score_within_graph_paper": 0.24445053935050964,
-      "retrieval_score_raw": 0.14227851705708128,
+      "dense_score_within_graph_paper": 0.24445056915283203,
+      "retrieval_score_raw": 0.14227853195824247,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -332,13 +332,13 @@
       "page_start": 5,
       "page_end": 6,
       "source": "vector",
-      "retrieval_score": 0.94351216018954,
+      "retrieval_score": 0.9435121704623054,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.5718,
       "graph_reasons": [],
       "snippet": "Weize Yu, Weiguang Ma, Wei Zhong, Zhen Feng, Haoran Wang, and Ting Liu. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Informa- tion Systems, 43(2):1–55. Akos Kovacs and Gabor Recski. 2025. Lettucede- tect: A halluc",
-      "retrieval_score_raw": 0.40027533318503583,
+      "retrieval_score_raw": 0.4002753927896806,
       "graph_score_raw_for_rerank": 0.0
     }
   ],
@@ -346,7 +346,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.41878943244492584,
+        "score": 0.4187894920495706,
         "chunk_id": "paper19_chunk_0036",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
@@ -358,7 +358,7 @@
       },
       {
         "rank": 2,
-        "score": 0.40027533318503583,
+        "score": 0.4002753927896806,
         "chunk_id": "paper14_chunk_0008",
         "paper_id": "paper14",
         "title": "A multilingual hallucination benchmark: MultiWikiQHalluA",
@@ -370,7 +370,7 @@
       },
       {
         "rank": 3,
-        "score": 0.3697610897887569,
+        "score": 0.36976111959107927,
         "chunk_id": "paper19_chunk_0000",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
@@ -382,7 +382,7 @@
       },
       {
         "rank": 4,
-        "score": 0.353168626020304,
+        "score": 0.35316859621798163,
         "chunk_id": "paper19_chunk_0007",
         "paper_id": "paper19",
         "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
