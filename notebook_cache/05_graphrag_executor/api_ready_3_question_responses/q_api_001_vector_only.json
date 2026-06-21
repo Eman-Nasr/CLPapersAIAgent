@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "f3a934b0-b1d5-42bf-9cef-e6b87b06c75c",
+  "run_id": "80373628-7ed9-4955-8211-25ec885ccb8f",
   "mode": "vector_only",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation pages 12: arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 6-7: long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 7: Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu\n- Generation: A Controlled Empirical Study1 pages 1-2: Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
@@ -66,11 +66,11 @@
     "use_graph": false
   },
   "timing": {
-    "retrieval_ms": 128.74,
+    "retrieval_ms": 80.45,
     "graph_ms": 0.0,
-    "rerank_ms": 0.0,
+    "rerank_ms": 1.0,
     "generation_ms": 0.0,
-    "total_ms": 128.74
+    "total_ms": 81.46
   },
   "quality_checks": {
     "num_seed_chunks": 5,

@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "a1e0c2ca-66ef-491b-8314-e53c1d436d2d",
+  "run_id": "e81cbc92-786e-4b8b-8982-7fed44064d1f",
   "mode": "graph_guided",
   "question": "How do recent papers discuss hallucination detection and safety in large language models?",
   "answer": "Question: How do recent papers discuss hallucination detection and safety in large language models?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models pages 10-11: In NAACL, 2025. [13] Zhiyuan Ning, Tianle Gu, Jiaxin Song, Shixin Hong, Lingyu Li, Huacan Liu, Jie Li, Yixu Wang, Meng Lingyu, Yan Teng, et al. Linguasafe: A comprehensive multilingual safety benchmark for large language models. arXiv preprint arXiv:2508.12733, 2025. [14] Wenxuan Wang, Zhaopeng Tu, \n- Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models pages 12: network): A family of Southeast Asian language models. In Tan, L., Milajevs, D., Chauhan, G., Gwinnup, J. & Rippeth, E. (eds.) Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023), 245–245, DOI: 10.18653/v1/2023.nlposs-1.26 (Association for Computationa\n- Maistros: A Greek Large Language Model Adapted Through Knowledge Distillation From Large Reasoning Models pages 12-13: problem solving in large language models. In Al-Onaizan, Y., Bansal, M. & Chen, Y. N. (eds.) Findings of the Association for Computational Linguistics: EMNLP 2024, 7346–7356, DOI: 10.18653/v1/2024.findings-emnlp.432 (Association for Computational Linguistics, Miami, Florida, USA, 2024). 41. Dettmers\n- ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models pages 1: ML-BENCH&GUARD: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models Yunhan Zhao1,2,∗Zhaorun Chen3 Xingjun Ma2 Yu-Gang Jiang2 Bo Li1,3 1University of Illinois Urbana-Champaign 2Fudan University 3University of Chicago Abstract As Large Language Models (LLMs) are incre",
@@ -121,11 +121,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 111.53,
-    "graph_ms": 105.79,
-    "rerank_ms": 0.0,
+    "retrieval_ms": 98.25,
+    "graph_ms": 91.35,
+    "rerank_ms": 1.0,
     "generation_ms": 0.0,
-    "total_ms": 217.33
+    "total_ms": 190.6
   },
   "quality_checks": {
     "num_seed_chunks": 5,

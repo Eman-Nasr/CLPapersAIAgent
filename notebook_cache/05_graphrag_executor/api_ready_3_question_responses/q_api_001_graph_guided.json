@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "3008975f-5c79-4485-96ec-87e8d300efe0",
+  "run_id": "d40b0dfd-338b-4457-a9ae-2ca727489554",
   "mode": "graph_guided",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 10: Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language under- standing. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Tech- nologies, Volume 1 (Long and Short Papers), pages 4\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 1: Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning Sangkwon Park1*, Donghun Kang1*, Jisoo Mok4†, Sungroh Yoon1,2,3† 1Department of Electrical and Computer Engineering, Seoul National University 2Interdisciplinary Program in Artificial Intelligence, Seoul National Univer\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 1-2: ISBN 978-x-xxxx-xxxx-x/YYYY/MM simultaneously grasping their semantic links to surrounding text and related tables. To alleviate this burden, Large Language Models (LLMs) have emerged as the primary engine for automated ques- tion answering, enabling users to resolve intricate queries through natura",
@@ -125,11 +125,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 104.25,
-    "graph_ms": 75.05,
+    "retrieval_ms": 109.73,
+    "graph_ms": 91.27,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 179.3
+    "total_ms": 201.0
   },
   "quality_checks": {
     "num_seed_chunks": 5,

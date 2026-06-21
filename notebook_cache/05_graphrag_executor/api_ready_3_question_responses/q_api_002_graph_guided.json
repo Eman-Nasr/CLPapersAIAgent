@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "ebc1bda7-ec86-46d6-83ce-73187ceff563",
+  "run_id": "3636e78d-9fbe-481d-8d07-9700a5bd0897",
   "mode": "graph_guided",
   "question": "What methods are used for reranking in retrieval augmented generation?",
   "answer": "Question: What methods are used for reranking in retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 2-3: computational cost, we collect query-document-Verbal Annotation triplets from such a model and distill them to smaller mod- els with 1.5B or 3B parameters through supervised fine-tuning. Afterwards, the Generator is aligned with the trained lightweight Verbal Reranker via Group Relative Policy Optim\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 3: Method 2Wiki Bamboogle HotpotQA MuSiQue NQ PopQA TriviaQA Average Search-R1 3B 38.06 32.75 37.50 14.69 43.49 43.98 60.75 38.75 Search-R1 3B + Paraphrase 37.38 32.05 35.42 13.94 41.94 43.11 60.59 37.78 Search-R1 3B + Verbal Annotation 38.65 40.40 39.58 16.01 45.71 45.83 67.28 41.92 Table 1: Analysis \n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 1: FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning Zebin Guo Georgia Institute of Technology Atlanta, Georgia, USA zbguo@gatech.edu Weidong Geng Zhejiang University Hangzhou, Zhejiang, China gengwd@zju.edu.cn Ruichen Mao Zhejiang Lab Hangzhou, Zhejiang, China",
@@ -122,11 +122,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 122.1,
-    "graph_ms": 117.92,
+    "retrieval_ms": 83.13,
+    "graph_ms": 164.53,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 240.02
+    "total_ms": 247.66
   },
   "quality_checks": {
     "num_seed_chunks": 5,

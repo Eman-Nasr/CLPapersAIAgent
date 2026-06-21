@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "63275282-4ea8-4f10-9d7d-7c66671072a6",
+  "run_id": "b8986731-f851-42b2-8138-a0ef87289846",
   "mode": "hybrid_graphrag",
   "question": "What methods are used for reranking in retrieval augmented generation?",
   "answer": "Question: What methods are used for reranking in retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Generation: A Controlled Empirical Study1 pages 14: on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM\n- Generation: A Controlled Empirical Study1 pages 1-2: Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 7: Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 2-3: computational cost, we collect query-document-Verbal Annotation triplets from such a model and distill them to smaller mod- els with 1.5B or 3B parameters through supervised fine-tuning. Afterwards, the Generator is aligned with the trained lightweight Verbal Reranker via Group Relative Policy Optim",
@@ -108,11 +108,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 106.16,
-    "graph_ms": 116.33,
+    "retrieval_ms": 115.46,
+    "graph_ms": 103.87,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 222.49
+    "total_ms": 219.33
   },
   "quality_checks": {
     "num_seed_chunks": 5,

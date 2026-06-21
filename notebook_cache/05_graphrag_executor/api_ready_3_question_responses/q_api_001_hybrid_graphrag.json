@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "8843794b-6b4e-499a-9bd2-b2e2a0f20e8b",
+  "run_id": "a12b2228-6f5a-48e8-80b7-deef1e617739",
   "mode": "hybrid_graphrag",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation pages 12: arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 10: Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language under- standing. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Tech- nologies, Volume 1 (Long and Short Papers), pages 4\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 6-7: long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop",
@@ -108,11 +108,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 118.21,
-    "graph_ms": 107.45,
+    "retrieval_ms": 78.71,
+    "graph_ms": 105.82,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 225.66
+    "total_ms": 184.53
   },
   "quality_checks": {
     "num_seed_chunks": 5,

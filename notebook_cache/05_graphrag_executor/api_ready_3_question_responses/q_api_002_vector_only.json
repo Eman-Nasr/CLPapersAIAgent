@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "6b75cf26-08d1-4819-9e6a-4471a17b3f3a",
+  "run_id": "e8dd8f0f-a6f6-4ad2-8164-9837abfdb3e9",
   "mode": "vector_only",
   "question": "What methods are used for reranking in retrieval augmented generation?",
   "answer": "Question: What methods are used for reranking in retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Generation: A Controlled Empirical Study1 pages 14: on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM\n- Generation: A Controlled Empirical Study1 pages 1-2: Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 7: Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu\n- Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation pages 12: arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan",
@@ -66,11 +66,11 @@
     "use_graph": false
   },
   "timing": {
-    "retrieval_ms": 148.36,
+    "retrieval_ms": 108.5,
     "graph_ms": 0.0,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 149.36
+    "total_ms": 108.5
   },
   "quality_checks": {
     "num_seed_chunks": 5,

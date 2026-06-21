@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "7459ca02-2dea-4d90-bb8f-ae5e6fe12d48",
+  "run_id": "48680ff2-f099-4d12-b9d9-a06f419cdd94",
   "mode": "hybrid_graphrag",
   "question": "How do recent papers discuss hallucination detection and safety in large language models?",
   "answer": "Question: How do recent papers discuss hallucination detection and safety in large language models?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 36-37: the Association for Computational Linguistics: EMNLP 2023 (2023) [Chen et al.] Chen, C., Liu, K., Chen, Z., Gu, Y., Wu, Y., Tao, M., Fu, Z., Ye, J.: Inside: LLM’s internal states retain the power of hallucination detection. In: Proceedings of the International Conference on Learning Representations \n- A multilingual hallucination benchmark: MultiWikiQHalluA pages 5-6: Weize Yu, Weiguang Ma, Wei Zhong, Zhen Feng, Haoran Wang, and Ting Liu. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Informa- tion Systems, 43(2):1–55. Akos Kovacs and Gabor Recski. 2025. Lettucede- tect: A halluc\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 1-2: HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs Ahmed Cherif1* 1Sofrecom Tunisia, Orange Innovation, Tunis, 1053, Tunisia. Corresponding author(s). E-mail(s): ahmed1.cherif@sofrecom.com; Abstract Large Language Models (LLMs) have demonstrat\n- HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs pages 7-8: low-confidence token generations serve as reliable hallucina- tion indicators, enabling early detection. M¨undler et al. [Mundler et al.] focus on self-contradictory hallucinations where models generate internally inconsistent statements. Internal state-based approaches have gained traction: Azaria ",
@@ -106,11 +106,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 126.87,
-    "graph_ms": 85.99,
+    "retrieval_ms": 91.05,
+    "graph_ms": 130.04,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 212.86
+    "total_ms": 221.09
   },
   "quality_checks": {
     "num_seed_chunks": 5,
