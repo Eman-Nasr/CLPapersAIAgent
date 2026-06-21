@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "695b752c-b28b-4e51-81a0-b549bd447bcb",
+  "run_id": "c6c6a0dc-1d4d-4958-9a39-d9b18dbb0203",
   "mode": "graph_guided",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 10: Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language under- standing. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Tech- nologies, Volume 1 (Long and Short Papers), pages 4\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 1: Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning Sangkwon Park1*, Donghun Kang1*, Jisoo Mok4†, Sungroh Yoon1,2,3† 1Department of Electrical and Computer Engineering, Seoul National University 2Interdisciplinary Program in Artificial Intelligence, Seoul National Univer\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 1-2: ISBN 978-x-xxxx-xxxx-x/YYYY/MM simultaneously grasping their semantic links to surrounding text and related tables. To alleviate this burden, Large Language Models (LLMs) have emerged as the primary engine for automated ques- tion answering, enabling users to resolve intricate queries through natura",
@@ -125,11 +125,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 160.11,
-    "graph_ms": 105.01,
+    "retrieval_ms": 143.0,
+    "graph_ms": 97.49,
     "rerank_ms": 0.0,
-    "generation_ms": 25.52,
-    "total_ms": 290.64
+    "generation_ms": 0.0,
+    "total_ms": 240.49
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -151,7 +151,7 @@
       "page_start": 10,
       "page_end": 10,
       "source": "graph",
-      "retrieval_score": 0.8232658439261903,
+      "retrieval_score": 0.8232657658416693,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.9116,
@@ -165,8 +165,8 @@
       "graph_score_raw": 4.0,
       "question_relevance_score_local": 1.0,
       "tfidf_score_within_graph_paper": 0.10681615645880108,
-      "dense_score_within_graph_paper": 0.5890528559684753,
-      "retrieval_score_raw": 0.3479345062136382,
+      "dense_score_within_graph_paper": 0.5890529155731201,
+      "retrieval_score_raw": 0.3479345360159606,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -179,7 +179,7 @@
       "page_start": 8,
       "page_end": 9,
       "source": "graph",
-      "retrieval_score": 0.7777404999269971,
+      "retrieval_score": 0.7777403120646059,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8889,
@@ -207,7 +207,7 @@
       "page_start": 1,
       "page_end": 1,
       "source": "graph",
-      "retrieval_score": 0.7395314469973743,
+      "retrieval_score": 0.7395312683643392,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8698,
@@ -219,7 +219,7 @@
       ],
       "snippet": "Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning Sangkwon Park1*, Donghun Kang1*, Jisoo Mok4†, Sungroh Yoon1,2,3† 1Department of Electrical and Computer Engineering, Seoul National University 2Interdisciplinary Program in Artificial Intelligence, Seoul National Univer",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8802292862943267,
+      "question_relevance_score_local": 0.8802292197513311,
       "tfidf_score_within_graph_paper": 0.08649979984101426,
       "dense_score_within_graph_paper": 0.5680446028709412,
       "retrieval_score_raw": 0.32727220135597773,
@@ -235,7 +235,7 @@
       "page_start": 1,
       "page_end": 2,
       "source": "graph",
-      "retrieval_score": 0.7084808734571463,
+      "retrieval_score": 0.7084807023243442,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8542,
@@ -247,7 +247,7 @@
       ],
       "snippet": "ISBN 978-x-xxxx-xxxx-x/YYYY/MM simultaneously grasping their semantic links to surrounding text and related tables. To alleviate this burden, Large Language Models (LLMs) have emerged as the primary engine for automated ques- tion answering, enabling users to resolve intricate queries through natura",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.855961034422507,
+      "question_relevance_score_local": 0.8559610328107976,
       "tfidf_score_within_graph_paper": 0.10489138236661066,
       "dense_score_within_graph_paper": 0.5343289375305176,
       "retrieval_score_raw": 0.3196101599485641,
@@ -263,7 +263,7 @@
       "page_start": 2,
       "page_end": 3,
       "source": "graph",
-      "retrieval_score": 0.44449746278917907,
+      "retrieval_score": 0.4444974761957579,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.6222,
@@ -276,8 +276,8 @@
       "graph_score_raw": 3.0,
       "question_relevance_score_local": 0.8939101607047272,
       "tfidf_score_within_graph_paper": 0.02802582423942777,
-      "dense_score_within_graph_paper": 0.480913370847702,
-      "retrieval_score_raw": 0.2544695975435649,
+      "dense_score_within_graph_paper": 0.4809134304523468,
+      "retrieval_score_raw": 0.2544696273458873,
       "graph_score_raw_for_rerank": 0.75
     },
     {
@@ -296,7 +296,7 @@
       "final_score": 0.6,
       "graph_reasons": [],
       "snippet": "arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan",
-      "retrieval_score_raw": 0.3915454372705944,
+      "retrieval_score_raw": 0.39154549687523915,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -309,7 +309,7 @@
       "page_start": 6,
       "page_end": 7,
       "source": "graph",
-      "retrieval_score": 0.3884581115317918,
+      "retrieval_score": 0.38845807808738214,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.5942,
@@ -322,8 +322,8 @@
       "graph_score_raw": 3.0,
       "question_relevance_score_local": 1.0,
       "tfidf_score_within_graph_paper": 0.05593424659671956,
-      "dense_score_within_graph_paper": 0.4253484010696411,
-      "retrieval_score_raw": 0.24064132383318035,
+      "dense_score_within_graph_paper": 0.4253484308719635,
+      "retrieval_score_raw": 0.24064133873434154,
       "graph_score_raw_for_rerank": 0.75
     },
     {
@@ -336,7 +336,7 @@
       "page_start": 8,
       "page_end": 8,
       "source": "graph",
-      "retrieval_score": 0.34759529185929866,
+      "retrieval_score": 0.3475950871235567,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.5738,
@@ -347,10 +347,10 @@
       ],
       "snippet": "2023. [21] C. Greyling, “Small language models (SLMs) & classification.” Medium, 2026. Accessed: 2026-02-14. [22] P. Belcak, G. Heinrich, S. Diao, Y. Fu, X. Dong, S. Muralidharan, Y. C. Lin, and P. Molchanov, “Small language models are the future of agentic ai,” arXiv preprint arXiv:2506.02153, 2025",
       "graph_score_raw": 3.0,
-      "question_relevance_score_local": 0.9016060637530612,
+      "question_relevance_score_local": 0.9016058649575424,
       "tfidf_score_within_graph_paper": 0.0333998283684061,
-      "dense_score_within_graph_paper": 0.4277161955833435,
-      "retrieval_score_raw": 0.2305580119758748,
+      "dense_score_within_graph_paper": 0.42771613597869873,
+      "retrieval_score_raw": 0.23055798217355242,
       "graph_score_raw_for_rerank": 0.75
     }
   ],
@@ -358,7 +358,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.3915454372705944,
+        "score": 0.39154549687523915,
         "chunk_id": "paper85_chunk_0027",
         "paper_id": "paper85",
         "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",
@@ -370,7 +370,7 @@
       },
       {
         "rank": 2,
-        "score": 0.3734453638844793,
+        "score": 0.3734453936868017,
         "chunk_id": "paper148_chunk_0009",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -382,7 +382,7 @@
       },
       {
         "rank": 3,
-        "score": 0.36557163721853636,
+        "score": 0.36557166702085875,
         "chunk_id": "paper148_chunk_0010",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -394,7 +394,7 @@
       },
       {
         "rank": 4,
-        "score": 0.3647199559517177,
+        "score": 0.36472001555636246,
         "chunk_id": "paper12_chunk_0000",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -406,7 +406,7 @@
       },
       {
         "rank": 5,
-        "score": 0.361208696873888,
+        "score": 0.3612087564785328,
         "chunk_id": "paper12_chunk_0017",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",

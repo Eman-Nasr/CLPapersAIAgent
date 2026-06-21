@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "d9400ca1-7479-4a98-bdbd-c9898df79a31",
+  "run_id": "2b3f9726-2f80-4462-9aee-99dfbbb57b22",
   "mode": "vector_only",
   "question": "How do recent papers evaluate retrieval augmented generation?",
   "answer": "Question: How do recent papers evaluate retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation pages 12: arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 6-7: long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation\n- H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations pages 7: Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu\n- Generation: A Controlled Empirical Study1 pages 1-2: Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
@@ -66,11 +66,11 @@
     "use_graph": false
   },
   "timing": {
-    "retrieval_ms": 270.58,
+    "retrieval_ms": 144.48,
     "graph_ms": 0.0,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 270.58
+    "total_ms": 144.48
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -98,7 +98,7 @@
       "final_score": 1.0,
       "graph_reasons": [],
       "snippet": "arXiv preprint arXiv:2310.13548 (2023). [63] Marco Siino, Mariana Falco, Daniele Croce, and Paolo Rosso. 2025. Exploring llms applications in law: A literature review on current legal nlp approaches. IEEE Access (2025). [64] Weihang Su, Yichen Tang, Qingyao Ai, Junxi Yan, Changyue Wang, Hongning Wan",
-      "retrieval_score_raw": 0.3915454372705944,
+      "retrieval_score_raw": 0.39154549687523915,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -111,13 +111,13 @@
       "page_start": 6,
       "page_end": 7,
       "source": "vector",
-      "retrieval_score": 0.4033612988928702,
+      "retrieval_score": 0.4033603165090676,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.4034,
       "graph_reasons": [],
       "snippet": "long-context dialogue systems. References Yiruo Cheng, Kelong Mao, Ziliang Zhao, Guanting Dong, Hongjin Qian, Yongkang Wu, Tetsuya Sakai, Ji-Rong Wen, and Zhicheng Dou. 2025. CORAL: Benchmarking multi-turn conversational retrieval- augmented generation. In Findings of the Association for Computation",
-      "retrieval_score_raw": 0.3734453638844793,
+      "retrieval_score_raw": 0.3734453936868017,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -130,13 +130,13 @@
       "page_start": 7,
       "page_end": 7,
       "source": "vector",
-      "retrieval_score": 0.1438170445339615,
+      "retrieval_score": 0.14381606215015894,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.1438,
       "graph_reasons": [],
       "snippet": "Evaluation (SemEval-2026), San Diego, California. Association for Computational Linguistics. Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Jiayang Cheng, Cunxi- ang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu",
-      "retrieval_score_raw": 0.36557163721853636,
+      "retrieval_score_raw": 0.36557166702085875,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -155,7 +155,7 @@
       "final_score": 0.1157,
       "graph_reasons": [],
       "snippet": "Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
-      "retrieval_score_raw": 0.3647199559517177,
+      "retrieval_score_raw": 0.36472001555636246,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -174,7 +174,7 @@
       "final_score": 0.0,
       "graph_reasons": [],
       "snippet": "on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM",
-      "retrieval_score_raw": 0.361208696873888,
+      "retrieval_score_raw": 0.3612087564785328,
       "graph_score_raw_for_rerank": 0.0
     }
   ],
@@ -182,7 +182,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.3915454372705944,
+        "score": 0.39154549687523915,
         "chunk_id": "paper85_chunk_0027",
         "paper_id": "paper85",
         "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",
@@ -194,7 +194,7 @@
       },
       {
         "rank": 2,
-        "score": 0.3734453638844793,
+        "score": 0.3734453936868017,
         "chunk_id": "paper148_chunk_0009",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -206,7 +206,7 @@
       },
       {
         "rank": 3,
-        "score": 0.36557163721853636,
+        "score": 0.36557166702085875,
         "chunk_id": "paper148_chunk_0010",
         "paper_id": "paper148",
         "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
@@ -218,7 +218,7 @@
       },
       {
         "rank": 4,
-        "score": 0.3647199559517177,
+        "score": 0.36472001555636246,
         "chunk_id": "paper12_chunk_0000",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -230,7 +230,7 @@
       },
       {
         "rank": 5,
-        "score": 0.361208696873888,
+        "score": 0.3612087564785328,
         "chunk_id": "paper12_chunk_0017",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",

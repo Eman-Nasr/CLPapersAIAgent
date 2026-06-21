@@ -1,4 +1,4 @@
 mode,retrieval_weight,graph_weight,quality_weight,use_graph,num_final_chunks,vector_chunks,graph_chunks,both_chunks,unique_papers,num_graph_expanded_papers,citation_coverage,has_page_ranges,retrieval_ms,graph_ms,total_ms
-vector_only,1.0,0.0,0.0,False,5,5,0,0,3,0,1.0,True,86.88,0.0,86.88
-graph_guided,0.5,0.4,0.1,True,8,1,7,0,5,5,1.0,True,71.86,87.01,158.87
-hybrid_graphrag,0.8,0.1,0.1,True,8,5,3,0,5,5,1.0,True,58.73,79.51,138.24
+vector_only,1.0,0.0,0.0,False,5,5,0,0,3,0,1.0,True,144.49,0.0,144.49
+graph_guided,0.5,0.4,0.1,True,8,1,7,0,5,5,1.0,True,154.99,83.5,239.49
+hybrid_graphrag,0.8,0.1,0.1,True,8,5,3,0,5,5,1.0,True,99.5,99.7,199.2

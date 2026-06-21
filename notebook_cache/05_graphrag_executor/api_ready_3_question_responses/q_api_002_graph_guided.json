@@ -1,6 +1,6 @@
 {
   "api_version": "notebook_ask_v1",
-  "run_id": "ee03e555-fa8f-44a5-80f5-0fc3de674417",
+  "run_id": "a4205398-cda3-4aef-86ab-7faf124ff978",
   "mode": "graph_guided",
   "question": "What methods are used for reranking in retrieval augmented generation?",
   "answer": "Question: What methods are used for reranking in retrieval augmented generation?\n\nBased on the selected evidence, the answer is supported by these papers:\n\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 2-3: computational cost, we collect query-document-Verbal Annotation triplets from such a model and distill them to smaller mod- els with 1.5B or 3B parameters through supervised fine-tuning. Afterwards, the Generator is aligned with the trained lightweight Verbal Reranker via Group Relative Policy Optim\n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 8-9: Google Antigravity in the development and optimization of data processing scripts. FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning KDD ’26, August 9–13, 2026, Jeju, Republic of Korea References [1] Muhammad Arslan, Hussam Ghanem, Saba Munawar, and Christop\n- Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning pages 3: Method 2Wiki Bamboogle HotpotQA MuSiQue NQ PopQA TriviaQA Average Search-R1 3B 38.06 32.75 37.50 14.69 43.49 43.98 60.75 38.75 Search-R1 3B + Paraphrase 37.38 32.05 35.42 13.94 41.94 43.11 60.59 37.78 Search-R1 3B + Verbal Annotation 38.65 40.40 39.58 16.01 45.71 45.83 67.28 41.92 Table 1: Analysis \n- FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning pages 1: FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning Zebin Guo Georgia Institute of Technology Atlanta, Georgia, USA zbguo@gatech.edu Weidong Geng Zhejiang University Hangzhou, Zhejiang, China gengwd@zju.edu.cn Ruichen Mao Zhejiang Lab Hangzhou, Zhejiang, China",
@@ -122,11 +122,11 @@
     "use_graph": true
   },
   "timing": {
-    "retrieval_ms": 72.33,
-    "graph_ms": 112.51,
+    "retrieval_ms": 141.48,
+    "graph_ms": 86.5,
     "rerank_ms": 0.0,
     "generation_ms": 0.0,
-    "total_ms": 184.84
+    "total_ms": 227.98
   },
   "quality_checks": {
     "num_seed_chunks": 5,
@@ -148,7 +148,7 @@
       "page_start": 2,
       "page_end": 3,
       "source": "graph",
-      "retrieval_score": 0.7344909482285678,
+      "retrieval_score": 0.734491007653188,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8672,
@@ -176,7 +176,7 @@
       "page_start": 8,
       "page_end": 9,
       "source": "graph",
-      "retrieval_score": 0.6889550971243918,
+      "retrieval_score": 0.6889551498036568,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8445,
@@ -204,7 +204,7 @@
       "page_start": 3,
       "page_end": 3,
       "source": "graph",
-      "retrieval_score": 0.6226435135010887,
+      "retrieval_score": 0.6226434576021973,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8113,
@@ -216,10 +216,10 @@
       ],
       "snippet": "Method 2Wiki Bamboogle HotpotQA MuSiQue NQ PopQA TriviaQA Average Search-R1 3B 38.06 32.75 37.50 14.69 43.49 43.98 60.75 38.75 Search-R1 3B + Paraphrase 37.38 32.05 35.42 13.94 41.94 43.11 60.59 37.78 Search-R1 3B + Verbal Annotation 38.65 40.40 39.58 16.01 45.71 45.83 67.28 41.92 Table 1: Analysis ",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8163203697702316,
+      "question_relevance_score_local": 0.8163203118375502,
       "tfidf_score_within_graph_paper": 0.08773452780956256,
-      "dense_score_within_graph_paper": 0.5218831300735474,
-      "retrieval_score_raw": 0.304808828941555,
+      "dense_score_within_graph_paper": 0.5218830704689026,
+      "retrieval_score_raw": 0.3048087991392326,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -232,7 +232,7 @@
       "page_start": 1,
       "page_end": 1,
       "source": "graph",
-      "retrieval_score": 0.6054896635542265,
+      "retrieval_score": 0.6054895557366703,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.8027,
@@ -244,10 +244,10 @@
       ],
       "snippet": "FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning Zebin Guo Georgia Institute of Technology Atlanta, Georgia, USA zbguo@gatech.edu Weidong Geng Zhejiang University Hangzhou, Zhejiang, China gengwd@zju.edu.cn Ruichen Mao Zhejiang Lab Hangzhou, Zhejiang, China",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.8879710383327747,
+      "question_relevance_score_local": 0.887970883147732,
       "tfidf_score_within_graph_paper": 0.11089759642217709,
-      "dense_score_within_graph_paper": 0.4883666932582855,
-      "retrieval_score_raw": 0.2996321448402313,
+      "dense_score_within_graph_paper": 0.48836660385131836,
+      "retrieval_score_raw": 0.29963210013674774,
       "graph_score_raw_for_rerank": 1.0
     },
     {
@@ -260,7 +260,7 @@
       "page_start": 13,
       "page_end": 13,
       "source": "graph",
-      "retrieval_score": 0.2318232807802072,
+      "retrieval_score": 0.23182326574323392,
       "graph_score": 1.0,
       "quality_score": 1.0,
       "final_score": 0.6159,
@@ -272,7 +272,7 @@
       ],
       "snippet": "and Oleg Klimov. 2017. Proxi- mal policy optimization algorithms. arXiv preprint arXiv:1707.06347. Karen Sparck Jones. 1972. A statistical interpretation of term specificity and its application in retrieval. Journal of documentation, 28(1):11–21. Ke Sun, Zhouchen Lin, and Zhanxing Zhu. 2020. Multi- ",
       "graph_score_raw": 4.0,
-      "question_relevance_score_local": 0.7785889750226274,
+      "question_relevance_score_local": 0.7785890631082877,
       "tfidf_score_within_graph_paper": 0.030449538854037093,
       "dense_score_within_graph_paper": 0.34328487515449524,
       "retrieval_score_raw": 0.18686720700426618,
@@ -288,7 +288,7 @@
       "page_start": 6,
       "page_end": 7,
       "source": "graph",
-      "retrieval_score": 0.4263992847164752,
+      "retrieval_score": 0.4263991997473672,
       "graph_score": 0.75,
       "quality_score": 1.0,
       "final_score": 0.6132,
@@ -299,10 +299,10 @@
       ],
       "snippet": "maintain high precision amidst the noise of a massive agent ecosystem. To ensure a rigorous evaluation and avoid data leakage, the synthetic queries used for Pseudo- Document Expansion were generated independently from the ground-truth UserQueries used in the evaluation phase. • SLM Predictor (Spars",
       "graph_score_raw": 3.0,
-      "question_relevance_score_local": 0.7676898069741714,
+      "question_relevance_score_local": 0.7676898272221828,
       "tfidf_score_within_graph_paper": 0.03487323494482911,
-      "dense_score_within_graph_paper": 0.456299364566803,
-      "retrieval_score_raw": 0.24558629975581603,
+      "dense_score_within_graph_paper": 0.4562993049621582,
+      "retrieval_score_raw": 0.24558626995349364,
       "graph_score_raw_for_rerank": 0.75
     },
     {
@@ -321,7 +321,7 @@
       "final_score": 0.6,
       "graph_reasons": [],
       "snippet": "on Empirical Methods in Natural Language Processing (EMNLP), pp. 6769–6781, 2020. [8] G. Izacard et al., \"Unsupervised Dense Information Retrieval with Contrastive Learning,\" Transactions on Machine Learning Research, 2022. [9] S. Robertson and H. Zaragoza, \"The Probabilistic Relevance Framework: BM",
-      "retrieval_score_raw": 0.418687365260896,
+      "retrieval_score_raw": 0.4186873354585736,
       "graph_score_raw_for_rerank": 0.0
     },
     {
@@ -334,13 +334,13 @@
       "page_start": 1,
       "page_end": 2,
       "source": "vector",
-      "retrieval_score": 0.9102374776446119,
+      "retrieval_score": 0.9102373655926013,
       "graph_score": 0.0,
       "quality_score": 1.0,
       "final_score": 0.5551,
       "graph_reasons": [],
       "snippet": "Benchmarking Retrieval Strategies for Biomedical RAG 1 Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study1 Devi Prasad Bal The University of Texas at Austin devibal@utexas.edu Subhashree Puhan The University of Texas at Austin subhashree.puh",
-      "retrieval_score_raw": 0.3915988560451065,
+      "retrieval_score_raw": 0.39159879644046175,
       "graph_score_raw_for_rerank": 0.0
     }
   ],
@@ -348,7 +348,7 @@
     "seed_chunks": [
       {
         "rank": 1,
-        "score": 0.418687365260896,
+        "score": 0.4186873354585736,
         "chunk_id": "paper12_chunk_0017",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -360,7 +360,7 @@
       },
       {
         "rank": 2,
-        "score": 0.3915988560451065,
+        "score": 0.39159879644046175,
         "chunk_id": "paper12_chunk_0000",
         "paper_id": "paper12",
         "title": "Generation: A Controlled Empirical Study1",
@@ -396,7 +396,7 @@
       },
       {
         "rank": 5,
-        "score": 0.36058538691394276,
+        "score": 0.360585327309298,
         "chunk_id": "paper85_chunk_0003",
         "paper_id": "paper85",
         "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",
